@@ -1,0 +1,1406 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2020. All Rights Reserved.",
+  "teams" : [ {
+    "id" : 6,
+    "name" : "Boston Bruins",
+    "link" : "/api/v1/teams/6",
+    "venue" : {
+      "id" : 5085,
+      "name" : "TD Garden",
+      "link" : "/api/v1/venues/5085",
+      "city" : "Boston",
+      "timeZone" : {
+        "id" : "America/New_York",
+        "offset" : -4,
+        "tz" : "EDT"
+      }
+    },
+    "abbreviation" : "BOS",
+    "teamName" : "Bruins",
+    "locationName" : "Boston",
+    "firstYearOfPlay" : "1924",
+    "division" : {
+      "id" : 17,
+      "name" : "Atlantic",
+      "nameShort" : "ATL",
+      "link" : "/api/v1/divisions/17",
+      "abbreviation" : "A"
+    },
+    "conference" : {
+      "id" : 6,
+      "name" : "Eastern",
+      "link" : "/api/v1/conferences/6"
+    },
+    "franchise" : {
+      "franchiseId" : 6,
+      "teamName" : "Bruins",
+      "link" : "/api/v1/franchises/6"
+    },
+    "teamLeaders" : [ {
+      "leaderCategory" : "goals",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "48",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8477956,
+          "fullName" : "David Pastrnak",
+          "link" : "/api/v1/people/8477956",
+          "firstName" : "David",
+          "lastName" : "Pastrnak",
+          "primaryNumber" : "88",
+          "birthDate" : "1996-05-25",
+          "currentAge" : 24,
+          "birthCity" : "Havirov",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 194,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "31",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8470638,
+          "fullName" : "Patrice Bergeron",
+          "link" : "/api/v1/people/8470638",
+          "firstName" : "Patrice",
+          "lastName" : "Bergeron",
+          "primaryNumber" : "37",
+          "birthDate" : "1985-07-24",
+          "currentAge" : 35,
+          "birthCity" : "Ancienne-Lorette",
+          "birthStateProvince" : "QC",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "6' 1\"",
+          "weight" : 195,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 3,
+        "value" : "28",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8473419,
+          "fullName" : "Brad Marchand",
+          "link" : "/api/v1/people/8473419",
+          "firstName" : "Brad",
+          "lastName" : "Marchand",
+          "primaryNumber" : "63",
+          "birthDate" : "1988-05-11",
+          "currentAge" : 32,
+          "birthCity" : "Halifax",
+          "birthStateProvince" : "NS",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "5' 9\"",
+          "weight" : 181,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 4,
+        "value" : "19",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8478498,
+          "fullName" : "Jake DeBrusk",
+          "link" : "/api/v1/people/8478498",
+          "firstName" : "Jake",
+          "lastName" : "DeBrusk",
+          "primaryNumber" : "74",
+          "birthDate" : "1996-10-17",
+          "currentAge" : 23,
+          "birthCity" : "Edmonton",
+          "birthStateProvince" : "AB",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "6' 0\"",
+          "weight" : 188,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 5,
+        "value" : "16",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8475745,
+          "fullName" : "Charlie Coyle",
+          "link" : "/api/v1/people/8475745",
+          "firstName" : "Charlie",
+          "lastName" : "Coyle",
+          "primaryNumber" : "13",
+          "birthDate" : "1992-03-02",
+          "currentAge" : 28,
+          "birthCity" : "E. Weymouth",
+          "birthStateProvince" : "MA",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "6' 3\"",
+          "weight" : 220,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    }, {
+      "leaderCategory" : "assists",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "59",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8473419,
+          "fullName" : "Brad Marchand",
+          "link" : "/api/v1/people/8473419",
+          "firstName" : "Brad",
+          "lastName" : "Marchand",
+          "primaryNumber" : "63",
+          "birthDate" : "1988-05-11",
+          "currentAge" : 32,
+          "birthCity" : "Halifax",
+          "birthStateProvince" : "NS",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "5' 9\"",
+          "weight" : 181,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "47",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8477956,
+          "fullName" : "David Pastrnak",
+          "link" : "/api/v1/people/8477956",
+          "firstName" : "David",
+          "lastName" : "Pastrnak",
+          "primaryNumber" : "88",
+          "birthDate" : "1996-05-25",
+          "currentAge" : 24,
+          "birthCity" : "Havirov",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 194,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 3,
+        "value" : "40",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8476792,
+          "fullName" : "Torey Krug",
+          "link" : "/api/v1/people/8476792",
+          "firstName" : "Torey",
+          "lastName" : "Krug",
+          "primaryNumber" : "47",
+          "birthDate" : "1991-04-12",
+          "currentAge" : 29,
+          "birthCity" : "Livonia",
+          "birthStateProvince" : "MI",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "5' 9\"",
+          "weight" : 186,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 4,
+        "value" : "30",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8471276,
+          "fullName" : "David Krejci",
+          "link" : "/api/v1/people/8471276",
+          "firstName" : "David",
+          "lastName" : "Krejci",
+          "primaryNumber" : "46",
+          "birthDate" : "1986-04-28",
+          "currentAge" : 34,
+          "birthCity" : "Sternberk",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 188,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 5,
+        "value" : "27",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8479325,
+          "fullName" : "Charlie McAvoy",
+          "link" : "/api/v1/people/8479325",
+          "firstName" : "Charlie",
+          "lastName" : "McAvoy",
+          "primaryNumber" : "73",
+          "birthDate" : "1997-12-21",
+          "currentAge" : 22,
+          "birthCity" : "Long Beach",
+          "birthStateProvince" : "NY",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "6' 0\"",
+          "weight" : 208,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    }, {
+      "leaderCategory" : "points",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "95",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8477956,
+          "fullName" : "David Pastrnak",
+          "link" : "/api/v1/people/8477956",
+          "firstName" : "David",
+          "lastName" : "Pastrnak",
+          "primaryNumber" : "88",
+          "birthDate" : "1996-05-25",
+          "currentAge" : 24,
+          "birthCity" : "Havirov",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 194,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "87",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8473419,
+          "fullName" : "Brad Marchand",
+          "link" : "/api/v1/people/8473419",
+          "firstName" : "Brad",
+          "lastName" : "Marchand",
+          "primaryNumber" : "63",
+          "birthDate" : "1988-05-11",
+          "currentAge" : 32,
+          "birthCity" : "Halifax",
+          "birthStateProvince" : "NS",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "5' 9\"",
+          "weight" : 181,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 3,
+        "value" : "56",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8470638,
+          "fullName" : "Patrice Bergeron",
+          "link" : "/api/v1/people/8470638",
+          "firstName" : "Patrice",
+          "lastName" : "Bergeron",
+          "primaryNumber" : "37",
+          "birthDate" : "1985-07-24",
+          "currentAge" : 35,
+          "birthCity" : "Ancienne-Lorette",
+          "birthStateProvince" : "QC",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "6' 1\"",
+          "weight" : 195,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 4,
+        "value" : "49",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8476792,
+          "fullName" : "Torey Krug",
+          "link" : "/api/v1/people/8476792",
+          "firstName" : "Torey",
+          "lastName" : "Krug",
+          "primaryNumber" : "47",
+          "birthDate" : "1991-04-12",
+          "currentAge" : 29,
+          "birthCity" : "Livonia",
+          "birthStateProvince" : "MI",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "5' 9\"",
+          "weight" : 186,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 5,
+        "value" : "43",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8471276,
+          "fullName" : "David Krejci",
+          "link" : "/api/v1/people/8471276",
+          "firstName" : "David",
+          "lastName" : "Krejci",
+          "primaryNumber" : "46",
+          "birthDate" : "1986-04-28",
+          "currentAge" : 34,
+          "birthCity" : "Sternberk",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 188,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    }, {
+      "leaderCategory" : "powerPlayGoals",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "20",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8477956,
+          "fullName" : "David Pastrnak",
+          "link" : "/api/v1/people/8477956",
+          "firstName" : "David",
+          "lastName" : "Pastrnak",
+          "primaryNumber" : "88",
+          "birthDate" : "1996-05-25",
+          "currentAge" : 24,
+          "birthCity" : "Havirov",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 194,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "R",
+            "name" : "Right Wing",
+            "type" : "Forward",
+            "abbreviation" : "RW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "11",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8470638,
+          "fullName" : "Patrice Bergeron",
+          "link" : "/api/v1/people/8470638",
+          "firstName" : "Patrice",
+          "lastName" : "Bergeron",
+          "primaryNumber" : "37",
+          "birthDate" : "1985-07-24",
+          "currentAge" : 35,
+          "birthCity" : "Ancienne-Lorette",
+          "birthStateProvince" : "QC",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "6' 1\"",
+          "weight" : 195,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 3,
+        "value" : "7",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8478498,
+          "fullName" : "Jake DeBrusk",
+          "link" : "/api/v1/people/8478498",
+          "firstName" : "Jake",
+          "lastName" : "DeBrusk",
+          "primaryNumber" : "74",
+          "birthDate" : "1996-10-17",
+          "currentAge" : 23,
+          "birthCity" : "Edmonton",
+          "birthStateProvince" : "AB",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "6' 0\"",
+          "weight" : 188,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 4,
+        "value" : "5",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8473419,
+          "fullName" : "Brad Marchand",
+          "link" : "/api/v1/people/8473419",
+          "firstName" : "Brad",
+          "lastName" : "Marchand",
+          "primaryNumber" : "63",
+          "birthDate" : "1988-05-11",
+          "currentAge" : 32,
+          "birthCity" : "Halifax",
+          "birthStateProvince" : "NS",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "5' 9\"",
+          "weight" : 181,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 5,
+        "value" : "3",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8471276,
+          "fullName" : "David Krejci",
+          "link" : "/api/v1/people/8471276",
+          "firstName" : "David",
+          "lastName" : "Krejci",
+          "primaryNumber" : "46",
+          "birthDate" : "1986-04-28",
+          "currentAge" : 34,
+          "birthCity" : "Sternberk",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 188,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    }, {
+      "leaderCategory" : "timeOnIcePerGame",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "23:09",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8479325,
+          "fullName" : "Charlie McAvoy",
+          "link" : "/api/v1/people/8479325",
+          "firstName" : "Charlie",
+          "lastName" : "McAvoy",
+          "primaryNumber" : "73",
+          "birthDate" : "1997-12-21",
+          "currentAge" : 22,
+          "birthCity" : "Long Beach",
+          "birthStateProvince" : "NY",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "6' 0\"",
+          "weight" : 208,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "21:00",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8465009,
+          "fullName" : "Zdeno Chara",
+          "link" : "/api/v1/people/8465009",
+          "firstName" : "Zdeno",
+          "lastName" : "Chara",
+          "primaryNumber" : "33",
+          "birthDate" : "1977-03-18",
+          "currentAge" : 43,
+          "birthCity" : "Trencin",
+          "birthCountry" : "SVK",
+          "nationality" : "SVK",
+          "height" : "6' 9\"",
+          "weight" : 250,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : true,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 3,
+        "value" : "20:29",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8476792,
+          "fullName" : "Torey Krug",
+          "link" : "/api/v1/people/8476792",
+          "firstName" : "Torey",
+          "lastName" : "Krug",
+          "primaryNumber" : "47",
+          "birthDate" : "1991-04-12",
+          "currentAge" : 29,
+          "birthCity" : "Livonia",
+          "birthStateProvince" : "MI",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "5' 9\"",
+          "weight" : 186,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 4,
+        "value" : "20:28",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8478443,
+          "fullName" : "Brandon Carlo",
+          "link" : "/api/v1/people/8478443",
+          "firstName" : "Brandon",
+          "lastName" : "Carlo",
+          "primaryNumber" : "25",
+          "birthDate" : "1996-11-26",
+          "currentAge" : 23,
+          "birthCity" : "Colorado Springs",
+          "birthStateProvince" : "CO",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "6' 5\"",
+          "weight" : 212,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "D",
+            "name" : "Defenseman",
+            "type" : "Defenseman",
+            "abbreviation" : "D"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 5,
+        "value" : "19:27",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8473419,
+          "fullName" : "Brad Marchand",
+          "link" : "/api/v1/people/8473419",
+          "firstName" : "Brad",
+          "lastName" : "Marchand",
+          "primaryNumber" : "63",
+          "birthDate" : "1988-05-11",
+          "currentAge" : 32,
+          "birthCity" : "Halifax",
+          "birthStateProvince" : "NS",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "5' 9\"",
+          "weight" : 181,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "L",
+            "name" : "Left Wing",
+            "type" : "Forward",
+            "abbreviation" : "LW"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    }, {
+      "leaderCategory" : "faceOffPct",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "57.89",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8470638,
+          "fullName" : "Patrice Bergeron",
+          "link" : "/api/v1/people/8470638",
+          "firstName" : "Patrice",
+          "lastName" : "Bergeron",
+          "primaryNumber" : "37",
+          "birthDate" : "1985-07-24",
+          "currentAge" : 35,
+          "birthCity" : "Ancienne-Lorette",
+          "birthStateProvince" : "QC",
+          "birthCountry" : "CAN",
+          "nationality" : "CAN",
+          "height" : "6' 1\"",
+          "weight" : 195,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "50.33",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8471276,
+          "fullName" : "David Krejci",
+          "link" : "/api/v1/people/8471276",
+          "firstName" : "David",
+          "lastName" : "Krejci",
+          "primaryNumber" : "46",
+          "birthDate" : "1986-04-28",
+          "currentAge" : 34,
+          "birthCity" : "Sternberk",
+          "birthCountry" : "CZE",
+          "nationality" : "CZE",
+          "height" : "6' 0\"",
+          "weight" : 188,
+          "active" : true,
+          "alternateCaptain" : true,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 3,
+        "value" : "46.63",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8475745,
+          "fullName" : "Charlie Coyle",
+          "link" : "/api/v1/people/8475745",
+          "firstName" : "Charlie",
+          "lastName" : "Coyle",
+          "primaryNumber" : "13",
+          "birthDate" : "1992-03-02",
+          "currentAge" : 28,
+          "birthCity" : "E. Weymouth",
+          "birthStateProvince" : "MA",
+          "birthCountry" : "USA",
+          "nationality" : "USA",
+          "height" : "6' 3\"",
+          "weight" : 220,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "R",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "C",
+            "name" : "Center",
+            "type" : "Forward",
+            "abbreviation" : "C"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    }, {
+      "leaderCategory" : "wins",
+      "depth" : "singleSeason",
+      "playerStatus" : "allPlayers",
+      "season" : "2019-2020",
+      "gameType" : {
+        "id" : "R",
+        "description" : "Regular season",
+        "postseason" : false
+      },
+      "limitMetadata" : {
+        "limit" : 5,
+        "offset" : 0,
+        "additionalTies" : 0
+      },
+      "leaders" : [ {
+        "rank" : 1,
+        "value" : "26",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8471695,
+          "fullName" : "Tuukka Rask",
+          "link" : "/api/v1/people/8471695",
+          "firstName" : "Tuukka",
+          "lastName" : "Rask",
+          "primaryNumber" : "40",
+          "birthDate" : "1987-03-10",
+          "currentAge" : 33,
+          "birthCity" : "Savonlinna",
+          "birthCountry" : "FIN",
+          "nationality" : "FIN",
+          "height" : "6' 3\"",
+          "weight" : 176,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "G",
+            "name" : "Goalie",
+            "type" : "Goalie",
+            "abbreviation" : "G"
+          }
+        },
+        "season" : "20192020"
+      }, {
+        "rank" : 2,
+        "value" : "18",
+        "team" : {
+          "id" : 6,
+          "name" : "Boston Bruins",
+          "link" : "/api/v1/teams/6"
+        },
+        "person" : {
+          "id" : 8470860,
+          "fullName" : "Jaroslav Halak",
+          "link" : "/api/v1/people/8470860",
+          "firstName" : "Jaroslav",
+          "lastName" : "Halak",
+          "primaryNumber" : "41",
+          "birthDate" : "1985-05-13",
+          "currentAge" : 35,
+          "birthCity" : "Bratislava",
+          "birthCountry" : "SVK",
+          "nationality" : "SVK",
+          "height" : "5' 11\"",
+          "weight" : 185,
+          "active" : true,
+          "alternateCaptain" : false,
+          "captain" : false,
+          "rookie" : false,
+          "shootsCatches" : "L",
+          "rosterStatus" : "Y",
+          "currentTeam" : {
+            "id" : 6,
+            "name" : "Boston Bruins",
+            "link" : "/api/v1/teams/6"
+          },
+          "primaryPosition" : {
+            "code" : "G",
+            "name" : "Goalie",
+            "type" : "Goalie",
+            "abbreviation" : "G"
+          }
+        },
+        "season" : "20192020"
+      } ]
+    } ],
+    "shortName" : "Boston",
+    "officialSiteUrl" : "http://www.bostonbruins.com/",
+    "franchiseId" : 6,
+    "active" : true
+  } ]
+}
