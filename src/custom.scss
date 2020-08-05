@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$primary: $gray-900;
+$secondary: $gray-200;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $white;
+$dark: $black;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+.navbar {
+    height: 80px;
+    border-bottom: 20px solid $primary;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
