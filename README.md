@@ -10,7 +10,7 @@
 - Improve React skills.
     - Use new React libraries such as React Router.
 - Improve Bootstrap skills.
-- Learn styling using SASS.
+- Learn styling using Sass.
 - Improve UI design skills.
 - Improve UX skills by making sure there is clear flow between components.
 - Have fun with available NHL data from the APIs!
