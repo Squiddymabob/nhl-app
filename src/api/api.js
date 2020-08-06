@@ -20,7 +20,7 @@ export function getFranchises() {
  *
  * @export
  * @param {Number} teamNumber
- * @returns an SVG of the specified team's logo
+ * @returns a link to the SVG of the specified team's logo
  */
 export function getTeamLogo(teamNumber) {
   return axios.get(`/images/logos/teams-current-primary-light/${teamNumber}.svg`, { headers }).then(
@@ -52,6 +52,22 @@ export function getCurrentTeams() {
  */
 export function getCurrentDivisions() {
   return axios.get('/api/v1/divisions/', { headers }).then(
+    (res) => res.data,
+  ).catch((err) => {
+    console.error(err);
+  });
+}
+
+/**
+ * Returns data about games between the specified start and end dates
+ *
+ * @export
+ * @param {String} startDate - Start of the period to return games for in the format 'yyyy-mm-dd'
+ * @param {String} endDate - End of the period to return games for in the format 'yyyy-mm-dd'
+ * @returns object containing an array of dates with available games for the time period
+ */
+export function getGames(startDate, endDate) {
+  return axios.get(`/api/v1/schedule?startDate=${startDate}&endDate=${endDate}&hydrate=team,linescore,broadcasts(all),tickets,game(content(media(epg)),seriesSummary),radioBroadcasts,metadata,seriesSummary(series)&site=en_nhl&teamId=&gameType=&timecode=`, { headers }).then(
     (res) => res.data,
   ).catch((err) => {
     console.error(err);

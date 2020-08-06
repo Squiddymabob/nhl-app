@@ -1,0 +1,1585 @@
+{
+    "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2020. All Rights Reserved.",
+    "totalItems" : 5,
+    "totalEvents" : 0,
+    "totalGames" : 5,
+    "totalMatches" : 0,
+    "wait" : 10,
+    "dates" : [ {
+      "date" : "2020-08-06",
+      "totalItems" : 5,
+      "totalEvents" : 0,
+      "totalGames" : 5,
+      "totalMatches" : 0,
+      "games" : [ {
+        "gamePk" : 2019030004,
+        "link" : "/api/v1/game/2019030004/feed/live",
+        "gameType" : "R",
+        "season" : "20192020",
+        "gameDate" : "2020-08-06T20:00:00Z",
+        "status" : {
+          "abstractGameState" : "Live",
+          "codedGameState" : "3",
+          "detailedState" : "In Progress",
+          "statusCode" : "3",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 0,
+              "losses" : 0,
+              "ot" : 1,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 15,
+              "name" : "Washington Capitals",
+              "link" : "/api/v1/teams/15",
+              "venue" : {
+                "id" : 5094,
+                "name" : "Capital One Arena",
+                "link" : "/api/v1/venues/5094",
+                "city" : "Washington",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -4,
+                  "tz" : "EDT"
+                }
+              },
+              "abbreviation" : "WSH",
+              "teamName" : "Capitals",
+              "locationName" : "Washington",
+              "firstYearOfPlay" : "1974",
+              "division" : {
+                "id" : 18,
+                "name" : "Metropolitan",
+                "nameShort" : "Metro",
+                "link" : "/api/v1/divisions/18",
+                "abbreviation" : "M"
+              },
+              "conference" : {
+                "id" : 6,
+                "name" : "Eastern",
+                "link" : "/api/v1/conferences/6"
+              },
+              "franchise" : {
+                "franchiseId" : 24,
+                "teamName" : "Capitals",
+                "link" : "/api/v1/franchises/24"
+              },
+              "shortName" : "Washington",
+              "officialSiteUrl" : "http://www.washingtoncapitals.com/",
+              "franchiseId" : 24,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 1,
+              "losses" : 0,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 1,
+            "team" : {
+              "id" : 4,
+              "name" : "Philadelphia Flyers",
+              "link" : "/api/v1/teams/4",
+              "venue" : {
+                "id" : 5096,
+                "name" : "Wells Fargo Center",
+                "link" : "/api/v1/venues/5096",
+                "city" : "Philadelphia",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -4,
+                  "tz" : "EDT"
+                }
+              },
+              "abbreviation" : "PHI",
+              "teamName" : "Flyers",
+              "locationName" : "Philadelphia",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 18,
+                "name" : "Metropolitan",
+                "nameShort" : "Metro",
+                "link" : "/api/v1/divisions/18",
+                "abbreviation" : "M"
+              },
+              "conference" : {
+                "id" : 6,
+                "name" : "Eastern",
+                "link" : "/api/v1/conferences/6"
+              },
+              "franchise" : {
+                "franchiseId" : 16,
+                "teamName" : "Flyers",
+                "link" : "/api/v1/franchises/16"
+              },
+              "shortName" : "Philadelphia",
+              "officialSiteUrl" : "http://www.philadelphiaflyers.com/",
+              "franchiseId" : 16,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 2,
+          "currentPeriodOrdinal" : "2nd",
+          "currentPeriodTimeRemaining" : "10:48",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "startTime" : "2020-08-06T20:10:03Z",
+            "endTime" : "2020-08-06T20:48:40Z",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 1,
+              "shotsOnGoal" : 8,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 6,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "startTime" : "2020-08-06T21:07:09Z",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 3,
+              "rinkSide" : "right"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 4,
+                "name" : "Philadelphia Flyers",
+                "link" : "/api/v1/teams/4"
+              },
+              "goals" : 1,
+              "shotsOnGoal" : 8,
+              "goaliePulled" : false,
+              "numSkaters" : 5,
+              "powerPlay" : true
+            },
+            "away" : {
+              "team" : {
+                "id" : 15,
+                "name" : "Washington Capitals",
+                "link" : "/api/v1/teams/15"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 9,
+              "goaliePulled" : false,
+              "numSkaters" : 4,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "5-on-4",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          },
+          "powerPlayInfo" : {
+            "situationTimeRemaining" : 120,
+            "situationTimeElapsed" : 0,
+            "inSituation" : true
+          }
+        },
+        "venue" : {
+          "name" : "Scotiabank Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "broadcasts" : [ {
+          "id" : 241,
+          "name" : "NBCSN",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 337,
+          "name" : "NHL.TV",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 281,
+          "name" : "TVAS",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "fr"
+        }, {
+          "id" : 283,
+          "name" : "SN360",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "en"
+        }, {
+          "id" : 322,
+          "name" : "NBCSP",
+          "type" : "home",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 320,
+          "name" : "NBCSWA",
+          "type" : "away",
+          "site" : "nhl",
+          "language" : "en"
+        } ],
+        "radioBroadcasts" : [ {
+          "name" : "97.5 The Fanatic",
+          "type" : "home"
+        }, {
+          "name" : "WJFK, CapsRadio24/7",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/2019030004/content",
+          "editorial" : { },
+          "media" : {
+            "epg" : [ {
+              "title" : "NHLTV",
+              "platform" : "web",
+              "items" : [ {
+                "guid" : "cbb42186-ae3b-40ca-b5f8-93c605131435",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010701",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "NBCS-PH",
+                "eventId" : "221-2005534",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "369bf006-cab6-4e49-917f-71775502d30c",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010711",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "NBCS-WA",
+                "eventId" : "221-2005534",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "63ea556a-e2d6-4160-a992-800bb4d06967",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010741",
+                "mediaFeedType" : "FRENCH",
+                "callLetters" : "TVAS",
+                "eventId" : "221-2005534",
+                "language" : "fra",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "ed8396ee-f83f-480c-a423-e0fc13426ae8",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010761",
+                "mediaFeedType" : "COMPOSITE",
+                "callLetters" : "",
+                "eventId" : "221-2005534",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "Multi-Cam 1",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Audio",
+              "items" : [ {
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010721",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "WPEN",
+                "eventId" : "221-2005534",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010731",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "WJFK",
+                "eventId" : "221-2005534",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Extended Highlights",
+              "topicList" : "317751408",
+              "items" : [ ]
+            }, {
+              "title" : "Recap",
+              "topicList" : "317751408",
+              "items" : [ ]
+            }, {
+              "title" : "Power Play",
+              "items" : [ ]
+            } ]
+          },
+          "highlights" : { }
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false,
+          "description" : "Scotiabank Arena, Toronto"
+        }
+      }, {
+        "gamePk" : 2019030014,
+        "link" : "/api/v1/game/2019030014/feed/live",
+        "gameType" : "R",
+        "season" : "20192020",
+        "gameDate" : "2020-08-06T22:30:00Z",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "1",
+          "detailedState" : "Scheduled",
+          "statusCode" : "1",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 1,
+              "losses" : 0,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 54,
+              "name" : "Vegas Golden Knights",
+              "link" : "/api/v1/teams/54",
+              "venue" : {
+                "id" : 5178,
+                "name" : "T-Mobile Arena",
+                "link" : "/api/v1/venues/5178",
+                "city" : "Las Vegas",
+                "timeZone" : {
+                  "id" : "America/Los_Angeles",
+                  "offset" : -7,
+                  "tz" : "PDT"
+                }
+              },
+              "abbreviation" : "VGK",
+              "teamName" : "Golden Knights",
+              "locationName" : "Vegas",
+              "firstYearOfPlay" : "2017",
+              "division" : {
+                "id" : 15,
+                "name" : "Pacific",
+                "nameShort" : "PAC",
+                "link" : "/api/v1/divisions/15",
+                "abbreviation" : "P"
+              },
+              "conference" : {
+                "id" : 5,
+                "name" : "Western",
+                "link" : "/api/v1/conferences/5"
+              },
+              "franchise" : {
+                "franchiseId" : 38,
+                "teamName" : "Golden Knights",
+                "link" : "/api/v1/franchises/38"
+              },
+              "shortName" : "Vegas",
+              "officialSiteUrl" : "http://www.vegasgoldenknights.com/",
+              "franchiseId" : 38,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 0,
+              "losses" : 1,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 19,
+              "name" : "St. Louis Blues",
+              "link" : "/api/v1/teams/19",
+              "venue" : {
+                "id" : 5076,
+                "name" : "Enterprise Center",
+                "link" : "/api/v1/venues/5076",
+                "city" : "St. Louis",
+                "timeZone" : {
+                  "id" : "America/Chicago",
+                  "offset" : -5,
+                  "tz" : "CDT"
+                }
+              },
+              "abbreviation" : "STL",
+              "teamName" : "Blues",
+              "locationName" : "St. Louis",
+              "firstYearOfPlay" : "1967",
+              "division" : {
+                "id" : 16,
+                "name" : "Central",
+                "nameShort" : "CEN",
+                "link" : "/api/v1/divisions/16",
+                "abbreviation" : "C"
+              },
+              "conference" : {
+                "id" : 5,
+                "name" : "Western",
+                "link" : "/api/v1/conferences/5"
+              },
+              "franchise" : {
+                "franchiseId" : 18,
+                "teamName" : "Blues",
+                "link" : "/api/v1/franchises/18"
+              },
+              "shortName" : "St Louis",
+              "officialSiteUrl" : "http://www.stlouisblues.com/",
+              "franchiseId" : 18,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 0,
+          "periods" : [ ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 19,
+                "name" : "St. Louis Blues",
+                "link" : "/api/v1/teams/19"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 54,
+                "name" : "Vegas Golden Knights",
+                "link" : "/api/v1/teams/54"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "id" : 5100,
+          "name" : "Rogers Place",
+          "link" : "/api/v1/venues/5100"
+        },
+        "broadcasts" : [ {
+          "id" : 324,
+          "name" : "NHLN",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 337,
+          "name" : "NHL.TV",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 283,
+          "name" : "SN360",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "en"
+        }, {
+          "id" : 13,
+          "name" : "FS-MW",
+          "type" : "home",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 317,
+          "name" : "ATTSN-RM",
+          "type" : "away",
+          "site" : "nhl",
+          "language" : "en"
+        } ],
+        "radioBroadcasts" : [ {
+          "name" : "101 ESPN",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/2019030014/content",
+          "editorial" : { },
+          "media" : {
+            "epg" : [ {
+              "title" : "NHLTV",
+              "platform" : "web",
+              "items" : [ {
+                "guid" : "5c77adfc-dba7-4e55-9266-2a86bce600ed",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010771",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "FSMW",
+                "eventId" : "221-2005530",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "861c1fbc-8a9b-414b-8cfe-3c870e209c11",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010781",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "ATT-RM",
+                "eventId" : "221-2005530",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "d037a7b8-41ee-48b4-ad5a-5abb5e73f30b",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010831",
+                "mediaFeedType" : "COMPOSITE",
+                "callLetters" : "",
+                "eventId" : "221-2005530",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "Multi-Cam 1",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Audio",
+              "items" : [ {
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010791",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "101ESPN",
+                "eventId" : "221-2005530",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010801",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "KRLV",
+                "eventId" : "221-2005530",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Extended Highlights",
+              "topicList" : "317751638",
+              "items" : [ ]
+            }, {
+              "title" : "Recap",
+              "topicList" : "317751638",
+              "items" : [ ]
+            }, {
+              "title" : "Power Play",
+              "items" : [ ]
+            } ]
+          },
+          "highlights" : { }
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false,
+          "description" : "Rogers Place, Edmonton"
+        }
+      }, {
+        "gamePk" : 2019030053,
+        "link" : "/api/v1/game/2019030053/feed/live",
+        "gameType" : "P",
+        "season" : "20192020",
+        "gameDate" : "2020-08-07T00:00:00Z",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "1",
+          "detailedState" : "Scheduled",
+          "statusCode" : "1",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 1,
+              "losses" : 1,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 10,
+              "name" : "Toronto Maple Leafs",
+              "link" : "/api/v1/teams/10",
+              "venue" : {
+                "name" : "Scotiabank Arena",
+                "link" : "/api/v1/venues/null",
+                "city" : "Toronto",
+                "timeZone" : {
+                  "id" : "America/Toronto",
+                  "offset" : -4,
+                  "tz" : "EDT"
+                }
+              },
+              "abbreviation" : "TOR",
+              "teamName" : "Maple Leafs",
+              "locationName" : "Toronto",
+              "firstYearOfPlay" : "1926",
+              "division" : {
+                "id" : 17,
+                "name" : "Atlantic",
+                "nameShort" : "ATL",
+                "link" : "/api/v1/divisions/17",
+                "abbreviation" : "A"
+              },
+              "conference" : {
+                "id" : 6,
+                "name" : "Eastern",
+                "link" : "/api/v1/conferences/6"
+              },
+              "franchise" : {
+                "franchiseId" : 5,
+                "teamName" : "Maple Leafs",
+                "link" : "/api/v1/franchises/5"
+              },
+              "shortName" : "Toronto",
+              "officialSiteUrl" : "http://www.mapleleafs.com/",
+              "franchiseId" : 5,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 1,
+              "losses" : 1,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 29,
+              "name" : "Columbus Blue Jackets",
+              "link" : "/api/v1/teams/29",
+              "venue" : {
+                "id" : 5059,
+                "name" : "Nationwide Arena",
+                "link" : "/api/v1/venues/5059",
+                "city" : "Columbus",
+                "timeZone" : {
+                  "id" : "America/New_York",
+                  "offset" : -4,
+                  "tz" : "EDT"
+                }
+              },
+              "abbreviation" : "CBJ",
+              "teamName" : "Blue Jackets",
+              "locationName" : "Columbus",
+              "firstYearOfPlay" : "2000",
+              "division" : {
+                "id" : 18,
+                "name" : "Metropolitan",
+                "nameShort" : "Metro",
+                "link" : "/api/v1/divisions/18",
+                "abbreviation" : "M"
+              },
+              "conference" : {
+                "id" : 6,
+                "name" : "Eastern",
+                "link" : "/api/v1/conferences/6"
+              },
+              "franchise" : {
+                "franchiseId" : 36,
+                "teamName" : "Blue Jackets",
+                "link" : "/api/v1/franchises/36"
+              },
+              "shortName" : "Columbus",
+              "officialSiteUrl" : "http://www.bluejackets.com/",
+              "franchiseId" : 36,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 0,
+          "periods" : [ ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 29,
+                "name" : "Columbus Blue Jackets",
+                "link" : "/api/v1/teams/29"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 10,
+                "name" : "Toronto Maple Leafs",
+                "link" : "/api/v1/teams/10"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "name" : "Scotiabank Arena",
+          "link" : "/api/v1/venues/null"
+        },
+        "broadcasts" : [ {
+          "id" : 241,
+          "name" : "NBCSN",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 281,
+          "name" : "TVAS",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "fr"
+        }, {
+          "id" : 282,
+          "name" : "SN",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "en"
+        }, {
+          "id" : 16,
+          "name" : "FS-O",
+          "type" : "home",
+          "site" : "nhl",
+          "language" : "en"
+        } ],
+        "radioBroadcasts" : [ {
+          "name" : "97.1 FM",
+          "type" : "home"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/2019030053/content",
+          "editorial" : { },
+          "media" : {
+            "epg" : [ {
+              "title" : "NHLTV",
+              "platform" : "web",
+              "items" : [ {
+                "guid" : "2d0d9a87-096d-49d8-8e1f-9dad5d01afef",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010841",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "",
+                "eventId" : "221-2005536",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "2831d3ad-893b-4d88-a64d-593f2a5a1053",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010851",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "",
+                "eventId" : "221-2005536",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "bd95984b-5539-40e7-af88-fc6f77fe458e",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010881",
+                "mediaFeedType" : "FRENCH",
+                "callLetters" : "",
+                "eventId" : "221-2005536",
+                "language" : "fra",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "4bc0ad4d-38df-422a-96fa-2146a2e4d61e",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010901",
+                "mediaFeedType" : "COMPOSITE",
+                "callLetters" : "",
+                "eventId" : "221-2005536",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "Multi-Cam 1",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Audio",
+              "items" : [ {
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010861",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "",
+                "eventId" : "221-2005536",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010871",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "",
+                "eventId" : "221-2005536",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Extended Highlights",
+              "topicList" : "317755158",
+              "items" : [ ]
+            }, {
+              "title" : "Recap",
+              "topicList" : "317755158",
+              "items" : [ ]
+            }, {
+              "title" : "Power Play",
+              "items" : [ ]
+            } ]
+          },
+          "highlights" : { }
+        },
+        "seriesSummary" : {
+          "gamePk" : 2019030053,
+          "gameNumber" : 3,
+          "gameLabel" : "Game 3",
+          "necessary" : true,
+          "gameCode" : 53,
+          "gameTime" : "2020-08-07T00:00:00Z",
+          "seriesStatus" : "Series tied 1-1",
+          "seriesStatusShort" : "Tied 1-1"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false,
+          "description" : "Scotiabank Arena, Toronto"
+        }
+      }, {
+        "gamePk" : 2019030094,
+        "link" : "/api/v1/game/2019030094/feed/live",
+        "gameType" : "P",
+        "season" : "20192020",
+        "gameDate" : "2020-08-07T02:30:00Z",
+        "status" : {
+          "abstractGameState" : "Preview",
+          "codedGameState" : "1",
+          "detailedState" : "Scheduled",
+          "statusCode" : "1",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 2,
+              "losses" : 1,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 20,
+              "name" : "Calgary Flames",
+              "link" : "/api/v1/teams/20",
+              "venue" : {
+                "id" : 5075,
+                "name" : "Scotiabank Saddledome",
+                "link" : "/api/v1/venues/5075",
+                "city" : "Calgary",
+                "timeZone" : {
+                  "id" : "America/Denver",
+                  "offset" : -6,
+                  "tz" : "MDT"
+                }
+              },
+              "abbreviation" : "CGY",
+              "teamName" : "Flames",
+              "locationName" : "Calgary",
+              "firstYearOfPlay" : "1980",
+              "division" : {
+                "id" : 15,
+                "name" : "Pacific",
+                "nameShort" : "PAC",
+                "link" : "/api/v1/divisions/15",
+                "abbreviation" : "P"
+              },
+              "conference" : {
+                "id" : 5,
+                "name" : "Western",
+                "link" : "/api/v1/conferences/5"
+              },
+              "franchise" : {
+                "franchiseId" : 21,
+                "teamName" : "Flames",
+                "link" : "/api/v1/franchises/21"
+              },
+              "shortName" : "Calgary",
+              "officialSiteUrl" : "http://www.calgaryflames.com/",
+              "franchiseId" : 21,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 1,
+              "losses" : 2,
+              "ot" : 0,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 52,
+              "name" : "Winnipeg Jets",
+              "link" : "/api/v1/teams/52",
+              "venue" : {
+                "id" : 5058,
+                "name" : "Bell MTS Place",
+                "link" : "/api/v1/venues/5058",
+                "city" : "Winnipeg",
+                "timeZone" : {
+                  "id" : "America/Winnipeg",
+                  "offset" : -5,
+                  "tz" : "CDT"
+                }
+              },
+              "abbreviation" : "WPG",
+              "teamName" : "Jets",
+              "locationName" : "Winnipeg",
+              "firstYearOfPlay" : "2011",
+              "division" : {
+                "id" : 16,
+                "name" : "Central",
+                "nameShort" : "CEN",
+                "link" : "/api/v1/divisions/16",
+                "abbreviation" : "C"
+              },
+              "conference" : {
+                "id" : 5,
+                "name" : "Western",
+                "link" : "/api/v1/conferences/5"
+              },
+              "franchise" : {
+                "franchiseId" : 35,
+                "teamName" : "Jets",
+                "link" : "/api/v1/franchises/35"
+              },
+              "shortName" : "Winnipeg",
+              "officialSiteUrl" : "http://winnipegjets.com/",
+              "franchiseId" : 35,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 0,
+          "periods" : [ ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 52,
+                "name" : "Winnipeg Jets",
+                "link" : "/api/v1/teams/52"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 20,
+                "name" : "Calgary Flames",
+                "link" : "/api/v1/teams/20"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 0,
+              "goaliePulled" : false,
+              "numSkaters" : 0,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          }
+        },
+        "venue" : {
+          "id" : 5100,
+          "name" : "Rogers Place",
+          "link" : "/api/v1/venues/5100"
+        },
+        "broadcasts" : [ {
+          "id" : 186,
+          "name" : "CNBC",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 337,
+          "name" : "NHL.TV",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 281,
+          "name" : "TVAS",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "fr"
+        }, {
+          "id" : 282,
+          "name" : "SN",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "en"
+        } ],
+        "radioBroadcasts" : [ {
+          "name" : "TSN 1290",
+          "type" : "home"
+        }, {
+          "name" : "Sportsnet Fan 960",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/2019030094/content",
+          "editorial" : { },
+          "media" : {
+            "epg" : [ {
+              "title" : "NHLTV",
+              "platform" : "web",
+              "items" : [ {
+                "guid" : "a0b976fc-218c-4e95-8dcb-390feb1abd3f",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010911",
+                "mediaFeedType" : "NATIONAL",
+                "callLetters" : "",
+                "eventId" : "221-2005535",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "af73637b-f6e9-4090-a653-7eb3cbd3aea4",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010951",
+                "mediaFeedType" : "FRENCH",
+                "callLetters" : "",
+                "eventId" : "221-2005535",
+                "language" : "fra",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "188ace10-2e98-44a7-b6bb-b7c6cfe04c70",
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010971",
+                "mediaFeedType" : "COMPOSITE",
+                "callLetters" : "",
+                "eventId" : "221-2005535",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "Multi-Cam 1",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Audio",
+              "items" : [ {
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010931",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "",
+                "eventId" : "221-2005535",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "mediaState" : "MEDIA_OFF",
+                "mediaPlaybackId" : "2000010941",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "",
+                "eventId" : "221-2005535",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Extended Highlights",
+              "topicList" : "317756370",
+              "items" : [ ]
+            }, {
+              "title" : "Recap",
+              "topicList" : "317756370",
+              "items" : [ ]
+            }, {
+              "title" : "Power Play",
+              "items" : [ ]
+            } ]
+          },
+          "highlights" : { }
+        },
+        "seriesSummary" : {
+          "gamePk" : 2019030094,
+          "gameNumber" : 4,
+          "gameLabel" : "Game 4",
+          "necessary" : true,
+          "gameCode" : 94,
+          "gameTime" : "2020-08-07T02:30:00Z",
+          "seriesStatus" : "Flames lead 2-1",
+          "seriesStatusShort" : "CGY leads 2-1"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false,
+          "description" : "Rogers Place, Edmonton"
+        }
+      }, {
+        "gamePk" : 2019030083,
+        "link" : "/api/v1/game/2019030083/feed/live",
+        "gameType" : "P",
+        "season" : "20192020",
+        "gameDate" : "2020-08-06T18:30:00Z",
+        "status" : {
+          "abstractGameState" : "Final",
+          "codedGameState" : "6",
+          "detailedState" : "Final",
+          "statusCode" : "6",
+          "startTimeTBD" : false
+        },
+        "teams" : {
+          "away" : {
+            "leagueRecord" : {
+              "wins" : 2,
+              "losses" : 1,
+              "type" : "league"
+            },
+            "score" : 3,
+            "team" : {
+              "id" : 23,
+              "name" : "Vancouver Canucks",
+              "link" : "/api/v1/teams/23",
+              "venue" : {
+                "id" : 5073,
+                "name" : "Rogers Arena",
+                "link" : "/api/v1/venues/5073",
+                "city" : "Vancouver",
+                "timeZone" : {
+                  "id" : "America/Vancouver",
+                  "offset" : -7,
+                  "tz" : "PDT"
+                }
+              },
+              "abbreviation" : "VAN",
+              "teamName" : "Canucks",
+              "locationName" : "Vancouver",
+              "firstYearOfPlay" : "1970",
+              "division" : {
+                "id" : 15,
+                "name" : "Pacific",
+                "nameShort" : "PAC",
+                "link" : "/api/v1/divisions/15",
+                "abbreviation" : "P"
+              },
+              "conference" : {
+                "id" : 5,
+                "name" : "Western",
+                "link" : "/api/v1/conferences/5"
+              },
+              "franchise" : {
+                "franchiseId" : 20,
+                "teamName" : "Canucks",
+                "link" : "/api/v1/franchises/20"
+              },
+              "shortName" : "Vancouver",
+              "officialSiteUrl" : "http://www.canucks.com/",
+              "franchiseId" : 20,
+              "active" : true
+            }
+          },
+          "home" : {
+            "leagueRecord" : {
+              "wins" : 1,
+              "losses" : 2,
+              "type" : "league"
+            },
+            "score" : 0,
+            "team" : {
+              "id" : 30,
+              "name" : "Minnesota Wild",
+              "link" : "/api/v1/teams/30",
+              "venue" : {
+                "id" : 5098,
+                "name" : "Xcel Energy Center",
+                "link" : "/api/v1/venues/5098",
+                "city" : "St. Paul",
+                "timeZone" : {
+                  "id" : "America/Chicago",
+                  "offset" : -5,
+                  "tz" : "CDT"
+                }
+              },
+              "abbreviation" : "MIN",
+              "teamName" : "Wild",
+              "locationName" : "Minnesota",
+              "firstYearOfPlay" : "2000",
+              "division" : {
+                "id" : 16,
+                "name" : "Central",
+                "nameShort" : "CEN",
+                "link" : "/api/v1/divisions/16",
+                "abbreviation" : "C"
+              },
+              "conference" : {
+                "id" : 5,
+                "name" : "Western",
+                "link" : "/api/v1/conferences/5"
+              },
+              "franchise" : {
+                "franchiseId" : 37,
+                "teamName" : "Wild",
+                "link" : "/api/v1/franchises/37"
+              },
+              "shortName" : "Minnesota",
+              "officialSiteUrl" : "http://www.wild.com/",
+              "franchiseId" : 37,
+              "active" : true
+            }
+          }
+        },
+        "linescore" : {
+          "currentPeriod" : 3,
+          "currentPeriodOrdinal" : "3rd",
+          "currentPeriodTimeRemaining" : "Final",
+          "periods" : [ {
+            "periodType" : "REGULAR",
+            "startTime" : "2020-08-06T17:39:39Z",
+            "endTime" : "2020-08-06T18:21:56Z",
+            "num" : 1,
+            "ordinalNum" : "1st",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 10,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 0,
+              "shotsOnGoal" : 10,
+              "rinkSide" : "left"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "startTime" : "2020-08-06T18:40:15Z",
+            "endTime" : "2020-08-06T19:20:00Z",
+            "num" : 2,
+            "ordinalNum" : "2nd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 10,
+              "rinkSide" : "left"
+            },
+            "away" : {
+              "goals" : 1,
+              "shotsOnGoal" : 9,
+              "rinkSide" : "right"
+            }
+          }, {
+            "periodType" : "REGULAR",
+            "startTime" : "2020-08-06T19:38:27Z",
+            "endTime" : "2020-08-06T20:18:52Z",
+            "num" : 3,
+            "ordinalNum" : "3rd",
+            "home" : {
+              "goals" : 0,
+              "shotsOnGoal" : 7,
+              "rinkSide" : "right"
+            },
+            "away" : {
+              "goals" : 2,
+              "shotsOnGoal" : 10,
+              "rinkSide" : "left"
+            }
+          } ],
+          "shootoutInfo" : {
+            "away" : {
+              "scores" : 0,
+              "attempts" : 0
+            },
+            "home" : {
+              "scores" : 0,
+              "attempts" : 0
+            }
+          },
+          "teams" : {
+            "home" : {
+              "team" : {
+                "id" : 30,
+                "name" : "Minnesota Wild",
+                "link" : "/api/v1/teams/30"
+              },
+              "goals" : 0,
+              "shotsOnGoal" : 27,
+              "goaliePulled" : false,
+              "numSkaters" : 5,
+              "powerPlay" : false
+            },
+            "away" : {
+              "team" : {
+                "id" : 23,
+                "name" : "Vancouver Canucks",
+                "link" : "/api/v1/teams/23"
+              },
+              "goals" : 3,
+              "shotsOnGoal" : 29,
+              "goaliePulled" : false,
+              "numSkaters" : 5,
+              "powerPlay" : false
+            }
+          },
+          "powerPlayStrength" : "Even",
+          "hasShootout" : false,
+          "intermissionInfo" : {
+            "intermissionTimeRemaining" : 0,
+            "intermissionTimeElapsed" : 0,
+            "inIntermission" : false
+          },
+          "powerPlayInfo" : {
+            "situationTimeRemaining" : 0,
+            "situationTimeElapsed" : 82,
+            "inSituation" : false
+          }
+        },
+        "venue" : {
+          "id" : 5100,
+          "name" : "Rogers Place",
+          "link" : "/api/v1/venues/5100"
+        },
+        "broadcasts" : [ {
+          "id" : 324,
+          "name" : "NHLN",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 337,
+          "name" : "NHL.TV",
+          "type" : "national",
+          "site" : "nhl",
+          "language" : "en"
+        }, {
+          "id" : 282,
+          "name" : "SN",
+          "type" : "national",
+          "site" : "nhlCA",
+          "language" : "en"
+        }, {
+          "id" : 14,
+          "name" : "FS-N",
+          "type" : "home",
+          "site" : "nhl",
+          "language" : "en"
+        } ],
+        "radioBroadcasts" : [ {
+          "name" : "KFAN 100.3",
+          "type" : "home"
+        }, {
+          "name" : "SN650",
+          "type" : "away"
+        } ],
+        "content" : {
+          "link" : "/api/v1/game/2019030083/content",
+          "editorial" : { },
+          "media" : {
+            "epg" : [ {
+              "title" : "NHLTV",
+              "platform" : "web",
+              "items" : [ {
+                "guid" : "71557d0c-67a0-4c74-9eab-380cd4dce968",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010631",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "FS-N",
+                "eventId" : "221-2005533",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "4cbb4173-7e5b-4cb4-a976-999332a63b81",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010641",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "SN",
+                "eventId" : "221-2005533",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "guid" : "1c48b54c-c2b1-406f-a397-e3ef22c91ef5",
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010691",
+                "mediaFeedType" : "COMPOSITE",
+                "callLetters" : "",
+                "eventId" : "221-2005533",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "Multi-Cam 1",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Audio",
+              "items" : [ {
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010651",
+                "mediaFeedType" : "HOME",
+                "callLetters" : "KFAN",
+                "eventId" : "221-2005533",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              }, {
+                "mediaState" : "MEDIA_ON",
+                "mediaPlaybackId" : "2000010661",
+                "mediaFeedType" : "AWAY",
+                "callLetters" : "SN650",
+                "eventId" : "221-2005533",
+                "language" : "eng",
+                "freeGame" : false,
+                "feedName" : "",
+                "gamePlus" : false
+              } ]
+            }, {
+              "title" : "Extended Highlights",
+              "topicList" : "317756538",
+              "items" : [ ]
+            }, {
+              "title" : "Recap",
+              "topicList" : "317756538",
+              "items" : [ ]
+            }, {
+              "title" : "Power Play",
+              "items" : [ ]
+            } ]
+          },
+          "highlights" : { }
+        },
+        "seriesSummary" : {
+          "gamePk" : 2019030083,
+          "gameNumber" : 3,
+          "gameLabel" : "Game 3",
+          "necessary" : true,
+          "gameCode" : 83,
+          "gameTime" : "2020-08-06T18:30:00Z",
+          "seriesStatus" : "Canucks lead 2-1",
+          "seriesStatusShort" : "VAN leads 2-1"
+        },
+        "metadata" : {
+          "isManuallyScored" : false,
+          "isSplitSquad" : false,
+          "description" : "Rogers Place, Edmonton"
+        }
+      } ],
+      "events" : [ ],
+      "matches" : [ ]
+    } ]
+  }
