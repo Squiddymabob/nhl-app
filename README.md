@@ -60,6 +60,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## License
 
+This project is licensed under the [MIT License](https://github.com/Squiddymabob/nhl-app/blob/master/LICENSE).
+
 This project is not affiliated with the NHL in any way.
 
 NHL and the NHL Shield are registered trademarks of the National Hockey League © NHL 2020. All Rights Reserved.
