@@ -57,3 +57,9 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## License
+
+This project is not affiliated with the NHL in any way.
+
+NHL and the NHL Shield are registered trademarks of the National Hockey League © NHL 2020. All Rights Reserved.
