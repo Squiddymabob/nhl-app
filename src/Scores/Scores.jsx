@@ -1,5 +1,6 @@
 import React from 'react';
 import { getGames } from '../api/api';
+import ScoreCard from './ScoreCard';
 
 class Teams extends React.Component {
   constructor(props) {
@@ -11,8 +12,8 @@ class Teams extends React.Component {
   }
 
   componentDidMount() {
-    const startDate = '2020-08-06';
-    const endDate = '2020-08-06';
+    const startDate = '2020-08-05';
+    const endDate = '2020-08-07';
     getGames(startDate, endDate).then((response) => {
       const dates = response.dates || [];
       this.setState({ isLoaded: true });
@@ -33,13 +34,17 @@ class Teams extends React.Component {
             <div className="col-4 p-2">
               {date.date}
               {date.games.map((game) => (
-                <div className="card m-4 text-white bg-dark">
-                  {game.teams.away.team.name}
-                  {' '}
-                  {game.teams.away.score}
-                  {game.teams.home.team.name}
-                  {' '}
-                  {game.teams.home.score}
+                <div className="card m-4 text-black bg-secondary">
+                  <ScoreCard
+                    awayAbbr={game.teams.home.team.abbreviation}
+                    homeAbbr={game.teams.away.team.abbreviation}
+                    awayId={game.teams.away.team.id}
+                    homeId={game.teams.home.team.id}
+                    awayScore={game.teams.away.score}
+                    homeScore={game.teams.home.score}
+                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
+                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
+                  />
                 </div>
               ))}
             </div>
