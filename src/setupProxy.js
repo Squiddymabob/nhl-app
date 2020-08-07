@@ -1,4 +1,5 @@
-const { createProxyMiddleware } = require('http-proxy-middleware');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const { createProxyMiddleware } = require('http-proxy-middleware'); // This proxy is needed for development purposes
 
 module.exports = function (app) {
   app.use(
