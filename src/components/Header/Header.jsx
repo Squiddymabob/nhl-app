@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Link,
 } from 'react-router-dom';
+import DarkThemeToggle from './DarkThemeToggle';
 
 function Header() {
   return (
@@ -31,7 +32,7 @@ function Header() {
           </li>
         </ul>
         <span className="navbar-text">
-          Right aligned
+          <DarkThemeToggle />
         </span>
       </div>
     </nav>
