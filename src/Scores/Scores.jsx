@@ -13,11 +13,27 @@ class Teams extends React.Component {
   }
 
   componentDidMount() {
+    this.fetchGames();
+    this.setState({ isLoaded: true });
+    // Refresh score data
+    this.timer = setInterval(() => this.fetchGames(), 5000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+    this.timer = null;
+  }
+
+  /**
+   * Get the latest game data from 3 days ago until 3 days from now
+   *
+   * @memberof Teams
+   */
+  fetchGames() {
     const startDate = moment().subtract(3, 'days').format('YYYY-MM-DD');
     const endDate = moment().add(3, 'days').format('YYYY-MM-DD');
     getGames(startDate, endDate).then((response) => {
       const dates = response.dates || [];
-      this.setState({ isLoaded: true });
       this.setState({ dates });
     });
   }
@@ -38,6 +54,7 @@ class Teams extends React.Component {
               </div>
 
               {date.games.map((game) => (
+                // Show a score card component for each game on a date
                 <ScoreCard
                   awayAbbr={game.teams.away.team.abbreviation}
                   homeAbbr={game.teams.home.team.abbreviation}
