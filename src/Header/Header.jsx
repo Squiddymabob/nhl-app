@@ -24,10 +24,10 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/teams">Teams</Link>
+            <Link className="nav-link" to="/scores">Scores</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/">Link</Link>
+            <Link className="nav-link" to="/teams">Teams</Link>
           </li>
         </ul>
         <span className="navbar-text">

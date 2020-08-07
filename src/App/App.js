@@ -8,6 +8,7 @@ import {
 import Teams from '../Teams/Teams';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
+import Scores from '../Scores/Scores';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/teams">
             <Teams />
+          </Route>
+          <Route path="/scores">
+            <Scores />
           </Route>
           <Route path="/">
             <Home />
