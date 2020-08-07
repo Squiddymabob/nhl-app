@@ -112,7 +112,7 @@ const ScoreCard = (props) => {
   // Scheduled - TBD
   if (codedGameState === 8) {
     return (
-      <div className="card text-black bg-secondary p-2">
+      <div className="card text-black bg-secondary p-2 text-center">
         <div className="container">
 
           {/* Series Information */}
@@ -174,44 +174,77 @@ const ScoreCard = (props) => {
     // In progress
     if (codedGameState < 7) {
       return (
-        <div className="card text-black bg-secondary p-2">
+        <div className="card text-black bg-secondary p-2 text-center border-info">
           <div className="container">
-            {/* Current scores */}
-            <div className="row row-cols-4 align-items-center">
-              <div className="col">
-                <img
-                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
-                  className="card-img-top img-fluid"
-                  alt={awayAbbr}
-                />
+
+            {/* Series Information */}
+            <div className="row row-cols-2 align-items-center">
+              <div className="col col-6">
+                {seriesStatusShort}
               </div>
-              <div className="col h5 mb-0">
-                {awayAbbr}
-              </div>
-              <div className="col">{awayScore}</div>
-              <div className="col">
-                {currentPeriodOrdinal}
+              <div className="col col-6">
+                {gameLabel}
               </div>
             </div>
-            <div className="row row-cols-4 align-items-center">
-              <div className="col">
-                <img
-                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
-                  className="card-img-top img-fluid"
-                  alt={homeAbbr}
-                />
+
+            {/* Team Information */}
+            <div className="row row-cols-2 align-items-center p-2">
+              <div className="col col-6">
+
+                {/* Away Team */}
+                <div className="row row-cols-3 align-items-center pb-2">
+                  <div className="col col-4">
+                    <img
+                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
+                      className="card-img-top img-fluid"
+                      alt={awayAbbr}
+                    />
+                  </div>
+                  <div className="col col-5 h5 mb-0">
+                    {awayAbbr}
+                  </div>
+                </div>
+
+                {/* Home Team */}
+                <div className="row row-cols-3 align-items-center">
+                  <div className="col col-4">
+                    <img
+                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
+                      className="card-img-top img-fluid"
+                      alt={homeAbbr}
+                    />
+                  </div>
+                  <div className="col col-5 h5 mb-0">
+                    {homeAbbr}
+                  </div>
+                </div>
+
               </div>
-              <div className="col h5 mb-0">{homeAbbr}</div>
-              <div className="col">{homeScore}</div>
-              <div className="col">{currentPeriodTimeRemaining}</div>
+
+              {/* Current In Progress Information */}
+              <div className="col col-6">
+                <div className="row">
+                  <div className="col center-block text-center h6 mb-0">
+                    {currentPeriodOrdinal}
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col center-block text-center h6 mb-0 text-info">
+                    {currentPeriodTimeRemaining}
+                  </div>
+                </div>
+              </div>
+
             </div>
+
           </div>
         </div>
       );
     }
     // Final
     return (
-      <div className="card text-black bg-secondary p-2">
+      <div className="card text-black bg-secondary p-2 text-center">
         <div className="container">
 
           {/* Series Information */}

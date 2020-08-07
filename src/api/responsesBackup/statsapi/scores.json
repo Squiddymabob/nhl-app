@@ -3524,10 +3524,10 @@
       "season" : "20192020",
       "gameDate" : "2020-08-07T16:00:00Z",
       "status" : {
-        "abstractGameState" : "Preview",
-        "codedGameState" : "1",
-        "detailedState" : "Scheduled",
-        "statusCode" : "1",
+        "abstractGameState" : "Live",
+        "codedGameState" : "3",
+        "detailedState" : "In Progress",
+        "statusCode" : "3",
         "startTimeTBD" : false
       },
       "teams" : {
@@ -3633,8 +3633,25 @@
         }
       },
       "linescore" : {
-        "currentPeriod" : 0,
-        "periods" : [ ],
+        "currentPeriod" : 1,
+        "currentPeriodOrdinal" : "1st",
+        "currentPeriodTimeRemaining" : "17:00",
+        "periods" : [ {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T16:09:41Z",
+          "num" : 1,
+          "ordinalNum" : "1st",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 0,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 1,
+            "rinkSide" : "left"
+          }
+        } ],
         "shootoutInfo" : {
           "away" : {
             "scores" : 0,
@@ -3655,7 +3672,7 @@
             "goals" : 0,
             "shotsOnGoal" : 0,
             "goaliePulled" : false,
-            "numSkaters" : 0,
+            "numSkaters" : 5,
             "powerPlay" : false
           },
           "away" : {
@@ -3665,9 +3682,9 @@
               "link" : "/api/v1/teams/2"
             },
             "goals" : 0,
-            "shotsOnGoal" : 0,
+            "shotsOnGoal" : 1,
             "goaliePulled" : false,
-            "numSkaters" : 0,
+            "numSkaters" : 5,
             "powerPlay" : false
           }
         },
@@ -3677,6 +3694,11 @@
           "intermissionTimeRemaining" : 0,
           "intermissionTimeElapsed" : 0,
           "inIntermission" : false
+        },
+        "powerPlayInfo" : {
+          "situationTimeRemaining" : 1020,
+          "situationTimeElapsed" : 180,
+          "inSituation" : false
         }
       },
       "venue" : {
@@ -3735,41 +3757,41 @@
             "title" : "NHLTV",
             "platform" : "web",
             "items" : [ {
-              "guid" : "522ba5cf-4c84-46e7-a6db-c4e68d3c8f0e",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "3a7178a1-5ddb-4a08-8c5f-a139e76520b9",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011011",
               "mediaFeedType" : "HOME",
-              "callLetters" : "",
+              "callLetters" : "FS-F",
               "eventId" : "221-2005539",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "4b7b32c3-459b-4ac8-aa7f-6c174f5658d3",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "cadf90f2-b627-49d8-9206-ad743a23162e",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011021",
               "mediaFeedType" : "AWAY",
-              "callLetters" : "",
+              "callLetters" : "MSG+",
               "eventId" : "221-2005539",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "19fd0567-851e-4fb2-9d50-89d41a928a94",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "4c51e79b-8807-4065-b2bd-099d4edf225d",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011051",
               "mediaFeedType" : "FRENCH",
-              "callLetters" : "",
+              "callLetters" : "TVAS",
               "eventId" : "221-2005539",
               "language" : "fra",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "23c46ef2-ee8a-4ee7-9697-75b37cc1e0b5",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "70e0572b-a9a2-4e30-80fd-ac02858792f1",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011071",
               "mediaFeedType" : "COMPOSITE",
               "callLetters" : "",
@@ -3782,20 +3804,20 @@
           }, {
             "title" : "Audio",
             "items" : [ {
-              "mediaState" : "MEDIA_OFF",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011031",
               "mediaFeedType" : "HOME",
-              "callLetters" : "",
+              "callLetters" : "WQAM",
               "eventId" : "221-2005539",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "mediaState" : "MEDIA_OFF",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011041",
               "mediaFeedType" : "AWAY",
-              "callLetters" : "",
+              "callLetters" : "WRHU",
               "eventId" : "221-2005539",
               "language" : "eng",
               "freeGame" : false,
