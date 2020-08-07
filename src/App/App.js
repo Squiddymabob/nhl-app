@@ -24,10 +24,10 @@ function App(props) {
         <Header />
         <Switch>
           <Route path="/teams">
-            <Teams />
+            <Teams darkThemeEnabled={darkThemeEnabled} />
           </Route>
           <Route path="/scores">
-            <Scores />
+            <Scores darkThemeEnabled={darkThemeEnabled} />
           </Route>
           <Route path="/">
             <Home />
