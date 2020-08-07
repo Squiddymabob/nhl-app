@@ -4,6 +4,6 @@ import App from './App';
 
 test('Renders NavBar', () => {
   const { getByText } = render(<App />);
-  const headberElement = getByText(/NHL/i);
-  expect(headberElement).toBeInTheDocument();
+  const headerElement = getByText(/NHL/i);
+  expect(headerElement).toBeInTheDocument();
 });
