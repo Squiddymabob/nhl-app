@@ -3,7 +3,11 @@ const axios = require('axios');
 // Any headers required for the request
 const headers = {};
 
-const franchisesUrl = '/franchise?include=teams.id&include=teams.active&include=teams.triCode&include=teams.placeName&include=teams.commonName&include=teams.fullName&include=teams.logos&include=teams.conference.name&include=teams.division.name&include=teams.franchiseTeam.firstSeason.id&include=teams.franchiseTeam.lastSeason.id&include=teams.franchiseTeam.teamCommonName';
+const franchisesUrl = '/franchise?include=teams.id&include=teams.active&include=teams.triCode'
++ '&include=teams.placeName&include=teams.commonName&include=teams.fullName'
++ '&include=teams.logos&include=teams.conference.name&include=teams.division.name'
++ '&include=teams.franchiseTeam.firstSeason.id&include=teams.franchiseTeam.lastSeason.id'
++ '&include=teams.franchiseTeam.teamCommonName';
 
 export function getFranchises() {
   // Using the headers, fetch data from a url endpoint
@@ -67,7 +71,9 @@ export function getCurrentDivisions() {
  * @returns object containing an array of dates with available games for the time period
  */
 export function getGames(startDate, endDate) {
-  return axios.get(`/api/v1/schedule?startDate=${startDate}&endDate=${endDate}&hydrate=team,linescore,broadcasts(all),tickets,game(content(media(epg)),seriesSummary),radioBroadcasts,metadata,seriesSummary(series)&site=en_nhl&teamId=&gameType=&timecode=`, { headers }).then(
+  return axios.get(`/api/v1/schedule?startDate=${startDate}&endDate=${endDate}&hydrate=team,linescore,broadcasts(all),`
+  + 'tickets,game(content(media(epg)),seriesSummary),radioBroadcasts,metadata,seriesSummary(series)'
+  + '&site=en_nhl&teamId=&gameType=&timecode=', { headers }).then(
     (res) => res.data,
   ).catch((err) => {
     console.error(err);
