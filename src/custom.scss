@@ -27,4 +27,8 @@ $theme-colors: (
     border-bottom: 20px solid $primary;
 }
 
+.losing-team {
+  color: $gray-500;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";

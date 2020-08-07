@@ -16,11 +16,9 @@ const ScoreCard = (props) => {
     seriesStatusShort: PropTypes.string.isRequired,
     gameLabel: PropTypes.string.isRequired,
     gameDate: PropTypes.string.isRequired,
-    broadcasts: PropTypes.string.isRequired,
+    // broadcasts: PropTypes.string.isRequired,
   };
-  //   ScoreCard.defaultProps = {
-  //     accountUid: null,
-  //   };
+
   const {
     awayAbbr,
     homeAbbr,
@@ -34,53 +32,57 @@ const ScoreCard = (props) => {
     seriesStatusShort,
     gameLabel,
     gameDate,
-    broadcasts,
+    // broadcasts,
   } = props;
+
+  function awayWins(away, home) {
+    return away > home;
+  }
 
   // Scheduled
   if (codedGameState === 1) {
     return (
-      <div className="card m-4 text-black bg-secondary">
+      <div className="card m-4 text-black bg-secondary p-2">
         <div className="container">
 
           {/* Series Information */}
           <div className="row row-cols-2 align-items-center">
-            <div className="col">
+            <div className="col col-6">
               {seriesStatusShort}
             </div>
-            <div className="col">
+            <div className="col col-6">
               {gameLabel}
             </div>
           </div>
 
           {/* Team Information */}
-          <div className="row row-cols-2 align-items-center">
-            <div className="col">
+          <div className="row row-cols-2 align-items-center p-2">
+            <div className="col col-6">
 
               {/* Away Team */}
-              <div className="row row-cols-3 align-items-center">
-                <div className="col">
+              <div className="row row-cols-3 align-items-center pb-2">
+                <div className="col col-4">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
                 </div>
-                <div className="col">
+                <div className="col col-5 h5 mb-0">
                   {awayAbbr}
                 </div>
               </div>
 
               {/* Home Team */}
               <div className="row row-cols-3 align-items-center">
-                <div className="col">
+                <div className="col col-4">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
                 </div>
-                <div className="col">
+                <div className="col col-5 h5 mb-0">
                   {homeAbbr}
                 </div>
               </div>
@@ -88,9 +90,9 @@ const ScoreCard = (props) => {
             </div>
 
             {/* Scheduled Information */}
-            <div className="col">
+            <div className="col col-6">
               <div className="row">
-                <div className="col center-block text-center">
+                <div className="col center-block text-center h6 mb-0">
                   {moment.tz(gameDate, 'America/New_York').format('HH:mm')}
                   {' '}
                   ET
@@ -98,7 +100,7 @@ const ScoreCard = (props) => {
               </div>
               <div className="row">
                 <div className="col center-block text-center">
-                  {broadcasts}
+                  {/* {broadcasts} */}
                 </div>
               </div>
             </div>
@@ -112,54 +114,54 @@ const ScoreCard = (props) => {
   // Scheduled - TBD
   if (codedGameState === 8) {
     return (
-      <div className="card m-4 text-black bg-secondary">
+      <div className="card m-4 text-black bg-secondary p-2">
         <div className="container">
 
           {/* Series Information */}
           <div className="row row-cols-2 align-items-center">
-            <div className="col">
+            <div className="col col-6">
               {seriesStatusShort}
             </div>
-            <div className="col">
+            <div className="col col-6">
               {gameLabel}
             </div>
           </div>
 
           {/* Team Information */}
-          <div className="row row-cols-2 align-items-center">
-            <div className="col">
+          <div className="row row-cols-2 align-items-center p-2">
+            <div className="col col-6">
 
               {/* Away Team */}
-              <div className="row row-cols-3 align-items-center">
-                <div className="col">
+              <div className="row row-cols-3 align-items-center pb-2">
+                <div className="col col-4">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
                 </div>
-                <div className="col">
+                <div className="col col-5 h5 mb-0">
                   {awayAbbr}
                 </div>
               </div>
 
               {/* Home Team */}
               <div className="row row-cols-3 align-items-center">
-                <div className="col">
+                <div className="col col-4">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
                 </div>
-                <div className="col">
+                <div className="col col-5 h5 mb-0">
                   {homeAbbr}
                 </div>
               </div>
 
             </div>
 
-            <div className="col">
+            <div className="col col-6 h6 mb-0">
               TBD
             </div>
 
@@ -174,7 +176,7 @@ const ScoreCard = (props) => {
     // In progress
     if (codedGameState < 7) {
       return (
-        <div className="card m-4 text-black bg-secondary">
+        <div className="card m-4 text-black bg-secondary p-2">
           <div className="container">
             {/* Current scores */}
             <div className="row row-cols-4 align-items-center">
@@ -185,7 +187,7 @@ const ScoreCard = (props) => {
                   alt={awayAbbr}
                 />
               </div>
-              <div className="col">
+              <div className="col h5 mb-0">
                 {awayAbbr}
               </div>
               <div className="col">{awayScore}</div>
@@ -201,7 +203,7 @@ const ScoreCard = (props) => {
                   alt={homeAbbr}
                 />
               </div>
-              <div className="col">{homeAbbr}</div>
+              <div className="col h5 mb-0">{homeAbbr}</div>
               <div className="col">{homeScore}</div>
               <div className="col">{currentPeriodTimeRemaining}</div>
             </div>
@@ -211,60 +213,68 @@ const ScoreCard = (props) => {
     }
     // Final
     return (
-      <div className="card m-4 text-black bg-secondary">
+      <div className="card m-4 text-black bg-secondary p-2">
         <div className="container">
 
           {/* Series Information */}
           <div className="row row-cols-2 align-items-center">
-            <div className="col">
+            <div className="col col-6">
               {seriesStatusShort}
             </div>
-            <div className="col">
+            <div className="col col-6">
               {gameLabel}
             </div>
           </div>
 
           {/* Team Information */}
-          <div className="row row-cols-2 align-items-center">
-            <div className="col">
+          <div className="row row-cols-2 align-items-center p-2">
+            <div className="col col-6">
 
               {/* Away Team */}
-              <div className="row row-cols-3 align-items-center">
-                <div className="col">
+              <div className="row row-cols-3 align-items-center pb-2">
+                <div className="col col-4">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
                 </div>
-                <div className="col">
-                  {awayAbbr}
+                <div className="col col-5 h5 mb-0">
+                  <span className={awayWins(awayScore, homeScore) ? '' : 'losing-team'}>
+                    {awayAbbr}
+                  </span>
                 </div>
-                <div className="col">
-                  {awayScore}
+                <div className="col col-3 h5 mb-0">
+                  <span className={awayWins(awayScore, homeScore) ? '' : 'losing-team'}>
+                    {awayScore}
+                  </span>
                 </div>
               </div>
 
               {/* Home Team */}
               <div className="row row-cols-3 align-items-center">
-                <div className="col">
+                <div className="col col-4">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
                 </div>
-                <div className="col">
-                  {homeAbbr}
+                <div className="col col-5 h5 mb-0">
+                  <span className={awayWins(awayScore, homeScore) ? 'losing-team' : ''}>
+                    {homeAbbr}
+                  </span>
                 </div>
-                <div className="col">
-                  {homeScore}
+                <div className="col col-3 h5 mb-0">
+                  <span className={awayWins(awayScore, homeScore) ? 'losing-team' : ''}>
+                    {homeScore}
+                  </span>
                 </div>
               </div>
 
             </div>
 
-            <div className="col">
+            <div className="col col-6 h6 mb-0">
               FINAL
             </div>
 
@@ -276,7 +286,7 @@ const ScoreCard = (props) => {
   }
   // If no information is available, display this instead
   return (
-    <div>d</div>
+    <div>Error</div>
   );
 };
 

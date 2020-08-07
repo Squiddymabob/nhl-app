@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment-timezone';
 import { getGames } from '../api/api';
 import ScoreCard from './ScoreCard';
 
@@ -12,8 +13,8 @@ class Teams extends React.Component {
   }
 
   componentDidMount() {
-    const startDate = '2020-08-05';
-    const endDate = '2020-08-09';
+    const startDate = moment().subtract(1, 'days').format('YYYY-MM-DD');
+    const endDate = moment().add(3, 'days').format('YYYY-MM-DD');
     getGames(startDate, endDate).then((response) => {
       const dates = response.dates || [];
       this.setState({ isLoaded: true });
@@ -47,7 +48,7 @@ class Teams extends React.Component {
                   seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
                   gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
                   gameDate={game.gameDate}
-                  broadcasts={game.broadcasts ? game.broadcasts.reduce((a, b) => `${a + b.name}, `, '') : ''}
+                  // broadcasts={game.broadcasts ? game.broadcasts.reduce((a, b) => `${a + b.name}, `, '') : ''}
                 />
               ))}
             </div>
