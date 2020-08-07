@@ -26,9 +26,9 @@ class Teams extends React.Component {
     }
     return (
       <div className="container">
-        <div className="row">
+        <div className="row mt-2 mb-2">
           {teams.map((team) => (
-            <div className="col-4 p-2">
+            <div className="col-xs-12 col-md-3 p-2">
               <div className="card p-4 text-white bg-dark">
                 <img
                   src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-dark/${team.id}.svg`}
@@ -37,7 +37,7 @@ class Teams extends React.Component {
                 />
                 <div className="card-body">
                   <h5 className="card-title">{team.name}</h5>
-                  <p className="card-text">fdsaufhsdfiuh</p>
+                  <p className="card-text">{team.abbreviation}</p>
                   <a href="/" className="btn btn-primary">Go</a>
                 </div>
               </div>
