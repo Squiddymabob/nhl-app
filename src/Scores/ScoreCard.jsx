@@ -203,6 +203,9 @@ const ScoreCard = (props) => {
                   <div className="col col-5 h5 mb-0">
                     {awayAbbr}
                   </div>
+                  <div className="col col-3 h5 mb-0">
+                    {awayScore}
+                  </div>
                 </div>
 
                 {/* Home Team */}
@@ -216,6 +219,9 @@ const ScoreCard = (props) => {
                   </div>
                   <div className="col col-5 h5 mb-0">
                     {homeAbbr}
+                  </div>
+                  <div className="col col-3 h5 mb-0">
+                    {homeScore}
                   </div>
                 </div>
 
