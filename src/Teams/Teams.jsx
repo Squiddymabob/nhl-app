@@ -29,16 +29,16 @@ class Teams extends React.Component {
         <div className="row mt-2 mb-2">
           {teams.map((team) => (
             <div className="col-xs-12 col-md-3 p-2">
-              <div className="card p-4 text-white bg-dark">
+              <div className="card p-4 text-black bg-secondary">
                 <img
-                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-dark/${team.id}.svg`}
+                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${team.id}.svg`}
                   className="card-img-top img-fluid"
                   alt="..."
                 />
                 <div className="card-body">
                   <h5 className="card-title">{team.name}</h5>
                   <p className="card-text">{team.abbreviation}</p>
-                  <a href="/" className="btn btn-primary">Go</a>
+                  <a href="/" className="btn btn-primary-button">Go</a>
                 </div>
               </div>
             </div>

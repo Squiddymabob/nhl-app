@@ -10,6 +10,7 @@ $warning: $yellow;
 $danger: $red;
 $light: $white;
 $dark: $black;
+$primary-button: $blue;
 
 $theme-colors: (
   "primary":    $primary,
@@ -19,7 +20,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "primary-button": $primary-button,
 );
 
 .navbar {
