@@ -6,8 +6,8 @@ const ScoreCard = (props) => {
   ScoreCard.propTypes = {
     awayAbbr: PropTypes.string.isRequired,
     homeAbbr: PropTypes.string.isRequired,
-    awayId: PropTypes.string.isRequired,
-    homeId: PropTypes.string.isRequired,
+    awayId: PropTypes.number.isRequired,
+    homeId: PropTypes.number.isRequired,
     awayScore: PropTypes.number.isRequired,
     homeScore: PropTypes.number.isRequired,
     currentPeriodOrdinal: PropTypes.string,
