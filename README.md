@@ -8,7 +8,8 @@
     - Some community documentation available but none officially for any of the APIs used.
     - Documentation available for the NHL Records and Stats APIs [here](https://gitlab.com/dword4/nhlapi) by Drew Hynes.
 - Improve React skills.
-    - Use new React libraries such as React Router.
+    - Learn React libraries such as React Router.
+    - Learn React Redux.
 - Improve Bootstrap skills.
 - Learn styling using Sass.
 - Improve UI design skills.
