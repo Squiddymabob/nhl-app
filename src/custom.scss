@@ -5,12 +5,13 @@
 $primary: $gray-900;
 $secondary: $gray-200;
 $success: $green;
-$info: $cyan;
+$info: $cyan-600;
 $warning: $yellow;
 $danger: $red;
 $light: $white;
 $dark: $black;
 $primary-button: $blue;
+$in-progress: $cyan-100;
 
 $theme-colors: (
   "primary":    $primary,
@@ -22,6 +23,7 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "primary-button": $primary-button,
+  "in-progress": $in-progress,
 );
 
 .navbar {

@@ -174,7 +174,7 @@ const ScoreCard = (props) => {
     // In progress
     if (codedGameState < 7) {
       return (
-        <div className="card text-black bg-secondary p-2 text-center border-info">
+        <div className="card text-black bg-in-progress bg-gradient p-2 text-center border-info">
           <div className="container">
 
             {/* Series Information */}
@@ -230,13 +230,13 @@ const ScoreCard = (props) => {
               {/* Current In Progress Information */}
               <div className="col col-6">
                 <div className="row">
-                  <div className="col center-block text-center h6 mb-0">
+                  <div className="col center-block text-center h6 mb-1">
                     {currentPeriodOrdinal}
                   </div>
                 </div>
 
                 <div className="row">
-                  <div className="col center-block text-center h6 mb-0 text-info">
+                  <div className="col center-block text-center h6 mb-0 mt-1 text-info">
                     {currentPeriodTimeRemaining}
                   </div>
                 </div>
