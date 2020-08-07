@@ -13,7 +13,7 @@ class Teams extends React.Component {
   }
 
   componentDidMount() {
-    const startDate = moment().subtract(1, 'days').format('YYYY-MM-DD');
+    const startDate = moment().subtract(3, 'days').format('YYYY-MM-DD');
     const endDate = moment().add(3, 'days').format('YYYY-MM-DD');
     getGames(startDate, endDate).then((response) => {
       const dates = response.dates || [];
@@ -29,11 +29,14 @@ class Teams extends React.Component {
     }
     return (
       <div className="container">
-        <div className="row">
+        <div className="row mt-2 mb-2">
           {/* For each date, then show the games on that date */}
           {dates.map((date) => (
-            <div className="col-4 p-2">
-              {date.date}
+            <div className="col-4 mt-2 mb-2">
+              <div className="card text-black bg-light p-2">
+                {moment.tz(date.date, 'America/New_York').format('D MMM')}
+              </div>
+
               {date.games.map((game) => (
                 <ScoreCard
                   awayAbbr={game.teams.away.team.abbreviation}
@@ -48,7 +51,6 @@ class Teams extends React.Component {
                   seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
                   gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
                   gameDate={game.gameDate}
-                  // broadcasts={game.broadcasts ? game.broadcasts.reduce((a, b) => `${a + b.name}, `, '') : ''}
                 />
               ))}
             </div>

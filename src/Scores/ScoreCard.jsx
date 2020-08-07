@@ -42,7 +42,7 @@ const ScoreCard = (props) => {
   // Scheduled
   if (codedGameState === 1) {
     return (
-      <div className="card m-4 text-black bg-secondary p-2">
+      <div className="card text-black bg-secondary p-2">
         <div className="container">
 
           {/* Series Information */}
@@ -114,7 +114,7 @@ const ScoreCard = (props) => {
   // Scheduled - TBD
   if (codedGameState === 8) {
     return (
-      <div className="card m-4 text-black bg-secondary p-2">
+      <div className="card text-black bg-secondary p-2">
         <div className="container">
 
           {/* Series Information */}
@@ -176,7 +176,7 @@ const ScoreCard = (props) => {
     // In progress
     if (codedGameState < 7) {
       return (
-        <div className="card m-4 text-black bg-secondary p-2">
+        <div className="card text-black bg-secondary p-2">
           <div className="container">
             {/* Current scores */}
             <div className="row row-cols-4 align-items-center">
@@ -213,7 +213,7 @@ const ScoreCard = (props) => {
     }
     // Final
     return (
-      <div className="card m-4 text-black bg-secondary p-2">
+      <div className="card text-black bg-secondary p-2">
         <div className="container">
 
           {/* Series Information */}
