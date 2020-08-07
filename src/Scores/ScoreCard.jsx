@@ -16,11 +16,17 @@ const ScoreCard = (props) => {
     seriesStatusShort: PropTypes.string.isRequired,
     gameLabel: PropTypes.string.isRequired,
     gameDate: PropTypes.string.isRequired,
+    powerPlay: PropTypes.bool,
+    powerPlayAway: PropTypes.bool,
+    powerPlayHome: PropTypes.bool,
   };
 
   ScoreCard.defaultProps = {
     currentPeriodOrdinal: '',
     currentPeriodTimeRemaining: '',
+    powerPlay: false,
+    powerPlayAway: false,
+    powerPlayHome: false,
   };
 
   const {
@@ -36,6 +42,9 @@ const ScoreCard = (props) => {
     seriesStatusShort,
     gameLabel,
     gameDate,
+    powerPlay,
+    powerPlayAway,
+    powerPlayHome,
   } = props;
 
   function awayWins(away, home) {
@@ -174,8 +183,8 @@ const ScoreCard = (props) => {
     // In progress
     if (codedGameState < 7) {
       return (
-        <div className="card text-black bg-in-progress bg-gradient p-2 text-center border-info">
-          <div className="container">
+        <div className="card text-black bg-secondary text-center">
+          <div className="container p-2">
 
             {/* Series Information */}
             <div className="row row-cols-2 align-items-center">
@@ -202,6 +211,8 @@ const ScoreCard = (props) => {
                   </div>
                   <div className="col col-5 h5 mb-0">
                     {awayAbbr}
+                    {' '}
+                    {powerPlayAway ? 'PP' : ''}
                   </div>
                   <div className="col col-3 h5 mb-0">
                     {awayScore}
@@ -219,6 +230,8 @@ const ScoreCard = (props) => {
                   </div>
                   <div className="col col-5 h5 mb-0">
                     {homeAbbr}
+                    {' '}
+                    <span className="text-danger font-weight-medium h6">{powerPlayHome ? 'PP' : ''}</span>
                   </div>
                   <div className="col col-3 h5 mb-0">
                     {homeScore}
@@ -236,7 +249,7 @@ const ScoreCard = (props) => {
                 </div>
 
                 <div className="row">
-                  <div className="col center-block text-center h6 mb-0 mt-1 text-info">
+                  <div className={`col center-block text-center h6 mb-0 mt-1 ${powerPlay ? 'text-danger' : 'text-warning'}`}>
                     {currentPeriodTimeRemaining}
                   </div>
                 </div>
@@ -244,6 +257,11 @@ const ScoreCard = (props) => {
 
             </div>
 
+          </div>
+
+          <div className="card-footer p-0">
+            <span className={`dot mr-2 ${powerPlay ? 'dot-powerplay' : 'dot-progress'}`} />
+            {powerPlay ? 'In Progress - Power Play' : 'In Progress'}
           </div>
         </div>
       );

@@ -6,7 +6,7 @@ $primary: $gray-900;
 $secondary: $gray-200;
 $success: $green;
 $info: $cyan-600;
-$warning: $yellow;
+$warning: $yellow-500;
 $danger: $red;
 $light: $white;
 $dark: $black;
@@ -33,6 +33,21 @@ $theme-colors: (
 
 .losing-team {
   color: $gray-500;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-progress {
+  background-color: $warning;
+}
+
+.dot-powerplay {
+  background-color: $danger;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

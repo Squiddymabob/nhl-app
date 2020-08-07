@@ -68,6 +68,9 @@ class Teams extends React.Component {
                   seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
                   gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
                   gameDate={game.gameDate}
+                  powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
+                  powerPlayAway={game.linescore.teams.away.powerPlay}
+                  powerPlayHome={game.linescore.teams.home.powerPlay}
                 />
               ))}
             </div>
