@@ -16,7 +16,7 @@ function Header() {
           alt="NHL Logo"
         />
       </a>
-      <a className="navbar-brand" href="/">TITLE</a>
+      <a className="navbar-brand" href="/">NHL</a>
       <div className="collapse navbar-collapse" id="navbarText">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
