@@ -10,12 +10,17 @@ const ScoreCard = (props) => {
     homeId: PropTypes.string.isRequired,
     awayScore: PropTypes.number.isRequired,
     homeScore: PropTypes.number.isRequired,
-    currentPeriodOrdinal: PropTypes.string.isRequired,
-    currentPeriodTimeRemaining: PropTypes.string.isRequired,
+    currentPeriodOrdinal: PropTypes.string,
+    currentPeriodTimeRemaining: PropTypes.string,
     codedGameState: PropTypes.number.isRequired,
     seriesStatusShort: PropTypes.string.isRequired,
     gameLabel: PropTypes.string.isRequired,
     gameDate: PropTypes.string.isRequired,
+  };
+
+  ScoreCard.defaultProps = {
+    currentPeriodOrdinal: '',
+    currentPeriodTimeRemaining: '',
   };
 
   const {
