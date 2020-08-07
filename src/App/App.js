@@ -5,10 +5,10 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Teams from '../Teams/Teams';
-import Header from '../Header/Header';
-import Home from '../Home/Home';
-import Scores from '../Scores/Scores';
+import Teams from '../components/Teams/Teams';
+import Header from '../components/Header/Header';
+import Home from '../components/Home/Home';
+import Scores from '../components/Scores/Scores';
 
 function App() {
   return (

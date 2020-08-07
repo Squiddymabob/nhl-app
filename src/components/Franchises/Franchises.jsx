@@ -1,5 +1,5 @@
 import React from 'react';
-import { getFranchises } from '../api/api';
+import { getFranchises } from '../../api/api';
 // import { getActiveFranchises, getActiveTeams } from '../franchiseUtils';
 
 class Franchises extends React.Component {

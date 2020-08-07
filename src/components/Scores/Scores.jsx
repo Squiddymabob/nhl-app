@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment-timezone';
-import { getGames } from '../api/api';
+import { getGames } from '../../api/api';
 import ScoreCard from './ScoreCard';
 
 class Teams extends React.Component {

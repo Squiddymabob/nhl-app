@@ -1,6 +1,6 @@
 import React from 'react';
 import './Teams.css';
-import { getCurrentTeams } from '../api/api';
+import { getCurrentTeams } from '../../api/api';
 
 class Teams extends React.Component {
   constructor(props) {
