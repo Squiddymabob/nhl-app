@@ -30,7 +30,7 @@ class Teams extends React.Component {
     return (
       <div className="container">
         <div className="row mt-2 mb-2">
-          {/* For each date, then show the games on that date */}
+          {/* For each date, show the games on that date */}
           {dates.map((date) => (
             <div className="col-4 mt-2 mb-2">
               <div className="card text-black bg-light p-2">

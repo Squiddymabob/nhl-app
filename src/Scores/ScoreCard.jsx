@@ -16,7 +16,6 @@ const ScoreCard = (props) => {
     seriesStatusShort: PropTypes.string.isRequired,
     gameLabel: PropTypes.string.isRequired,
     gameDate: PropTypes.string.isRequired,
-    // broadcasts: PropTypes.string.isRequired,
   };
 
   const {
@@ -32,7 +31,6 @@ const ScoreCard = (props) => {
     seriesStatusShort,
     gameLabel,
     gameDate,
-    // broadcasts,
   } = props;
 
   function awayWins(away, home) {
@@ -96,11 +94,6 @@ const ScoreCard = (props) => {
                   {moment.tz(gameDate, 'America/New_York').format('HH:mm')}
                   {' '}
                   ET
-                </div>
-              </div>
-              <div className="row">
-                <div className="col center-block text-center">
-                  {/* {broadcasts} */}
                 </div>
               </div>
             </div>
