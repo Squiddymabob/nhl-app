@@ -13,7 +13,7 @@ class Teams extends React.Component {
 
   componentDidMount() {
     const startDate = '2020-08-05';
-    const endDate = '2020-08-07';
+    const endDate = '2020-08-09';
     getGames(startDate, endDate).then((response) => {
       const dates = response.dates || [];
       this.setState({ isLoaded: true });
@@ -34,18 +34,21 @@ class Teams extends React.Component {
             <div className="col-4 p-2">
               {date.date}
               {date.games.map((game) => (
-                <div className="card m-4 text-black bg-secondary">
-                  <ScoreCard
-                    awayAbbr={game.teams.home.team.abbreviation}
-                    homeAbbr={game.teams.away.team.abbreviation}
-                    awayId={game.teams.away.team.id}
-                    homeId={game.teams.home.team.id}
-                    awayScore={game.teams.away.score}
-                    homeScore={game.teams.home.score}
-                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
-                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
-                  />
-                </div>
+                <ScoreCard
+                  awayAbbr={game.teams.away.team.abbreviation}
+                  homeAbbr={game.teams.home.team.abbreviation}
+                  awayId={game.teams.away.team.id}
+                  homeId={game.teams.home.team.id}
+                  awayScore={game.teams.away.score}
+                  homeScore={game.teams.home.score}
+                  currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
+                  currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
+                  codedGameState={Number(game.status.codedGameState)}
+                  seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
+                  gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
+                  gameDate={game.gameDate}
+                  broadcasts={game.broadcasts ? game.broadcasts.reduce((a, b) => `${a + b.name}, `, '') : ''}
+                />
               ))}
             </div>
           ))}
