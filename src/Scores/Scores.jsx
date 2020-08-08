@@ -16,7 +16,7 @@ class Teams extends React.Component {
     this.fetchGames();
     this.setState({ isLoaded: true });
     // Refresh score data
-    this.timer = setInterval(() => this.fetchGames(), 5000);
+    this.timer = setInterval(() => this.fetchGames(), 10000);
   }
 
   componentWillUnmount() {

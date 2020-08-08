@@ -216,12 +216,12 @@ const ScoreCard = (props) => {
                       alt={awayAbbr}
                     />
                   </div>
-                  <div className="col col-5 h5 mb-0">
+                  <div className="col col-6 h5 mb-0">
                     {awayAbbr}
                     {' '}
-                    {powerPlayAway ? 'PP' : ''}
+                    <span className="power-play">{powerPlayAway ? 'PP' : ''}</span>
                   </div>
-                  <div className="col col-3 h5 mb-0">
+                  <div className="col col-2 h5 mb-0">
                     {awayScore}
                   </div>
                 </div>
@@ -235,12 +235,12 @@ const ScoreCard = (props) => {
                       alt={homeAbbr}
                     />
                   </div>
-                  <div className="col col-5 h5 mb-0">
+                  <div className="col col-6 h5 mb-0">
                     {homeAbbr}
                     {' '}
-                    <span className="text-danger font-weight-medium h6">{powerPlayHome ? 'PP' : ''}</span>
+                    <span className="power-play">{powerPlayHome ? 'PP' : ''}</span>
                   </div>
-                  <div className="col col-3 h5 mb-0">
+                  <div className="col col-2 h5 mb-0">
                     {homeScore}
                   </div>
                 </div>
