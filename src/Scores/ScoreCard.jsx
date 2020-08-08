@@ -184,6 +184,13 @@ const ScoreCard = (props) => {
     if (codedGameState < 7) {
       return (
         <div className="card text-black bg-secondary text-center">
+
+          {/* Status Information */}
+          <div className="card-header p-0">
+            <span className={`dot mr-2 ${powerPlay ? 'dot-powerplay' : 'dot-progress'}`} />
+            {powerPlay ? 'In Progress - Power Play' : 'In Progress'}
+          </div>
+
           <div className="container p-2">
 
             {/* Series Information */}
@@ -249,7 +256,9 @@ const ScoreCard = (props) => {
                 </div>
 
                 <div className="row">
-                  <div className={`col center-block text-center h6 mb-0 mt-1 ${powerPlay ? 'text-danger' : 'text-warning'}`}>
+                  <div
+                    className={`col center-block text-center h6 mb-0 mt-1 ${powerPlay ? 'text-danger' : 'text-warning'}`}
+                  >
                     {currentPeriodTimeRemaining}
                   </div>
                 </div>
@@ -257,11 +266,6 @@ const ScoreCard = (props) => {
 
             </div>
 
-          </div>
-
-          <div className="card-footer p-0">
-            <span className={`dot mr-2 ${powerPlay ? 'dot-powerplay' : 'dot-progress'}`} />
-            {powerPlay ? 'In Progress - Power Play' : 'In Progress'}
           </div>
         </div>
       );

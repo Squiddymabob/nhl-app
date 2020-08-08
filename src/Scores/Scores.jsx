@@ -55,23 +55,25 @@ class Teams extends React.Component {
 
               {date.games.map((game) => (
                 // Show a score card component for each game on a date
-                <ScoreCard
-                  awayAbbr={game.teams.away.team.abbreviation}
-                  homeAbbr={game.teams.home.team.abbreviation}
-                  awayId={game.teams.away.team.id}
-                  homeId={game.teams.home.team.id}
-                  awayScore={game.teams.away.score}
-                  homeScore={game.teams.home.score}
-                  currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
-                  currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
-                  codedGameState={Number(game.status.codedGameState)}
-                  seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
-                  gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
-                  gameDate={game.gameDate}
-                  powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
-                  powerPlayAway={game.linescore.teams.away.powerPlay}
-                  powerPlayHome={game.linescore.teams.home.powerPlay}
-                />
+                <div className="mt-3 mb-3">
+                  <ScoreCard
+                    awayAbbr={game.teams.away.team.abbreviation}
+                    homeAbbr={game.teams.home.team.abbreviation}
+                    awayId={game.teams.away.team.id}
+                    homeId={game.teams.home.team.id}
+                    awayScore={game.teams.away.score}
+                    homeScore={game.teams.home.score}
+                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
+                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
+                    codedGameState={Number(game.status.codedGameState)}
+                    seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
+                    gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
+                    gameDate={game.gameDate}
+                    powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
+                    powerPlayAway={game.linescore.teams.away.powerPlay}
+                    powerPlayHome={game.linescore.teams.home.powerPlay}
+                  />
+                </div>
               ))}
             </div>
           ))}
