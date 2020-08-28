@@ -1,8 +1,8 @@
-# React App Using NHL API
+# :ice_hockey: React App Using NHL API
 
-:ice_hockey: A React application that presents various information about the NHL via official, yet undocumented, APIs.
+A React application that presents various information about the NHL via official, yet undocumented, APIs.
 
-## Goals :goal_net:
+## :goal_net: Goals
 
 - Tackle challenge of using undocumented a APIs.
     - Some community documentation available but none officially for any of the APIs used.
@@ -16,7 +16,7 @@
 - Improve UX skills by making sure there is clear flow between components.
 - Have fun with available NHL data from the APIs!
 
-## Technologies Used :computer:
+## :computer: Technologies Used
 
 - React
     - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -27,7 +27,7 @@
 - SASS
 - Axios
 
-## APIs Used :desktop_computer:
+## :desktop_computer: APIs Used
 
 - NHL Records API
     - https://records.nhl.com/site/api/
@@ -36,7 +36,7 @@
 - NHL Team Logos
     - https://www-league.nhlstatic.com/images/logos/
 
-## Available Scripts :page_facing_up:
+## :page_facing_up: Running the Project
 
 In the project directory, you can run:
 
@@ -56,7 +56,7 @@ Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The app is now deployable.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
