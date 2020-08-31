@@ -57,19 +57,19 @@ $theme-colors: (
 }
 
 .state-scheduled {
-  border-right: 4px solid $gray-800;
-}
-
-.state-scheduled-tbd {
-  border-right: 4px solid $gray-800;
+  border-right: 4px solid $gray-400;
 }
 
 .state-inprogress {
-  border-right: 4px solid $orange;
+  border-right: 4px solid $warning;
 }
 
 .state-final {
-  border-right: 4px solid $gray-400;
+  border-right: 4px solid $gray-600;
+}
+
+.state-powerplay {
+  border-right: 4px solid $danger;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

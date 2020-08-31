@@ -47,14 +47,12 @@ const ScoreCard = (props) => {
     powerPlayHome,
   } = props;
 
-  function gameStateClass(gameState) {
-    if (gameState === 1) {
+  function gameStateClass() {
+    if (codedGameState === 1 || codedGameState === 8) {
       return 'state-scheduled';
-    } if (gameState === 8) {
-      return 'state-scheduled-tbd';
-    } if (gameState > 1) {
-      if (gameState < 7) {
-        return 'state-inprogress';
+    } if (codedGameState > 1) {
+      if (codedGameState < 7) {
+        return powerPlay ? 'state-powerplay' : 'state-inprogress';
       }
       return 'state-final';
     }
@@ -62,21 +60,39 @@ const ScoreCard = (props) => {
   }
 
   function losingTeamClass(scoreA, scoreB) {
-    if (gameStateClass(codedGameState) === 'state-final') {
+    if (gameStateClass() === 'state-final') {
       return scoreA < scoreB ? 'losing-team' : '';
     }
     return '';
+  }
+
+  function gameTimeClass() {
+    if (gameStateClass() === 'state-inprogress' || gameStateClass() === 'state-powerplay') {
+      return powerPlay ? 'text-danger' : 'text-warning';
+    }
+    return 'text-black';
   }
 
   // Scheduled
   return (
     <div className="card text-black bg-secondary p-2 text-center">
       <div className="container">
+
+        {/* Series Information */}
+        <div className="row row-cols-2 align-items-center">
+          <div className="col col-6">
+            {seriesStatusShort}
+          </div>
+          <div className="col col-6">
+            {gameLabel}
+          </div>
+        </div>
+
         <div className="row row-cols-2 align-items-center">
 
-          <div className={`col col-6 ${gameStateClass(codedGameState)}`}>
+          <div className={`col col-6 ${gameStateClass()}`}>
 
-            {/* Team information */}
+            {/* Team information and scores */}
             <div className="row row-cols-3 align-items-center">
               <div className="col col-4">
                 <div className="row">
@@ -116,11 +132,11 @@ const ScoreCard = (props) => {
 
           <div className="col col-6">
 
-            {/* Score/schedule information */}
-            <div className="row row-cols-3 align-items-center">
-              <div className="col col-4"> 1 </div>
-              <div className="col col-4"> 2 </div>
-              <div className="col col-4"> 3 </div>
+            {/* Schedule and game progress information */}
+            <div
+              className={`h6 ${gameTimeClass()}`}
+            >
+              {gameStateClass() === 'state-scheduled' ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET` : currentPeriodTimeRemaining}
             </div>
 
           </div>
