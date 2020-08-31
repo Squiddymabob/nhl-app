@@ -47,305 +47,86 @@ const ScoreCard = (props) => {
     powerPlayHome,
   } = props;
 
-  function awayWins(away, home) {
-    return away > home;
+  function gameStateClass(gameState) {
+    if (gameState === 1) {
+      return 'state-scheduled';
+    } if (gameState === 8) {
+      return 'state-scheduled-tbd';
+    } if (gameState > 1) {
+      if (gameState < 7) {
+        return 'state-inprogress';
+      }
+      return 'state-final';
+    }
+    return '';
+  }
+
+  function losingTeamClass(scoreA, scoreB) {
+    if (gameStateClass(codedGameState) === 'state-final') {
+      return scoreA < scoreB ? 'losing-team' : '';
+    }
+    return '';
   }
 
   // Scheduled
-  if (codedGameState === 1) {
-    return (
-      <div className="card text-black bg-secondary p-2">
-        <div className="container">
-
-          {/* Series Information */}
-          <div className="row row-cols-2 align-items-center">
-            <div className="col col-6">
-              {seriesStatusShort}
-            </div>
-            <div className="col col-6">
-              {gameLabel}
-            </div>
-          </div>
-
-          {/* Team Information */}
-          <div className="row row-cols-2 align-items-center p-2">
-            <div className="col col-6">
-
-              {/* Away Team */}
-              <div className="row row-cols-3 align-items-center pb-2">
-                <div className="col col-4">
-                  <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
-                    className="card-img-top img-fluid"
-                    alt={awayAbbr}
-                  />
-                </div>
-                <div className="col col-5 h5 mb-0">
-                  {awayAbbr}
-                </div>
-              </div>
-
-              {/* Home Team */}
-              <div className="row row-cols-3 align-items-center">
-                <div className="col col-4">
-                  <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
-                    className="card-img-top img-fluid"
-                    alt={homeAbbr}
-                  />
-                </div>
-                <div className="col col-5 h5 mb-0">
-                  {homeAbbr}
-                </div>
-              </div>
-
-            </div>
-
-            {/* Scheduled Information */}
-            <div className="col col-6">
-              <div className="row">
-                <div className="col center-block text-center h6 mb-0">
-                  {moment.tz(gameDate, 'America/New_York').format('HH:mm')}
-                  {' '}
-                  ET
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    );
-  }
-  // Scheduled - TBD
-  if (codedGameState === 8) {
-    return (
-      <div className="card text-black bg-secondary p-2 text-center">
-        <div className="container">
-
-          {/* Series Information */}
-          <div className="row row-cols-2 align-items-center">
-            <div className="col col-6">
-              {seriesStatusShort}
-            </div>
-            <div className="col col-6">
-              {gameLabel}
-            </div>
-          </div>
-
-          {/* Team Information */}
-          <div className="row row-cols-2 align-items-center p-2">
-            <div className="col col-6">
-
-              {/* Away Team */}
-              <div className="row row-cols-3 align-items-center pb-2">
-                <div className="col col-4">
-                  <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
-                    className="card-img-top img-fluid"
-                    alt={awayAbbr}
-                  />
-                </div>
-                <div className="col col-5 h5 mb-0">
-                  {awayAbbr}
-                </div>
-              </div>
-
-              {/* Home Team */}
-              <div className="row row-cols-3 align-items-center">
-                <div className="col col-4">
-                  <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
-                    className="card-img-top img-fluid"
-                    alt={homeAbbr}
-                  />
-                </div>
-                <div className="col col-5 h5 mb-0">
-                  {homeAbbr}
-                </div>
-              </div>
-
-            </div>
-
-            <div className="col col-6 h6 mb-0">
-              TBD
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    );
-  }
-  // Final or in progress
-  if (codedGameState > 1) {
-    // In progress
-    if (codedGameState < 7) {
-      return (
-        <div className="card text-black bg-secondary text-center">
-
-          {/* Status Information */}
-          <div className="card-header p-0">
-            <span className={`dot mr-2 ${powerPlay ? 'dot-powerplay' : 'dot-progress'}`} />
-            {powerPlay ? 'In Progress - Power Play' : 'In Progress'}
-          </div>
-
-          <div className="container p-2">
-
-            {/* Series Information */}
-            <div className="row row-cols-2 align-items-center">
-              <div className="col col-6">
-                {seriesStatusShort}
-              </div>
-              <div className="col col-6">
-                {gameLabel}
-              </div>
-            </div>
-
-            {/* Team Information */}
-            <div className="row row-cols-2 align-items-center p-2">
-              <div className="col col-6">
-
-                {/* Away Team */}
-                <div className="row row-cols-3 align-items-center pb-2">
-                  <div className="col col-4">
-                    <img
-                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
-                      className="card-img-top img-fluid"
-                      alt={awayAbbr}
-                    />
-                  </div>
-                  <div className="col col-6 h5 mb-0">
-                    {awayAbbr}
-                    {' '}
-                    <span className="power-play">{powerPlayAway ? 'PP' : ''}</span>
-                  </div>
-                  <div className="col col-2 h5 mb-0">
-                    {awayScore}
-                  </div>
-                </div>
-
-                {/* Home Team */}
-                <div className="row row-cols-3 align-items-center">
-                  <div className="col col-4">
-                    <img
-                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
-                      className="card-img-top img-fluid"
-                      alt={homeAbbr}
-                    />
-                  </div>
-                  <div className="col col-6 h5 mb-0">
-                    {homeAbbr}
-                    {' '}
-                    <span className="power-play">{powerPlayHome ? 'PP' : ''}</span>
-                  </div>
-                  <div className="col col-2 h5 mb-0">
-                    {homeScore}
-                  </div>
-                </div>
-
-              </div>
-
-              {/* Current In Progress Information */}
-              <div className="col col-6">
-                <div className="row">
-                  <div className="col center-block text-center h6 mb-1">
-                    {currentPeriodOrdinal}
-                  </div>
-                </div>
-
-                <div className="row">
-                  <div
-                    className={`col center-block text-center h6 mb-0 mt-1 ${powerPlay ? 'text-danger' : 'text-warning'}`}
-                  >
-                    {currentPeriodTimeRemaining}
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      );
-    }
-    // Final
-    return (
-      <div className="card text-black bg-secondary p-2 text-center">
-        <div className="container">
-
-          {/* Series Information */}
-          <div className="row row-cols-2 align-items-center">
-            <div className="col col-6">
-              {seriesStatusShort}
-            </div>
-            <div className="col col-6">
-              {gameLabel}
-            </div>
-          </div>
-
-          {/* Team Information */}
-          <div className="row row-cols-2 align-items-center p-2">
-            <div className="col col-6">
-
-              {/* Away Team */}
-              <div className="row row-cols-3 align-items-center pb-2">
-                <div className="col col-4">
-                  <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
-                    className="card-img-top img-fluid"
-                    alt={awayAbbr}
-                  />
-                </div>
-                <div className="col col-5 h5 mb-0">
-                  <span className={awayWins(awayScore, homeScore) ? '' : 'losing-team'}>
-                    {awayAbbr}
-                  </span>
-                </div>
-                <div className="col col-3 h5 mb-0">
-                  <span className={awayWins(awayScore, homeScore) ? '' : 'losing-team'}>
-                    {awayScore}
-                  </span>
-                </div>
-              </div>
-
-              {/* Home Team */}
-              <div className="row row-cols-3 align-items-center">
-                <div className="col col-4">
-                  <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
-                    className="card-img-top img-fluid"
-                    alt={homeAbbr}
-                  />
-                </div>
-                <div className="col col-5 h5 mb-0">
-                  <span className={awayWins(awayScore, homeScore) ? 'losing-team' : ''}>
-                    {homeAbbr}
-                  </span>
-                </div>
-                <div className="col col-3 h5 mb-0">
-                  <span className={awayWins(awayScore, homeScore) ? 'losing-team' : ''}>
-                    {homeScore}
-                  </span>
-                </div>
-              </div>
-
-            </div>
-
-            <div className="col col-6 h6 mb-0">
-              FINAL
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    );
-  }
-  // If no information is available, display this instead
   return (
-    <div>Error</div>
+    <div className="card text-black bg-secondary p-2 text-center">
+      <div className="container">
+        <div className="row row-cols-2 align-items-center">
+
+          <div className={`col col-6 ${gameStateClass(codedGameState)}`}>
+
+            {/* Team information */}
+            <div className="row row-cols-3 align-items-center">
+              <div className="col col-4">
+                <div className="row">
+                  <img
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
+                    className="card-img-top img-fluid"
+                    alt={awayAbbr}
+                  />
+                </div>
+                <div className="row">
+                  <img
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
+                    className="card-img-top img-fluid"
+                    alt={homeAbbr}
+                  />
+                </div>
+              </div>
+              <div className="col col-4 h5">
+                <div className={`row ${losingTeamClass(awayScore, homeScore)}`}>
+                  {awayAbbr}
+                </div>
+                <div className={`row ${losingTeamClass(homeScore, awayScore)}`}>
+                  {homeAbbr}
+                </div>
+              </div>
+              <div className="col col-4 h5">
+                <div className={`row ${losingTeamClass(awayScore, homeScore)}`}>
+                  {awayScore}
+                </div>
+                <div className={`row ${losingTeamClass(homeScore, awayScore)}`}>
+                  {homeScore}
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="col col-6">
+
+            {/* Score/schedule information */}
+            <div className="row row-cols-3 align-items-center">
+              <div className="col col-4"> 1 </div>
+              <div className="col col-4"> 2 </div>
+              <div className="col col-4"> 3 </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

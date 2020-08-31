@@ -56,4 +56,20 @@ $theme-colors: (
   color: $danger;
 }
 
+.state-scheduled {
+  border-right: 4px solid $gray-800;
+}
+
+.state-scheduled-tbd {
+  border-right: 4px solid $gray-800;
+}
+
+.state-inprogress {
+  border-right: 4px solid $orange;
+}
+
+.state-final {
+  border-right: 4px solid $gray-400;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
