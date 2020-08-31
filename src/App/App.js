@@ -19,7 +19,7 @@ function App(props) {
 
   const { darkThemeEnabled } = props;
   return (
-    <div className={`App ${darkThemeEnabled ? 'bg-dark' : 'bg-light'}`}>
+    <div className={`App ${darkThemeEnabled ? 'bg-dark' : 'bg-light'} main-content`}>
       <Router>
         <Header />
         <Switch>
