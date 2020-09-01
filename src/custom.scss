@@ -4,13 +4,13 @@
 
 $primary: $gray-900;
 $secondary: $gray-200;
+$tertiary: $blue;
 $success: $green;
 $info: $cyan-600;
 $warning: $yellow-500;
 $danger: $red;
 $light: $white;
 $dark: $black;
-$primary-button: $blue;
 $in-progress: $cyan-100;
 
 // Scores and game status
@@ -25,13 +25,13 @@ $scheduled: $gray-400;
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "tertiary":   $tertiary,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
-  "primary-button": $primary-button,
   "score-card-bg-light": $score-card-bg-light,
   "score-card-bg-dark": $score-card-bg-dark,
 );

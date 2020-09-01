@@ -51,7 +51,7 @@ class Scores extends React.Component {
           {/* For each date, show the games on that date */}
           {dates.map((date) => (
             <div className="col-4 mt-2 mb-2 score-card-container">
-              <div className="card text-white bg-info font-weight-bold p-2">
+              <div className="card text-white bg-tertiary font-weight-bold p-2">
                 {moment.tz(date.date, 'America/New_York').format('D MMM')}
               </div>
 

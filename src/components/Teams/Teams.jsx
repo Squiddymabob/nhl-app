@@ -41,7 +41,7 @@ class Teams extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title">{team.name}</h5>
                   <p className="card-text">{team.abbreviation}</p>
-                  <a href="/" className="btn btn-primary-button">Go</a>
+                  <a href="/" className="btn btn-tertiary">Go</a>
                 </div>
               </div>
             </div>
