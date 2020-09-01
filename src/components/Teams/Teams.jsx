@@ -33,7 +33,8 @@ class Teams extends React.Component {
             <div className="col-xs-12 col-md-3 p-2">
               <div className={`card p-4 ${darkThemeEnabled ? 'text-white bg-primary' : 'text-black bg-secondary'}`}>
                 <img
-                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${team.id}.svg`}
+                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                    ? 'dark' : 'light'}/${team.id}.svg`}
                   className="card-img-top img-fluid"
                   alt="..."
                 />
