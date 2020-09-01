@@ -44,7 +44,7 @@ class Teams extends React.Component {
       return <div>Loading...</div>;
     }
     return (
-      <div className="container">
+      <div className="container mt-4">
         <div className="row mt-2 mb-2">
           {/* For each date, show the games on that date */}
           {dates.map((date) => (
