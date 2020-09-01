@@ -108,7 +108,7 @@ const ScoreCard = (props) => {
 
   // Scheduled
   return (
-    <div className="card text-black bg-secondary p-2 text-center">
+    <div className="card text-black bg-score-card-bg p-2 text-center">
       <div className="container">
 
         {/* Series Information */}

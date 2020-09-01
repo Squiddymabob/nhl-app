@@ -13,6 +13,14 @@ $dark: $black;
 $primary-button: $blue;
 $in-progress: $cyan-100;
 
+// Scores and game status
+$score-card-bg: $gray-100;
+$in-progress: $green;
+$power-play: $red;
+$final: $gray-600;
+$scheduled: $gray-400;
+
+
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
@@ -23,7 +31,7 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "primary-button": $primary-button,
-  "in-progress": $in-progress,
+  "score-card-bg": $score-card-bg,
 );
 
 .navbar {
@@ -38,26 +46,26 @@ $theme-colors: (
 .power-play {
   font-weight: normal;
   font-style: italic;
-  color: $danger;
+  color: $power-play;
 }
 
 .state-scheduled {
-  border-right: 4px solid $gray-400;
+  border-right: 4px solid $scheduled;
 }
 
 .state-inprogress {
-  border-right: 4px solid $success;
+  border-right: 4px solid $in-progress;
 }
 
 .state-final {
-  border-right: 4px solid $gray-600;
+  border-right: 4px solid $final;
 }
 
 .state-powerplay {
-  border-right: 4px solid $danger;
+  border-right: 4px solid $power-play;
 }
 
-.score-card {
+.score-card-container {
   width: 400px !important;
 }
 
