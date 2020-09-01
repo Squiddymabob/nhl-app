@@ -35,21 +35,6 @@ $theme-colors: (
   color: $gray-500;
 }
 
-.dot {
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.dot-progress {
-  background-color: $warning;
-}
-
-.dot-powerplay {
-  background-color: $danger;
-}
-
 .power-play {
   font-size: 0.8rem;
   font-style: italic;

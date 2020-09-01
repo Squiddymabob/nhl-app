@@ -117,7 +117,7 @@ const ScoreCard = (props) => {
                 </div>
                 <div className={`row ${losingTeamClass(homeScore, awayScore)} pt-3`}>
                   {homeAbbr}
-                  <span className="power-play">{powerPlayAway ? 'PP' : ''}</span>
+                  <span className="power-play">{powerPlayHome ? 'PP' : ''}</span>
                 </div>
               </div>
               <div className="col col-2 h5">
@@ -136,7 +136,9 @@ const ScoreCard = (props) => {
             <div
               className={`h6 ${gameTimeClass()}`}
             >
-              {gameStateClass() === 'state-scheduled' ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET` : `${currentPeriodOrdinal} - ${currentPeriodTimeRemaining}`}
+              {gameStateClass() === 'state-scheduled'
+                ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET`
+                : `${currentPeriodOrdinal} - ${currentPeriodTimeRemaining}`}
             </div>
           </div>
 
