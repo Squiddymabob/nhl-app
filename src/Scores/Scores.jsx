@@ -55,7 +55,7 @@ class Teams extends React.Component {
 
               {date.games.map((game) => (
                 // Show a score card component for each game on a date
-                <div className="mt-3 mb-3">
+                <div className="mt-2 mb-2">
                   <ScoreCard
                     awayAbbr={game.teams.away.team.abbreviation}
                     homeAbbr={game.teams.home.team.abbreviation}
