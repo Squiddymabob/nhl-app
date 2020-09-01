@@ -75,6 +75,8 @@ $theme-colors: (
 
 .date-card-container {
   height: 114px !important;
+  width: 100px !important;
+  padding: 0% !important;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
