@@ -47,40 +47,40 @@ class Scores extends React.Component {
     }
     return (
       <div className="container mt-4">
-        <div className="row mt-2 mb-2">
-          {/* For each date, show the games on that date */}
-          {dates.map((date) => (
-            <div className="col-4 mt-2 mb-2 score-card-container">
-              <div className="card text-white bg-tertiary font-weight-bold p-2">
-                {moment.tz(date.date, 'America/New_York').format('D MMM')}
-              </div>
+        {/* For each date, show the games on that date */}
+        {dates.map((date) => (
+          <div className="row align-items-start mt-4">
 
-              {date.games.map((game) => (
-                // Show a score card component for each game on a date
-                <div className="mt-2 mb-2">
-                  <ScoreCard
-                    awayAbbr={game.teams.away.team.abbreviation}
-                    homeAbbr={game.teams.home.team.abbreviation}
-                    awayId={game.teams.away.team.id}
-                    homeId={game.teams.home.team.id}
-                    awayScore={game.teams.away.score}
-                    homeScore={game.teams.home.score}
-                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal || '1st'}
-                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining || '20:00'}
-                    codedGameState={Number(game.status.codedGameState)}
-                    seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
-                    gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
-                    gameDate={game.gameDate}
-                    powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
-                    powerPlayAway={game.linescore.teams.away.powerPlay}
-                    powerPlayHome={game.linescore.teams.home.powerPlay}
-                    darkThemeEnabled={darkThemeEnabled}
-                  />
-                </div>
-              ))}
+            <div className="date-card-container col-1 card text-white bg-tertiary font-weight-bold">
+              {moment.tz(date.date, 'America/New_York').format('D MMM')}
             </div>
-          ))}
-        </div>
+
+            {date.games.map((game) => (
+              // Show a score card component for each game on a date
+              <div className="col-4 score-card-container">
+                {' '}
+                <ScoreCard
+                  awayAbbr={game.teams.away.team.abbreviation}
+                  homeAbbr={game.teams.home.team.abbreviation}
+                  awayId={game.teams.away.team.id}
+                  homeId={game.teams.home.team.id}
+                  awayScore={game.teams.away.score}
+                  homeScore={game.teams.home.score}
+                  currentPeriodOrdinal={game.linescore.currentPeriodOrdinal || '1st'}
+                  currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining || '20:00'}
+                  codedGameState={Number(game.status.codedGameState)}
+                  seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
+                  gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
+                  gameDate={game.gameDate}
+                  powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
+                  powerPlayAway={game.linescore.teams.away.powerPlay}
+                  powerPlayHome={game.linescore.teams.home.powerPlay}
+                  darkThemeEnabled={darkThemeEnabled}
+                />
+              </div>
+            ))}
+          </div>
+        ))}
       </div>
 
     );

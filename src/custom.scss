@@ -69,6 +69,12 @@ $theme-colors: (
 
 .score-card-container {
   width: 400px !important;
+  height: 114px !important;
+  padding: 0% !important;
+}
+
+.date-card-container {
+  height: 114px !important;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
