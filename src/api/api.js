@@ -1,4 +1,5 @@
 const axios = require('axios');
+// const localScores = require('./responsesBackup/statsapi/scores.json');
 
 // Any headers required for the request
 const headers = {};
@@ -79,3 +80,10 @@ export function getGames(startDate, endDate) {
     console.error(err);
   });
 }
+// export function getGames(startDate, endDate) {
+//   const promise = new Promise(((resolve) => {
+//     resolve(localScores);
+//   }));
+//   console.log(startDate, endDate);
+//   return promise;
+// }

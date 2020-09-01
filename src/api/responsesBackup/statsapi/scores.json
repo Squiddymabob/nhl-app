@@ -1,8 +1,8 @@
 {
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2020. All Rights Reserved.",
-  "totalItems" : 15,
+  "totalItems" : 14,
   "totalEvents" : 0,
-  "totalGames" : 15,
+  "totalGames" : 14,
   "totalMatches" : 0,
   "wait" : 10,
   "dates" : [ {
@@ -224,7 +224,7 @@
         },
         "powerPlayInfo" : {
           "situationTimeRemaining" : 0,
-          "situationTimeElapsed" : 82,
+          "situationTimeElapsed" : 0,
           "inSituation" : false
         }
       },
@@ -3518,11 +3518,11 @@
     "totalGames" : 6,
     "totalMatches" : 0,
     "games" : [ {
-      "gamePk" : 2019030044,
-      "link" : "/api/v1/game/2019030044/feed/live",
+      "gamePk" : 2019030064,
+      "link" : "/api/v1/game/2019030064/feed/live",
       "gameType" : "P",
       "season" : "20192020",
-      "gameDate" : "2020-08-07T16:00:00Z",
+      "gameDate" : "2020-08-07T22:45:00Z",
       "status" : {
         "abstractGameState" : "Live",
         "codedGameState" : "3",
@@ -3533,964 +3533,12 @@
       "teams" : {
         "away" : {
           "leagueRecord" : {
-            "wins" : 2,
-            "losses" : 1,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 2,
-            "name" : "New York Islanders",
-            "link" : "/api/v1/teams/2",
-            "venue" : {
-              "id" : 5026,
-              "name" : "Barclays Center",
-              "link" : "/api/v1/venues/5026",
-              "city" : "Brooklyn",
-              "timeZone" : {
-                "id" : "America/New_York",
-                "offset" : -4,
-                "tz" : "EDT"
-              }
-            },
-            "abbreviation" : "NYI",
-            "teamName" : "Islanders",
-            "locationName" : "New York",
-            "firstYearOfPlay" : "1972",
-            "division" : {
-              "id" : 18,
-              "name" : "Metropolitan",
-              "nameShort" : "Metro",
-              "link" : "/api/v1/divisions/18",
-              "abbreviation" : "M"
-            },
-            "conference" : {
-              "id" : 6,
-              "name" : "Eastern",
-              "link" : "/api/v1/conferences/6"
-            },
-            "franchise" : {
-              "franchiseId" : 22,
-              "teamName" : "Islanders",
-              "link" : "/api/v1/franchises/22"
-            },
-            "shortName" : "NY Islanders",
-            "officialSiteUrl" : "http://www.newyorkislanders.com/",
-            "franchiseId" : 22,
-            "active" : true
-          }
-        },
-        "home" : {
-          "leagueRecord" : {
             "wins" : 1,
             "losses" : 2,
             "ot" : 0,
             "type" : "league"
           },
-          "score" : 0,
-          "team" : {
-            "id" : 13,
-            "name" : "Florida Panthers",
-            "link" : "/api/v1/teams/13",
-            "venue" : {
-              "id" : 5027,
-              "name" : "BB&T Center",
-              "link" : "/api/v1/venues/5027",
-              "city" : "Sunrise",
-              "timeZone" : {
-                "id" : "America/New_York",
-                "offset" : -4,
-                "tz" : "EDT"
-              }
-            },
-            "abbreviation" : "FLA",
-            "teamName" : "Panthers",
-            "locationName" : "Florida",
-            "firstYearOfPlay" : "1993",
-            "division" : {
-              "id" : 17,
-              "name" : "Atlantic",
-              "nameShort" : "ATL",
-              "link" : "/api/v1/divisions/17",
-              "abbreviation" : "A"
-            },
-            "conference" : {
-              "id" : 6,
-              "name" : "Eastern",
-              "link" : "/api/v1/conferences/6"
-            },
-            "franchise" : {
-              "franchiseId" : 33,
-              "teamName" : "Panthers",
-              "link" : "/api/v1/franchises/33"
-            },
-            "shortName" : "Florida",
-            "officialSiteUrl" : "http://www.floridapanthers.com/",
-            "franchiseId" : 33,
-            "active" : true
-          }
-        }
-      },
-      "linescore" : {
-        "currentPeriod" : 1,
-        "currentPeriodOrdinal" : "1st",
-        "currentPeriodTimeRemaining" : "17:00",
-        "periods" : [ {
-          "periodType" : "REGULAR",
-          "startTime" : "2020-08-07T16:09:41Z",
-          "num" : 1,
-          "ordinalNum" : "1st",
-          "home" : {
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "rinkSide" : "right"
-          },
-          "away" : {
-            "goals" : 0,
-            "shotsOnGoal" : 1,
-            "rinkSide" : "left"
-          }
-        } ],
-        "shootoutInfo" : {
-          "away" : {
-            "scores" : 0,
-            "attempts" : 0
-          },
-          "home" : {
-            "scores" : 0,
-            "attempts" : 0
-          }
-        },
-        "teams" : {
-          "home" : {
-            "team" : {
-              "id" : 13,
-              "name" : "Florida Panthers",
-              "link" : "/api/v1/teams/13"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 5,
-            "powerPlay" : false
-          },
-          "away" : {
-            "team" : {
-              "id" : 2,
-              "name" : "New York Islanders",
-              "link" : "/api/v1/teams/2"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 1,
-            "goaliePulled" : false,
-            "numSkaters" : 5,
-            "powerPlay" : false
-          }
-        },
-        "powerPlayStrength" : "Even",
-        "hasShootout" : false,
-        "intermissionInfo" : {
-          "intermissionTimeRemaining" : 0,
-          "intermissionTimeElapsed" : 0,
-          "inIntermission" : false
-        },
-        "powerPlayInfo" : {
-          "situationTimeRemaining" : 1020,
-          "situationTimeElapsed" : 180,
-          "inSituation" : false
-        }
-      },
-      "venue" : {
-        "name" : "Scotiabank Arena",
-        "link" : "/api/v1/venues/null"
-      },
-      "broadcasts" : [ {
-        "id" : 241,
-        "name" : "NBCSN",
-        "type" : "national",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 337,
-        "name" : "NHL.TV",
-        "type" : "national",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 281,
-        "name" : "TVAS",
-        "type" : "national",
-        "site" : "nhlCA",
-        "language" : "fr"
-      }, {
-        "id" : 282,
-        "name" : "SN",
-        "type" : "national",
-        "site" : "nhlCA",
-        "language" : "en"
-      }, {
-        "id" : 12,
-        "name" : "FS-F",
-        "type" : "home",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 299,
-        "name" : "MSG+",
-        "type" : "away",
-        "site" : "nhl",
-        "language" : "en"
-      } ],
-      "radioBroadcasts" : [ {
-        "name" : "WQAM",
-        "type" : "home"
-      }, {
-        "name" : "88.7FM WRHU",
-        "type" : "away"
-      } ],
-      "content" : {
-        "link" : "/api/v1/game/2019030044/content",
-        "editorial" : { },
-        "media" : {
-          "epg" : [ {
-            "title" : "NHLTV",
-            "platform" : "web",
-            "items" : [ {
-              "guid" : "3a7178a1-5ddb-4a08-8c5f-a139e76520b9",
-              "mediaState" : "MEDIA_ON",
-              "mediaPlaybackId" : "2000011011",
-              "mediaFeedType" : "HOME",
-              "callLetters" : "FS-F",
-              "eventId" : "221-2005539",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "cadf90f2-b627-49d8-9206-ad743a23162e",
-              "mediaState" : "MEDIA_ON",
-              "mediaPlaybackId" : "2000011021",
-              "mediaFeedType" : "AWAY",
-              "callLetters" : "MSG+",
-              "eventId" : "221-2005539",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "4c51e79b-8807-4065-b2bd-099d4edf225d",
-              "mediaState" : "MEDIA_ON",
-              "mediaPlaybackId" : "2000011051",
-              "mediaFeedType" : "FRENCH",
-              "callLetters" : "TVAS",
-              "eventId" : "221-2005539",
-              "language" : "fra",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "70e0572b-a9a2-4e30-80fd-ac02858792f1",
-              "mediaState" : "MEDIA_ON",
-              "mediaPlaybackId" : "2000011071",
-              "mediaFeedType" : "COMPOSITE",
-              "callLetters" : "",
-              "eventId" : "221-2005539",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "Multi-Cam 1",
-              "gamePlus" : false
-            } ]
-          }, {
-            "title" : "Audio",
-            "items" : [ {
-              "mediaState" : "MEDIA_ON",
-              "mediaPlaybackId" : "2000011031",
-              "mediaFeedType" : "HOME",
-              "callLetters" : "WQAM",
-              "eventId" : "221-2005539",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "mediaState" : "MEDIA_ON",
-              "mediaPlaybackId" : "2000011041",
-              "mediaFeedType" : "AWAY",
-              "callLetters" : "WRHU",
-              "eventId" : "221-2005539",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            } ]
-          }, {
-            "title" : "Extended Highlights",
-            "topicList" : "317755056",
-            "items" : [ ]
-          }, {
-            "title" : "Recap",
-            "topicList" : "317755056",
-            "items" : [ ]
-          }, {
-            "title" : "Power Play",
-            "items" : [ ]
-          } ]
-        },
-        "highlights" : { }
-      },
-      "seriesSummary" : {
-        "gamePk" : 2019030044,
-        "gameNumber" : 4,
-        "gameLabel" : "Game 4",
-        "necessary" : true,
-        "gameCode" : 44,
-        "gameTime" : "2020-08-07T16:00:00Z",
-        "seriesStatus" : "Islanders lead 2-1",
-        "seriesStatusShort" : "NYI leads 2-1"
-      },
-      "metadata" : {
-        "isManuallyScored" : false,
-        "isSplitSquad" : false,
-        "description" : "Scotiabank Arena, Toronto"
-      }
-    }, {
-      "gamePk" : 2019030074,
-      "link" : "/api/v1/game/2019030074/feed/live",
-      "gameType" : "P",
-      "season" : "20192020",
-      "gameDate" : "2020-08-07T18:30:00Z",
-      "status" : {
-        "abstractGameState" : "Preview",
-        "codedGameState" : "1",
-        "detailedState" : "Scheduled",
-        "statusCode" : "1",
-        "startTimeTBD" : false
-      },
-      "teams" : {
-        "away" : {
-          "leagueRecord" : {
-            "wins" : 1,
-            "losses" : 2,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 18,
-            "name" : "Nashville Predators",
-            "link" : "/api/v1/teams/18",
-            "venue" : {
-              "id" : 5030,
-              "name" : "Bridgestone Arena",
-              "link" : "/api/v1/venues/5030",
-              "city" : "Nashville",
-              "timeZone" : {
-                "id" : "America/Chicago",
-                "offset" : -5,
-                "tz" : "CDT"
-              }
-            },
-            "abbreviation" : "NSH",
-            "teamName" : "Predators",
-            "locationName" : "Nashville",
-            "firstYearOfPlay" : "1998",
-            "division" : {
-              "id" : 16,
-              "name" : "Central",
-              "nameShort" : "CEN",
-              "link" : "/api/v1/divisions/16",
-              "abbreviation" : "C"
-            },
-            "conference" : {
-              "id" : 5,
-              "name" : "Western",
-              "link" : "/api/v1/conferences/5"
-            },
-            "franchise" : {
-              "franchiseId" : 34,
-              "teamName" : "Predators",
-              "link" : "/api/v1/franchises/34"
-            },
-            "shortName" : "Nashville",
-            "officialSiteUrl" : "http://www.nashvillepredators.com/",
-            "franchiseId" : 34,
-            "active" : true
-          }
-        },
-        "home" : {
-          "leagueRecord" : {
-            "wins" : 2,
-            "losses" : 1,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 53,
-            "name" : "Arizona Coyotes",
-            "link" : "/api/v1/teams/53",
-            "venue" : {
-              "id" : 5043,
-              "name" : "Gila River Arena",
-              "link" : "/api/v1/venues/5043",
-              "city" : "Glendale",
-              "timeZone" : {
-                "id" : "America/Phoenix",
-                "offset" : -7,
-                "tz" : "MST"
-              }
-            },
-            "abbreviation" : "ARI",
-            "teamName" : "Coyotes",
-            "locationName" : "Arizona",
-            "firstYearOfPlay" : "2014",
-            "division" : {
-              "id" : 15,
-              "name" : "Pacific",
-              "nameShort" : "PAC",
-              "link" : "/api/v1/divisions/15",
-              "abbreviation" : "P"
-            },
-            "conference" : {
-              "id" : 5,
-              "name" : "Western",
-              "link" : "/api/v1/conferences/5"
-            },
-            "franchise" : {
-              "franchiseId" : 28,
-              "teamName" : "Coyotes",
-              "link" : "/api/v1/franchises/28"
-            },
-            "shortName" : "Arizona",
-            "officialSiteUrl" : "http://www.arizonacoyotes.com/",
-            "franchiseId" : 28,
-            "active" : true
-          }
-        }
-      },
-      "linescore" : {
-        "currentPeriod" : 0,
-        "periods" : [ ],
-        "shootoutInfo" : {
-          "away" : {
-            "scores" : 0,
-            "attempts" : 0
-          },
-          "home" : {
-            "scores" : 0,
-            "attempts" : 0
-          }
-        },
-        "teams" : {
-          "home" : {
-            "team" : {
-              "id" : 53,
-              "name" : "Arizona Coyotes",
-              "link" : "/api/v1/teams/53"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
-          },
-          "away" : {
-            "team" : {
-              "id" : 18,
-              "name" : "Nashville Predators",
-              "link" : "/api/v1/teams/18"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
-          }
-        },
-        "powerPlayStrength" : "Even",
-        "hasShootout" : false,
-        "intermissionInfo" : {
-          "intermissionTimeRemaining" : 0,
-          "intermissionTimeElapsed" : 0,
-          "inIntermission" : false
-        }
-      },
-      "venue" : {
-        "id" : 5100,
-        "name" : "Rogers Place",
-        "link" : "/api/v1/venues/5100"
-      },
-      "broadcasts" : [ {
-        "id" : 324,
-        "name" : "NHLN",
-        "type" : "national",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 337,
-        "name" : "NHL.TV",
-        "type" : "national",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 283,
-        "name" : "SN360",
-        "type" : "national",
-        "site" : "nhlCA",
-        "language" : "en"
-      }, {
-        "id" : 9,
-        "name" : "FS-A",
-        "type" : "home",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 141,
-        "name" : "FS-TN",
-        "type" : "away",
-        "site" : "nhl",
-        "language" : "en"
-      } ],
-      "radioBroadcasts" : [ {
-        "name" : "Fox Sports 910 AM",
-        "type" : "home"
-      }, {
-        "name" : "WPRT-FM",
-        "type" : "away"
-      } ],
-      "content" : {
-        "link" : "/api/v1/game/2019030074/content",
-        "editorial" : { },
-        "media" : {
-          "epg" : [ {
-            "title" : "NHLTV",
-            "platform" : "web",
-            "items" : [ {
-              "guid" : "f3e1214b-cf19-4cfa-9587-1bca0296dc31",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011081",
-              "mediaFeedType" : "HOME",
-              "callLetters" : "",
-              "eventId" : "221-2005537",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "c4ab6c7d-8be9-4c9f-9f6a-4b315e1772a5",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011091",
-              "mediaFeedType" : "AWAY",
-              "callLetters" : "",
-              "eventId" : "221-2005537",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "e812fc87-9abf-43c9-aa23-f737b90c3971",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011141",
-              "mediaFeedType" : "COMPOSITE",
-              "callLetters" : "",
-              "eventId" : "221-2005537",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "Multi-Cam 1",
-              "gamePlus" : false
-            } ]
-          }, {
-            "title" : "Audio",
-            "items" : [ {
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011101",
-              "mediaFeedType" : "HOME",
-              "callLetters" : "",
-              "eventId" : "221-2005537",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011111",
-              "mediaFeedType" : "AWAY",
-              "callLetters" : "",
-              "eventId" : "221-2005537",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            } ]
-          }, {
-            "title" : "Extended Highlights",
-            "topicList" : "317756336",
-            "items" : [ ]
-          }, {
-            "title" : "Recap",
-            "topicList" : "317756336",
-            "items" : [ ]
-          }, {
-            "title" : "Power Play",
-            "items" : [ ]
-          } ]
-        },
-        "highlights" : { }
-      },
-      "seriesSummary" : {
-        "gamePk" : 2019030074,
-        "gameNumber" : 4,
-        "gameLabel" : "Game 4",
-        "necessary" : true,
-        "gameCode" : 74,
-        "gameTime" : "2020-08-07T18:30:00Z",
-        "seriesStatus" : "Coyotes lead 2-1",
-        "seriesStatusShort" : "ARI leads 2-1"
-      },
-      "metadata" : {
-        "isManuallyScored" : false,
-        "isSplitSquad" : false,
-        "description" : "Rogers Place, Edmonton"
-      }
-    }, {
-      "gamePk" : 2019030024,
-      "link" : "/api/v1/game/2019030024/feed/live",
-      "gameType" : "P",
-      "season" : "20192020",
-      "gameDate" : "2020-08-07T20:00:00Z",
-      "status" : {
-        "abstractGameState" : "Preview",
-        "codedGameState" : "1",
-        "detailedState" : "Scheduled",
-        "statusCode" : "1",
-        "startTimeTBD" : false
-      },
-      "teams" : {
-        "away" : {
-          "leagueRecord" : {
-            "wins" : 1,
-            "losses" : 2,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 5,
-            "name" : "Pittsburgh Penguins",
-            "link" : "/api/v1/teams/5",
-            "venue" : {
-              "id" : 5034,
-              "name" : "PPG Paints Arena",
-              "link" : "/api/v1/venues/5034",
-              "city" : "Pittsburgh",
-              "timeZone" : {
-                "id" : "America/New_York",
-                "offset" : -4,
-                "tz" : "EDT"
-              }
-            },
-            "abbreviation" : "PIT",
-            "teamName" : "Penguins",
-            "locationName" : "Pittsburgh",
-            "firstYearOfPlay" : "1967",
-            "division" : {
-              "id" : 18,
-              "name" : "Metropolitan",
-              "nameShort" : "Metro",
-              "link" : "/api/v1/divisions/18",
-              "abbreviation" : "M"
-            },
-            "conference" : {
-              "id" : 6,
-              "name" : "Eastern",
-              "link" : "/api/v1/conferences/6"
-            },
-            "franchise" : {
-              "franchiseId" : 17,
-              "teamName" : "Penguins",
-              "link" : "/api/v1/franchises/17"
-            },
-            "shortName" : "Pittsburgh",
-            "officialSiteUrl" : "http://pittsburghpenguins.com/",
-            "franchiseId" : 17,
-            "active" : true
-          }
-        },
-        "home" : {
-          "leagueRecord" : {
-            "wins" : 2,
-            "losses" : 1,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 8,
-            "name" : "Montréal Canadiens",
-            "link" : "/api/v1/teams/8",
-            "venue" : {
-              "id" : 5028,
-              "name" : "Bell Centre",
-              "link" : "/api/v1/venues/5028",
-              "city" : "Montréal",
-              "timeZone" : {
-                "id" : "America/Montreal",
-                "offset" : -4,
-                "tz" : "EDT"
-              }
-            },
-            "abbreviation" : "MTL",
-            "teamName" : "Canadiens",
-            "locationName" : "Montréal",
-            "firstYearOfPlay" : "1917",
-            "division" : {
-              "id" : 17,
-              "name" : "Atlantic",
-              "nameShort" : "ATL",
-              "link" : "/api/v1/divisions/17",
-              "abbreviation" : "A"
-            },
-            "conference" : {
-              "id" : 6,
-              "name" : "Eastern",
-              "link" : "/api/v1/conferences/6"
-            },
-            "franchise" : {
-              "franchiseId" : 1,
-              "teamName" : "Canadiens",
-              "link" : "/api/v1/franchises/1"
-            },
-            "shortName" : "Montréal",
-            "officialSiteUrl" : "http://www.canadiens.com/",
-            "franchiseId" : 1,
-            "active" : true
-          }
-        }
-      },
-      "linescore" : {
-        "currentPeriod" : 0,
-        "periods" : [ ],
-        "shootoutInfo" : {
-          "away" : {
-            "scores" : 0,
-            "attempts" : 0
-          },
-          "home" : {
-            "scores" : 0,
-            "attempts" : 0
-          }
-        },
-        "teams" : {
-          "home" : {
-            "team" : {
-              "id" : 8,
-              "name" : "Montréal Canadiens",
-              "link" : "/api/v1/teams/8"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
-          },
-          "away" : {
-            "team" : {
-              "id" : 5,
-              "name" : "Pittsburgh Penguins",
-              "link" : "/api/v1/teams/5"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
-          }
-        },
-        "powerPlayStrength" : "Even",
-        "hasShootout" : false,
-        "intermissionInfo" : {
-          "intermissionTimeRemaining" : 0,
-          "intermissionTimeElapsed" : 0,
-          "inIntermission" : false
-        }
-      },
-      "venue" : {
-        "name" : "Scotiabank Arena",
-        "link" : "/api/v1/venues/null"
-      },
-      "broadcasts" : [ {
-        "id" : 241,
-        "name" : "NBCSN",
-        "type" : "national",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 337,
-        "name" : "NHL.TV",
-        "type" : "national",
-        "site" : "nhl",
-        "language" : "en"
-      }, {
-        "id" : 281,
-        "name" : "TVAS",
-        "type" : "national",
-        "site" : "nhlCA",
-        "language" : "fr"
-      }, {
-        "id" : 282,
-        "name" : "SN",
-        "type" : "national",
-        "site" : "nhlCA",
-        "language" : "en"
-      }, {
-        "id" : 316,
-        "name" : "ATTSN-PT",
-        "type" : "away",
-        "site" : "nhl",
-        "language" : "en"
-      } ],
-      "radioBroadcasts" : [ {
-        "name" : "TSN 690 - 98,5FM",
-        "type" : "home"
-      } ],
-      "content" : {
-        "link" : "/api/v1/game/2019030024/content",
-        "editorial" : { },
-        "media" : {
-          "epg" : [ {
-            "title" : "NHLTV",
-            "platform" : "web",
-            "items" : [ {
-              "guid" : "4dc9cb4e-4d14-4e65-b0f4-f16a22965631",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011151",
-              "mediaFeedType" : "NATIONAL",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "31f37e10-bb6d-4aa0-b7c8-c059ecb33f92",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011161",
-              "mediaFeedType" : "AWAY",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "dfd7f87d-6110-4923-b021-bbaa12c731b8",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011191",
-              "mediaFeedType" : "FRENCH",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "fra",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "guid" : "e9fb7978-0a14-437c-96d3-e20c79ebaaa9",
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011211",
-              "mediaFeedType" : "COMPOSITE",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "Multi-Cam 1",
-              "gamePlus" : false
-            } ]
-          }, {
-            "title" : "Audio",
-            "items" : [ {
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011171",
-              "mediaFeedType" : "HOME",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011181",
-              "mediaFeedType" : "AWAY",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "eng",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            }, {
-              "mediaState" : "MEDIA_OFF",
-              "mediaPlaybackId" : "2000011201",
-              "mediaFeedType" : "FRENCH",
-              "callLetters" : "",
-              "eventId" : "221-2005540",
-              "language" : "fra",
-              "freeGame" : false,
-              "feedName" : "",
-              "gamePlus" : false
-            } ]
-          }, {
-            "title" : "Extended Highlights",
-            "topicList" : "317751750",
-            "items" : [ ]
-          }, {
-            "title" : "Recap",
-            "topicList" : "317751750",
-            "items" : [ ]
-          }, {
-            "title" : "Power Play",
-            "items" : [ ]
-          } ]
-        },
-        "highlights" : { }
-      },
-      "seriesSummary" : {
-        "gamePk" : 2019030024,
-        "gameNumber" : 4,
-        "gameLabel" : "Game 4",
-        "necessary" : true,
-        "gameCode" : 24,
-        "gameTime" : "2020-08-07T20:00:00Z",
-        "seriesStatus" : "Canadiens lead 2-1",
-        "seriesStatusShort" : "MTL leads 2-1"
-      },
-      "metadata" : {
-        "isManuallyScored" : false,
-        "isSplitSquad" : false,
-        "description" : "Scotiabank Arena, Toronto"
-      }
-    }, {
-      "gamePk" : 2019030064,
-      "link" : "/api/v1/game/2019030064/feed/live",
-      "gameType" : "P",
-      "season" : "20192020",
-      "gameDate" : "2020-08-07T22:45:00Z",
-      "status" : {
-        "abstractGameState" : "Preview",
-        "codedGameState" : "1",
-        "detailedState" : "Scheduled",
-        "statusCode" : "1",
-        "startTimeTBD" : false
-      },
-      "teams" : {
-        "away" : {
-          "leagueRecord" : {
-            "wins" : 1,
-            "losses" : 2,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
+          "score" : 1,
           "team" : {
             "id" : 22,
             "name" : "Edmonton Oilers",
@@ -4540,7 +3588,7 @@
             "ot" : 0,
             "type" : "league"
           },
-          "score" : 0,
+          "score" : 2,
           "team" : {
             "id" : 16,
             "name" : "Chicago Blackhawks",
@@ -4585,8 +3633,25 @@
         }
       },
       "linescore" : {
-        "currentPeriod" : 0,
-        "periods" : [ ],
+        "currentPeriod" : 1,
+        "currentPeriodOrdinal" : "1st",
+        "currentPeriodTimeRemaining" : "04:06",
+        "periods" : [ {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T22:01:04Z",
+          "num" : 1,
+          "ordinalNum" : "1st",
+          "home" : {
+            "goals" : 2,
+            "shotsOnGoal" : 9,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 1,
+            "shotsOnGoal" : 7,
+            "rinkSide" : "left"
+          }
+        } ],
         "shootoutInfo" : {
           "away" : {
             "scores" : 0,
@@ -4604,11 +3669,11 @@
               "name" : "Chicago Blackhawks",
               "link" : "/api/v1/teams/16"
             },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
+            "goals" : 2,
+            "shotsOnGoal" : 9,
             "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
+            "numSkaters" : 5,
+            "powerPlay" : true
           },
           "away" : {
             "team" : {
@@ -4616,19 +3681,24 @@
               "name" : "Edmonton Oilers",
               "link" : "/api/v1/teams/22"
             },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
+            "goals" : 1,
+            "shotsOnGoal" : 7,
             "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
+            "numSkaters" : 4,
+            "powerPlay" : true
           }
         },
-        "powerPlayStrength" : "Even",
+        "powerPlayStrength" : "5-on-4",
         "hasShootout" : false,
         "intermissionInfo" : {
           "intermissionTimeRemaining" : 0,
           "intermissionTimeElapsed" : 0,
           "inIntermission" : false
+        },
+        "powerPlayInfo" : {
+          "situationTimeRemaining" : 120,
+          "situationTimeElapsed" : 0,
+          "inSituation" : true
         }
       },
       "venue" : {
@@ -4676,30 +3746,30 @@
             "title" : "NHLTV",
             "platform" : "web",
             "items" : [ {
-              "guid" : "548cbb6c-8c9f-44d4-8ccf-8b6cceef0211",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "d444f40b-f431-4a56-b29a-4576a5100849",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011221",
               "mediaFeedType" : "HOME",
-              "callLetters" : "",
+              "callLetters" : "NBCS-CH",
               "eventId" : "221-2005542",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "46737364-6adc-4d20-a9b6-05f89f0e3b0c",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "2a9835cb-598c-4134-ba60-f4ef23b28c10",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011231",
               "mediaFeedType" : "AWAY",
-              "callLetters" : "",
+              "callLetters" : "SN",
               "eventId" : "221-2005542",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "a97ff988-d58c-4285-a693-a4cad839e7d5",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "324ed5a5-5fb3-4ba7-a496-0894249389bd",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011281",
               "mediaFeedType" : "COMPOSITE",
               "callLetters" : "",
@@ -4712,20 +3782,20 @@
           }, {
             "title" : "Audio",
             "items" : [ {
-              "mediaState" : "MEDIA_OFF",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011241",
               "mediaFeedType" : "HOME",
-              "callLetters" : "",
+              "callLetters" : "WGN",
               "eventId" : "221-2005542",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "mediaState" : "MEDIA_OFF",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011251",
               "mediaFeedType" : "AWAY",
-              "callLetters" : "",
+              "callLetters" : "CHED",
               "eventId" : "221-2005542",
               "language" : "eng",
               "freeGame" : false,
@@ -4770,9 +3840,9 @@
       "gameDate" : "2020-08-08T00:00:00Z",
       "status" : {
         "abstractGameState" : "Preview",
-        "codedGameState" : "1",
-        "detailedState" : "Scheduled",
-        "statusCode" : "1",
+        "codedGameState" : "2",
+        "detailedState" : "Pre-Game",
+        "statusCode" : "2",
         "startTimeTBD" : false
       },
       "teams" : {
@@ -4964,41 +4034,41 @@
             "title" : "NHLTV",
             "platform" : "web",
             "items" : [ {
-              "guid" : "f7dcc576-7059-4f8c-a820-bd249255d860",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "8dcb41d8-72ac-479c-ad83-661f9fb62222",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011361",
               "mediaFeedType" : "HOME",
-              "callLetters" : "",
+              "callLetters" : "FSOH",
               "eventId" : "221-2005544",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "d1b4eeed-7e19-41ed-b392-419c69109ef6",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "bb921eeb-b45e-430d-8483-78912967f8f3",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011371",
               "mediaFeedType" : "AWAY",
-              "callLetters" : "",
+              "callLetters" : "CBC",
               "eventId" : "221-2005544",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "ed6f3c54-7f53-46a5-8bf6-af3fad45336f",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "f35faee3-60df-4abf-9247-b76553e2517b",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011401",
               "mediaFeedType" : "FRENCH",
-              "callLetters" : "",
+              "callLetters" : "TVAS",
               "eventId" : "221-2005544",
               "language" : "fra",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "guid" : "1eeae398-785e-4778-b40f-e3e00ddab09d",
-              "mediaState" : "MEDIA_OFF",
+              "guid" : "0784822a-5ece-4aab-8208-da2d42f66827",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011421",
               "mediaFeedType" : "COMPOSITE",
               "callLetters" : "",
@@ -5011,20 +4081,20 @@
           }, {
             "title" : "Audio",
             "items" : [ {
-              "mediaState" : "MEDIA_OFF",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011381",
               "mediaFeedType" : "HOME",
-              "callLetters" : "",
+              "callLetters" : "WBNS",
               "eventId" : "221-2005544",
               "language" : "eng",
               "freeGame" : false,
               "feedName" : "",
               "gamePlus" : false
             }, {
-              "mediaState" : "MEDIA_OFF",
+              "mediaState" : "MEDIA_ON",
               "mediaPlaybackId" : "2000011391",
               "mediaFeedType" : "AWAY",
-              "callLetters" : "",
+              "callLetters" : "SN590",
               "eventId" : "221-2005544",
               "language" : "eng",
               "freeGame" : false,
@@ -5354,14 +4424,2163 @@
         "isSplitSquad" : false,
         "description" : "Rogers Place, Edmonton"
       }
+    }, {
+      "gamePk" : 2019030044,
+      "link" : "/api/v1/game/2019030044/feed/live",
+      "gameType" : "P",
+      "season" : "20192020",
+      "gameDate" : "2020-08-07T16:00:00Z",
+      "status" : {
+        "abstractGameState" : "Final",
+        "codedGameState" : "7",
+        "detailedState" : "Final",
+        "statusCode" : "7",
+        "startTimeTBD" : false
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 3,
+            "losses" : 1,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 5,
+          "team" : {
+            "id" : 2,
+            "name" : "New York Islanders",
+            "link" : "/api/v1/teams/2",
+            "venue" : {
+              "id" : 5026,
+              "name" : "Barclays Center",
+              "link" : "/api/v1/venues/5026",
+              "city" : "Brooklyn",
+              "timeZone" : {
+                "id" : "America/New_York",
+                "offset" : -4,
+                "tz" : "EDT"
+              }
+            },
+            "abbreviation" : "NYI",
+            "teamName" : "Islanders",
+            "locationName" : "New York",
+            "firstYearOfPlay" : "1972",
+            "division" : {
+              "id" : 18,
+              "name" : "Metropolitan",
+              "nameShort" : "Metro",
+              "link" : "/api/v1/divisions/18",
+              "abbreviation" : "M"
+            },
+            "conference" : {
+              "id" : 6,
+              "name" : "Eastern",
+              "link" : "/api/v1/conferences/6"
+            },
+            "franchise" : {
+              "franchiseId" : 22,
+              "teamName" : "Islanders",
+              "link" : "/api/v1/franchises/22"
+            },
+            "shortName" : "NY Islanders",
+            "officialSiteUrl" : "http://www.newyorkislanders.com/",
+            "franchiseId" : 22,
+            "active" : true
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 1,
+            "losses" : 3,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 1,
+          "team" : {
+            "id" : 13,
+            "name" : "Florida Panthers",
+            "link" : "/api/v1/teams/13",
+            "venue" : {
+              "id" : 5027,
+              "name" : "BB&T Center",
+              "link" : "/api/v1/venues/5027",
+              "city" : "Sunrise",
+              "timeZone" : {
+                "id" : "America/New_York",
+                "offset" : -4,
+                "tz" : "EDT"
+              }
+            },
+            "abbreviation" : "FLA",
+            "teamName" : "Panthers",
+            "locationName" : "Florida",
+            "firstYearOfPlay" : "1993",
+            "division" : {
+              "id" : 17,
+              "name" : "Atlantic",
+              "nameShort" : "ATL",
+              "link" : "/api/v1/divisions/17",
+              "abbreviation" : "A"
+            },
+            "conference" : {
+              "id" : 6,
+              "name" : "Eastern",
+              "link" : "/api/v1/conferences/6"
+            },
+            "franchise" : {
+              "franchiseId" : 33,
+              "teamName" : "Panthers",
+              "link" : "/api/v1/franchises/33"
+            },
+            "shortName" : "Florida",
+            "officialSiteUrl" : "http://www.floridapanthers.com/",
+            "franchiseId" : 33,
+            "active" : true
+          }
+        }
+      },
+      "linescore" : {
+        "currentPeriod" : 3,
+        "currentPeriodOrdinal" : "3rd",
+        "currentPeriodTimeRemaining" : "Final",
+        "periods" : [ {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T16:09:41Z",
+          "endTime" : "2020-08-07T16:51:17Z",
+          "num" : 1,
+          "ordinalNum" : "1st",
+          "home" : {
+            "goals" : 1,
+            "shotsOnGoal" : 8,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 2,
+            "shotsOnGoal" : 16,
+            "rinkSide" : "left"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T17:09:44Z",
+          "endTime" : "2020-08-07T17:46:59Z",
+          "num" : 2,
+          "ordinalNum" : "2nd",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 6,
+            "rinkSide" : "left"
+          },
+          "away" : {
+            "goals" : 1,
+            "shotsOnGoal" : 15,
+            "rinkSide" : "right"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T18:05:30Z",
+          "endTime" : "2020-08-07T18:38:42Z",
+          "num" : 3,
+          "ordinalNum" : "3rd",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 11,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 2,
+            "shotsOnGoal" : 7,
+            "rinkSide" : "left"
+          }
+        } ],
+        "shootoutInfo" : {
+          "away" : {
+            "scores" : 0,
+            "attempts" : 0
+          },
+          "home" : {
+            "scores" : 0,
+            "attempts" : 0
+          }
+        },
+        "teams" : {
+          "home" : {
+            "team" : {
+              "id" : 13,
+              "name" : "Florida Panthers",
+              "link" : "/api/v1/teams/13"
+            },
+            "goals" : 1,
+            "shotsOnGoal" : 25,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : true
+          },
+          "away" : {
+            "team" : {
+              "id" : 2,
+              "name" : "New York Islanders",
+              "link" : "/api/v1/teams/2"
+            },
+            "goals" : 5,
+            "shotsOnGoal" : 38,
+            "goaliePulled" : false,
+            "numSkaters" : 4,
+            "powerPlay" : false
+          }
+        },
+        "powerPlayStrength" : "5-on-4",
+        "hasShootout" : false,
+        "intermissionInfo" : {
+          "intermissionTimeRemaining" : 0,
+          "intermissionTimeElapsed" : 0,
+          "inIntermission" : false
+        },
+        "powerPlayInfo" : {
+          "situationTimeRemaining" : 89,
+          "situationTimeElapsed" : 0,
+          "inSituation" : true
+        }
+      },
+      "venue" : {
+        "name" : "Scotiabank Arena",
+        "link" : "/api/v1/venues/null"
+      },
+      "broadcasts" : [ {
+        "id" : 241,
+        "name" : "NBCSN",
+        "type" : "national",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 337,
+        "name" : "NHL.TV",
+        "type" : "national",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 281,
+        "name" : "TVAS",
+        "type" : "national",
+        "site" : "nhlCA",
+        "language" : "fr"
+      }, {
+        "id" : 282,
+        "name" : "SN",
+        "type" : "national",
+        "site" : "nhlCA",
+        "language" : "en"
+      }, {
+        "id" : 12,
+        "name" : "FS-F",
+        "type" : "home",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 299,
+        "name" : "MSG+",
+        "type" : "away",
+        "site" : "nhl",
+        "language" : "en"
+      } ],
+      "radioBroadcasts" : [ {
+        "name" : "WQAM",
+        "type" : "home"
+      }, {
+        "name" : "88.7FM WRHU",
+        "type" : "away"
+      } ],
+      "content" : {
+        "link" : "/api/v1/game/2019030044/content",
+        "editorial" : { },
+        "media" : {
+          "epg" : [ {
+            "title" : "NHLTV",
+            "platform" : "web",
+            "items" : [ {
+              "guid" : "cc47cf49-092e-4a8b-9daa-4641964518e2",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011011",
+              "mediaFeedType" : "HOME",
+              "callLetters" : "FS-F",
+              "eventId" : "221-2005539",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "7f8a0862-09c6-4b14-9a8d-8ac65c479f87",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011021",
+              "mediaFeedType" : "AWAY",
+              "callLetters" : "MSG+",
+              "eventId" : "221-2005539",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "4f9bbbae-d3e6-4c6c-875a-f54b85076788",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011051",
+              "mediaFeedType" : "FRENCH",
+              "callLetters" : "TVAS",
+              "eventId" : "221-2005539",
+              "language" : "fra",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "87f2ce62-355e-42be-8ccc-2a252b4ba380",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011071",
+              "mediaFeedType" : "COMPOSITE",
+              "callLetters" : "",
+              "eventId" : "221-2005539",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "Multi-Cam 1",
+              "gamePlus" : false
+            } ]
+          }, {
+            "title" : "Audio",
+            "items" : [ {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011031",
+              "mediaFeedType" : "HOME",
+              "callLetters" : "WQAM",
+              "eventId" : "221-2005539",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011041",
+              "mediaFeedType" : "AWAY",
+              "callLetters" : "WRHU",
+              "eventId" : "221-2005539",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            } ]
+          }, {
+            "title" : "Extended Highlights",
+            "topicList" : "317755056",
+            "items" : [ {
+              "type" : "video",
+              "id" : "5396711",
+              "date" : "2020-08-07T12:00:00-0400",
+              "title" : "SCQ, Gm4: NYI @ FLA",
+              "blurb" : "SCQ, Gm4: Islanders @ Panthers",
+              "description" : "Condensed Game: Extended highlights of the New York Islanders at the Florida Panthers",
+              "duration" : "09:01",
+              "authFlow" : false,
+              "mediaPlaybackId" : "5396711",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "keywords" : [ {
+                "type" : "shareable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "embeddable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "content",
+                "value" : "extendedHighlights",
+                "displayName" : "Condensed Game"
+              }, {
+                "type" : "teamId",
+                "value" : "2",
+                "displayName" : "2"
+              }, {
+                "type" : "language",
+                "value" : "en",
+                "displayName" : "English"
+              }, {
+                "type" : "teamId",
+                "value" : "13",
+                "displayName" : "13"
+              } ],
+              "image" : {
+                "title" : "",
+                "altText" : "",
+                "cuts" : {
+                  "1136x640" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1136,
+                    "height" : 640,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/1136x640/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/1136x640/cut.jpg"
+                  },
+                  "1024x576" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1024,
+                    "height" : 576,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/1024x576/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/1024x576/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/1024x576/cut.jpg"
+                  },
+                  "960x540" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 960,
+                    "height" : 540,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/960x540/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/960x540/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/960x540/cut.jpg"
+                  },
+                  "768x432" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 768,
+                    "height" : 432,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/768x432/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/768x432/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/768x432/cut.jpg"
+                  },
+                  "640x360" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 640,
+                    "height" : 360,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/640x360/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/640x360/cut.jpg"
+                  },
+                  "568x320" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 568,
+                    "height" : 320,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/568x320/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/568x320/cut.jpg"
+                  },
+                  "372x210" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 372,
+                    "height" : 210,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/372x210/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/372x210/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/372x210/cut.jpg"
+                  },
+                  "320x180" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 320,
+                    "height" : 180,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/320x180/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/960x540/cut.jpg"
+                  },
+                  "248x140" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 248,
+                    "height" : 140,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/248x140/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/248x140/cut.jpg"
+                  },
+                  "124x70" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 124,
+                    "height" : 70,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318308148/124x70/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318308148/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318308148/372x210/cut.jpg"
+                  }
+                }
+              },
+              "playbacks" : [ {
+                "name" : "FLASH_192K_320X180",
+                "width" : "320",
+                "height" : "180",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/d308d1ac-a5e4-4664-863f-137308bf057c.mp4"
+              }, {
+                "name" : "FLASH_450K_384x216",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/04bbbe42-adc5-48a1-9b27-bf20ec2d6913.mp4"
+              }, {
+                "name" : "FLASH_1200K_640X360",
+                "width" : "640",
+                "height" : "360",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/a8302e83-ac0a-4b72-acc1-0dc3c7f0c0dc.mp4"
+              }, {
+                "name" : "FLASH_1800K_896x504",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/745d38d1-58c7-40af-a29b-236f713cb104.mp4"
+              }, {
+                "name" : "HTTP_CLOUD_MOBILE",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326692/MasterMobile.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326692/MasterTablet.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326692/MasterTablet60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326692/MasterWired.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326692/MasterWired60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_WEB",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326692/MasterWiredWeb.m3u8"
+              } ]
+            } ]
+          }, {
+            "title" : "Recap",
+            "topicList" : "317755056",
+            "items" : [ {
+              "type" : "video",
+              "id" : "5396712",
+              "date" : "2020-08-07T12:00:00-0400",
+              "title" : "Recap: NYI 5, FLA 1",
+              "blurb" : "Islanders close series with 5-1 victory",
+              "description" : "Mat Barzal and Anthony Beauvillier shined in the Islanders' 5-1 win against the Panthers, closing their Stanley Cup Qualifier series",
+              "duration" : "05:03",
+              "authFlow" : false,
+              "mediaPlaybackId" : "5396712",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "keywords" : [ {
+                "type" : "shareable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "embeddable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "content",
+                "value" : "gameRecap",
+                "displayName" : "game recap"
+              }, {
+                "type" : "content",
+                "value" : "teamRecap",
+                "displayName" : "Team Recap"
+              }, {
+                "type" : "teamId",
+                "value" : "2",
+                "displayName" : "2"
+              }, {
+                "type" : "language",
+                "value" : "en",
+                "displayName" : "English"
+              } ],
+              "image" : {
+                "title" : "",
+                "altText" : "",
+                "cuts" : {
+                  "1136x640" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1136,
+                    "height" : 640,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/1136x640/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/1136x640/cut.jpg"
+                  },
+                  "1024x576" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1024,
+                    "height" : 576,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/1024x576/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/1024x576/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/1024x576/cut.jpg"
+                  },
+                  "960x540" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 960,
+                    "height" : 540,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/960x540/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/960x540/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/960x540/cut.jpg"
+                  },
+                  "768x432" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 768,
+                    "height" : 432,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/768x432/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/768x432/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/768x432/cut.jpg"
+                  },
+                  "640x360" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 640,
+                    "height" : 360,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/640x360/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/640x360/cut.jpg"
+                  },
+                  "568x320" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 568,
+                    "height" : 320,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/568x320/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/568x320/cut.jpg"
+                  },
+                  "372x210" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 372,
+                    "height" : 210,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/372x210/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/372x210/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/372x210/cut.jpg"
+                  },
+                  "320x180" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 320,
+                    "height" : 180,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/320x180/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/960x540/cut.jpg"
+                  },
+                  "248x140" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 248,
+                    "height" : 140,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/248x140/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/248x140/cut.jpg"
+                  },
+                  "124x70" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 124,
+                    "height" : 70,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318307946/124x70/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318307946/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318307946/372x210/cut.jpg"
+                  }
+                }
+              },
+              "playbacks" : [ {
+                "name" : "FLASH_192K_320X180",
+                "width" : "320",
+                "height" : "180",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/c7496bc9-7cf6-4b7e-89dd-31a5336bfaab.mp4"
+              }, {
+                "name" : "FLASH_450K_384x216",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/76dc03c2-3b39-46f4-b0b9-64e21e5b4984.mp4"
+              }, {
+                "name" : "FLASH_1200K_640X360",
+                "width" : "640",
+                "height" : "360",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/c6c7e2a8-5408-486f-b37e-403c60a96469.mp4"
+              }, {
+                "name" : "FLASH_1800K_896x504",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/4d246059-e43b-4393-a695-5ab6a91dd8be.mp4"
+              }, {
+                "name" : "HTTP_CLOUD_MOBILE",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326693/MasterMobile.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326693/MasterTablet.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326693/MasterTablet60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326693/MasterWired.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326693/MasterWired60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_WEB",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326693/MasterWiredWeb.m3u8"
+              } ]
+            } ]
+          }, {
+            "title" : "Power Play",
+            "items" : [ ]
+          } ]
+        },
+        "highlights" : { }
+      },
+      "seriesSummary" : {
+        "gamePk" : 2019030044,
+        "gameNumber" : 4,
+        "gameLabel" : "Game 4",
+        "necessary" : true,
+        "gameCode" : 44,
+        "gameTime" : "2020-08-07T16:00:00Z",
+        "seriesStatus" : "Islanders win 3-1",
+        "seriesStatusShort" : "NYI wins 3-1"
+      },
+      "metadata" : {
+        "isManuallyScored" : false,
+        "isSplitSquad" : false,
+        "description" : "Scotiabank Arena, Toronto"
+      }
+    }, {
+      "gamePk" : 2019030074,
+      "link" : "/api/v1/game/2019030074/feed/live",
+      "gameType" : "P",
+      "season" : "20192020",
+      "gameDate" : "2020-08-07T18:30:00Z",
+      "status" : {
+        "abstractGameState" : "Final",
+        "codedGameState" : "7",
+        "detailedState" : "Final",
+        "statusCode" : "7",
+        "startTimeTBD" : false
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 1,
+            "losses" : 3,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 3,
+          "team" : {
+            "id" : 18,
+            "name" : "Nashville Predators",
+            "link" : "/api/v1/teams/18",
+            "venue" : {
+              "id" : 5030,
+              "name" : "Bridgestone Arena",
+              "link" : "/api/v1/venues/5030",
+              "city" : "Nashville",
+              "timeZone" : {
+                "id" : "America/Chicago",
+                "offset" : -5,
+                "tz" : "CDT"
+              }
+            },
+            "abbreviation" : "NSH",
+            "teamName" : "Predators",
+            "locationName" : "Nashville",
+            "firstYearOfPlay" : "1998",
+            "division" : {
+              "id" : 16,
+              "name" : "Central",
+              "nameShort" : "CEN",
+              "link" : "/api/v1/divisions/16",
+              "abbreviation" : "C"
+            },
+            "conference" : {
+              "id" : 5,
+              "name" : "Western",
+              "link" : "/api/v1/conferences/5"
+            },
+            "franchise" : {
+              "franchiseId" : 34,
+              "teamName" : "Predators",
+              "link" : "/api/v1/franchises/34"
+            },
+            "shortName" : "Nashville",
+            "officialSiteUrl" : "http://www.nashvillepredators.com/",
+            "franchiseId" : 34,
+            "active" : true
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 3,
+            "losses" : 1,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 4,
+          "team" : {
+            "id" : 53,
+            "name" : "Arizona Coyotes",
+            "link" : "/api/v1/teams/53",
+            "venue" : {
+              "id" : 5043,
+              "name" : "Gila River Arena",
+              "link" : "/api/v1/venues/5043",
+              "city" : "Glendale",
+              "timeZone" : {
+                "id" : "America/Phoenix",
+                "offset" : -7,
+                "tz" : "MST"
+              }
+            },
+            "abbreviation" : "ARI",
+            "teamName" : "Coyotes",
+            "locationName" : "Arizona",
+            "firstYearOfPlay" : "2014",
+            "division" : {
+              "id" : 15,
+              "name" : "Pacific",
+              "nameShort" : "PAC",
+              "link" : "/api/v1/divisions/15",
+              "abbreviation" : "P"
+            },
+            "conference" : {
+              "id" : 5,
+              "name" : "Western",
+              "link" : "/api/v1/conferences/5"
+            },
+            "franchise" : {
+              "franchiseId" : 28,
+              "teamName" : "Coyotes",
+              "link" : "/api/v1/franchises/28"
+            },
+            "shortName" : "Arizona",
+            "officialSiteUrl" : "http://www.arizonacoyotes.com/",
+            "franchiseId" : 28,
+            "active" : true
+          }
+        }
+      },
+      "linescore" : {
+        "currentPeriod" : 4,
+        "currentPeriodOrdinal" : "OT",
+        "currentPeriodTimeRemaining" : "Final",
+        "periods" : [ {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T19:39:29Z",
+          "endTime" : "2020-08-07T20:12:29Z",
+          "num" : 1,
+          "ordinalNum" : "1st",
+          "home" : {
+            "goals" : 1,
+            "shotsOnGoal" : 8,
+            "rinkSide" : "left"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 15,
+            "rinkSide" : "right"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T20:30:45Z",
+          "endTime" : "2020-08-07T21:08:49Z",
+          "num" : 2,
+          "ordinalNum" : "2nd",
+          "home" : {
+            "goals" : 1,
+            "shotsOnGoal" : 12,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 2,
+            "shotsOnGoal" : 16,
+            "rinkSide" : "left"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T21:27:02Z",
+          "endTime" : "2020-08-07T22:06:30Z",
+          "num" : 3,
+          "ordinalNum" : "3rd",
+          "home" : {
+            "goals" : 1,
+            "shotsOnGoal" : 11,
+            "rinkSide" : "left"
+          },
+          "away" : {
+            "goals" : 1,
+            "shotsOnGoal" : 17,
+            "rinkSide" : "right"
+          }
+        }, {
+          "periodType" : "OVERTIME",
+          "startTime" : "2020-08-07T22:22:01Z",
+          "endTime" : "2020-08-07T22:29:15Z",
+          "num" : 4,
+          "ordinalNum" : "OT",
+          "home" : {
+            "goals" : 1,
+            "shotsOnGoal" : 3,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 4,
+            "rinkSide" : "left"
+          }
+        } ],
+        "shootoutInfo" : {
+          "away" : {
+            "scores" : 0,
+            "attempts" : 0
+          },
+          "home" : {
+            "scores" : 0,
+            "attempts" : 0
+          }
+        },
+        "teams" : {
+          "home" : {
+            "team" : {
+              "id" : 53,
+              "name" : "Arizona Coyotes",
+              "link" : "/api/v1/teams/53"
+            },
+            "goals" : 4,
+            "shotsOnGoal" : 34,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : false
+          },
+          "away" : {
+            "team" : {
+              "id" : 18,
+              "name" : "Nashville Predators",
+              "link" : "/api/v1/teams/18"
+            },
+            "goals" : 3,
+            "shotsOnGoal" : 52,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : false
+          }
+        },
+        "powerPlayStrength" : "Even",
+        "hasShootout" : false,
+        "intermissionInfo" : {
+          "intermissionTimeRemaining" : 0,
+          "intermissionTimeElapsed" : 0,
+          "inIntermission" : false
+        },
+        "powerPlayInfo" : {
+          "situationTimeRemaining" : 0,
+          "situationTimeElapsed" : 0,
+          "inSituation" : false
+        }
+      },
+      "venue" : {
+        "id" : 5100,
+        "name" : "Rogers Place",
+        "link" : "/api/v1/venues/5100"
+      },
+      "broadcasts" : [ {
+        "id" : 324,
+        "name" : "NHLN",
+        "type" : "national",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 337,
+        "name" : "NHL.TV",
+        "type" : "national",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 283,
+        "name" : "SN360",
+        "type" : "national",
+        "site" : "nhlCA",
+        "language" : "en"
+      }, {
+        "id" : 9,
+        "name" : "FS-A",
+        "type" : "home",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 141,
+        "name" : "FS-TN",
+        "type" : "away",
+        "site" : "nhl",
+        "language" : "en"
+      } ],
+      "radioBroadcasts" : [ {
+        "name" : "Fox Sports 910 AM",
+        "type" : "home"
+      }, {
+        "name" : "WPRT-FM",
+        "type" : "away"
+      } ],
+      "content" : {
+        "link" : "/api/v1/game/2019030074/content",
+        "editorial" : { },
+        "media" : {
+          "epg" : [ {
+            "title" : "NHLTV",
+            "platform" : "web",
+            "items" : [ {
+              "guid" : "08e19464-7c20-40c8-85a1-86066403bb0d",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011081",
+              "mediaFeedType" : "HOME",
+              "callLetters" : "FSAZ",
+              "eventId" : "221-2005537",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "a2e1d9e2-adc2-4fb8-963a-6beeba05819e",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011091",
+              "mediaFeedType" : "AWAY",
+              "callLetters" : "FS-TN",
+              "eventId" : "221-2005537",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "f5a7d5ac-f219-4af9-890c-f5ad5177fb66",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011141",
+              "mediaFeedType" : "COMPOSITE",
+              "callLetters" : "",
+              "eventId" : "221-2005537",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "Multi-Cam 1",
+              "gamePlus" : false
+            } ]
+          }, {
+            "title" : "Audio",
+            "items" : [ {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011101",
+              "mediaFeedType" : "HOME",
+              "callLetters" : "FOX910",
+              "eventId" : "221-2005537",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011111",
+              "mediaFeedType" : "AWAY",
+              "callLetters" : "WPRT",
+              "eventId" : "221-2005537",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            } ]
+          }, {
+            "title" : "Extended Highlights",
+            "topicList" : "317756336",
+            "items" : [ {
+              "type" : "video",
+              "id" : "5396799",
+              "date" : "2020-08-07T14:30:00-0400",
+              "title" : "SCQ, Gm4: NSH @ ARI",
+              "blurb" : "SCQ, Gm4: Predators @ Coyotes",
+              "description" : "Condensed Game: Extended highlights of the Nashville Predators at the Arizona Coyotes",
+              "duration" : "09:02",
+              "authFlow" : false,
+              "mediaPlaybackId" : "5396799",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "keywords" : [ {
+                "type" : "shareable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "embeddable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "content",
+                "value" : "extendedHighlights",
+                "displayName" : "Condensed Game"
+              }, {
+                "type" : "teamId",
+                "value" : "53",
+                "displayName" : "53"
+              }, {
+                "type" : "teamId",
+                "value" : "18",
+                "displayName" : "18"
+              }, {
+                "type" : "language",
+                "value" : "en",
+                "displayName" : "English"
+              } ],
+              "image" : {
+                "title" : "",
+                "altText" : "",
+                "cuts" : {
+                  "1136x640" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1136,
+                    "height" : 640,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/1136x640/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/1136x640/cut.jpg"
+                  },
+                  "1024x576" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1024,
+                    "height" : 576,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/1024x576/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/1024x576/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/1024x576/cut.jpg"
+                  },
+                  "960x540" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 960,
+                    "height" : 540,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/960x540/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/960x540/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/960x540/cut.jpg"
+                  },
+                  "768x432" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 768,
+                    "height" : 432,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/768x432/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/768x432/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/768x432/cut.jpg"
+                  },
+                  "640x360" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 640,
+                    "height" : 360,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/640x360/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/640x360/cut.jpg"
+                  },
+                  "568x320" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 568,
+                    "height" : 320,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/568x320/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/568x320/cut.jpg"
+                  },
+                  "372x210" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 372,
+                    "height" : 210,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/372x210/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/372x210/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/372x210/cut.jpg"
+                  },
+                  "320x180" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 320,
+                    "height" : 180,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/320x180/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/960x540/cut.jpg"
+                  },
+                  "248x140" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 248,
+                    "height" : 140,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/248x140/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/248x140/cut.jpg"
+                  },
+                  "124x70" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 124,
+                    "height" : 70,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314292/124x70/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314292/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314292/372x210/cut.jpg"
+                  }
+                }
+              },
+              "playbacks" : [ {
+                "name" : "FLASH_192K_320X180",
+                "width" : "320",
+                "height" : "180",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/eaaf1aa2-eb87-4b42-8f85-6603187e3819.mp4"
+              }, {
+                "name" : "FLASH_450K_384x216",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/2d5abd9a-524c-4d59-9d3c-b6a087336742.mp4"
+              }, {
+                "name" : "FLASH_1200K_640X360",
+                "width" : "640",
+                "height" : "360",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/bce83170-8a0c-47b5-9de9-dc8eda6eeba0.mp4"
+              }, {
+                "name" : "FLASH_1800K_896x504",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/617f84e8-4295-43a7-a58a-509eb1cd8921.mp4"
+              }, {
+                "name" : "HTTP_CLOUD_MOBILE",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326779/MasterMobile.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326779/MasterTablet.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326779/MasterTablet60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326779/MasterWired.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326779/MasterWired60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_WEB",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326779/MasterWiredWeb.m3u8"
+              } ]
+            } ]
+          }, {
+            "title" : "Recap",
+            "topicList" : "317756336",
+            "items" : [ {
+              "type" : "video",
+              "id" : "5396801",
+              "date" : "2020-08-07T14:30:00-0400",
+              "title" : "Recap: NSH 3, ARI 4",
+              "blurb" : "Coyotes win first playoff series since 2012",
+              "description" : "Brad Richardson stuffed in an overtime winner to lift the Coyotes over the Predators and send them to their first playoff series win since 2012",
+              "duration" : "05:05",
+              "authFlow" : false,
+              "mediaPlaybackId" : "5396801",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "keywords" : [ {
+                "type" : "shareable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "embeddable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "content",
+                "value" : "gameRecap",
+                "displayName" : "game recap"
+              }, {
+                "type" : "content",
+                "value" : "teamRecap",
+                "displayName" : "Team Recap"
+              }, {
+                "type" : "teamId",
+                "value" : "53",
+                "displayName" : "53"
+              }, {
+                "type" : "language",
+                "value" : "en",
+                "displayName" : "English"
+              } ],
+              "image" : {
+                "title" : "",
+                "altText" : "",
+                "cuts" : {
+                  "1136x640" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1136,
+                    "height" : 640,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/1136x640/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/1136x640/cut.jpg"
+                  },
+                  "1024x576" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1024,
+                    "height" : 576,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/1024x576/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/1024x576/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/1024x576/cut.jpg"
+                  },
+                  "960x540" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 960,
+                    "height" : 540,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/960x540/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/960x540/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/960x540/cut.jpg"
+                  },
+                  "768x432" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 768,
+                    "height" : 432,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/768x432/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/768x432/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/768x432/cut.jpg"
+                  },
+                  "640x360" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 640,
+                    "height" : 360,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/640x360/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/640x360/cut.jpg"
+                  },
+                  "568x320" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 568,
+                    "height" : 320,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/568x320/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/568x320/cut.jpg"
+                  },
+                  "372x210" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 372,
+                    "height" : 210,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/372x210/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/372x210/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/372x210/cut.jpg"
+                  },
+                  "320x180" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 320,
+                    "height" : 180,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/320x180/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/960x540/cut.jpg"
+                  },
+                  "248x140" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 248,
+                    "height" : 140,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/248x140/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/248x140/cut.jpg"
+                  },
+                  "124x70" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 124,
+                    "height" : 70,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318314740/124x70/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318314740/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318314740/372x210/cut.jpg"
+                  }
+                }
+              },
+              "playbacks" : [ {
+                "name" : "FLASH_192K_320X180",
+                "width" : "320",
+                "height" : "180",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/f0a97be6-5568-4ca6-bfe4-1fc547c729b2.mp4"
+              }, {
+                "name" : "FLASH_450K_384x216",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/e72db071-0cd5-401f-ae7a-61c66e040600.mp4"
+              }, {
+                "name" : "FLASH_1200K_640X360",
+                "width" : "640",
+                "height" : "360",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/47dc543f-cc99-4395-9794-f0ef39f8e20e.mp4"
+              }, {
+                "name" : "FLASH_1800K_896x504",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/1c510932-d0bf-49e6-aa66-b776a63698de.mp4"
+              }, {
+                "name" : "HTTP_CLOUD_MOBILE",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326782/MasterMobile.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326782/MasterTablet.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326782/MasterTablet60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326782/MasterWired.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326782/MasterWired60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_WEB",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326782/MasterWiredWeb.m3u8"
+              } ]
+            } ]
+          }, {
+            "title" : "Power Play",
+            "items" : [ ]
+          } ]
+        },
+        "highlights" : { }
+      },
+      "seriesSummary" : {
+        "gamePk" : 2019030074,
+        "gameNumber" : 4,
+        "gameLabel" : "Game 4",
+        "necessary" : true,
+        "gameCode" : 74,
+        "gameTime" : "2020-08-07T18:30:00Z",
+        "seriesStatus" : "Coyotes win 3-1",
+        "seriesStatusShort" : "ARI wins 3-1"
+      },
+      "metadata" : {
+        "isManuallyScored" : false,
+        "isSplitSquad" : false,
+        "description" : "Rogers Place, Edmonton"
+      }
+    }, {
+      "gamePk" : 2019030024,
+      "link" : "/api/v1/game/2019030024/feed/live",
+      "gameType" : "P",
+      "season" : "20192020",
+      "gameDate" : "2020-08-07T20:00:00Z",
+      "status" : {
+        "abstractGameState" : "Final",
+        "codedGameState" : "7",
+        "detailedState" : "Final",
+        "statusCode" : "7",
+        "startTimeTBD" : false
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 1,
+            "losses" : 3,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 5,
+            "name" : "Pittsburgh Penguins",
+            "link" : "/api/v1/teams/5",
+            "venue" : {
+              "id" : 5034,
+              "name" : "PPG Paints Arena",
+              "link" : "/api/v1/venues/5034",
+              "city" : "Pittsburgh",
+              "timeZone" : {
+                "id" : "America/New_York",
+                "offset" : -4,
+                "tz" : "EDT"
+              }
+            },
+            "abbreviation" : "PIT",
+            "teamName" : "Penguins",
+            "locationName" : "Pittsburgh",
+            "firstYearOfPlay" : "1967",
+            "division" : {
+              "id" : 18,
+              "name" : "Metropolitan",
+              "nameShort" : "Metro",
+              "link" : "/api/v1/divisions/18",
+              "abbreviation" : "M"
+            },
+            "conference" : {
+              "id" : 6,
+              "name" : "Eastern",
+              "link" : "/api/v1/conferences/6"
+            },
+            "franchise" : {
+              "franchiseId" : 17,
+              "teamName" : "Penguins",
+              "link" : "/api/v1/franchises/17"
+            },
+            "shortName" : "Pittsburgh",
+            "officialSiteUrl" : "http://pittsburghpenguins.com/",
+            "franchiseId" : 17,
+            "active" : true
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 3,
+            "losses" : 1,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 2,
+          "team" : {
+            "id" : 8,
+            "name" : "Montréal Canadiens",
+            "link" : "/api/v1/teams/8",
+            "venue" : {
+              "id" : 5028,
+              "name" : "Bell Centre",
+              "link" : "/api/v1/venues/5028",
+              "city" : "Montréal",
+              "timeZone" : {
+                "id" : "America/Montreal",
+                "offset" : -4,
+                "tz" : "EDT"
+              }
+            },
+            "abbreviation" : "MTL",
+            "teamName" : "Canadiens",
+            "locationName" : "Montréal",
+            "firstYearOfPlay" : "1917",
+            "division" : {
+              "id" : 17,
+              "name" : "Atlantic",
+              "nameShort" : "ATL",
+              "link" : "/api/v1/divisions/17",
+              "abbreviation" : "A"
+            },
+            "conference" : {
+              "id" : 6,
+              "name" : "Eastern",
+              "link" : "/api/v1/conferences/6"
+            },
+            "franchise" : {
+              "franchiseId" : 1,
+              "teamName" : "Canadiens",
+              "link" : "/api/v1/franchises/1"
+            },
+            "shortName" : "Montréal",
+            "officialSiteUrl" : "http://www.canadiens.com/",
+            "franchiseId" : 1,
+            "active" : true
+          }
+        }
+      },
+      "linescore" : {
+        "currentPeriod" : 3,
+        "currentPeriodOrdinal" : "3rd",
+        "currentPeriodTimeRemaining" : "Final",
+        "periods" : [ {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T20:09:58Z",
+          "endTime" : "2020-08-07T20:44:00Z",
+          "num" : 1,
+          "ordinalNum" : "1st",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 5,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 8,
+            "rinkSide" : "left"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T21:02:31Z",
+          "endTime" : "2020-08-07T21:33:52Z",
+          "num" : 2,
+          "ordinalNum" : "2nd",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 6,
+            "rinkSide" : "left"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 5,
+            "rinkSide" : "right"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2020-08-07T21:52:25Z",
+          "endTime" : "2020-08-07T22:28:45Z",
+          "num" : 3,
+          "ordinalNum" : "3rd",
+          "home" : {
+            "goals" : 2,
+            "shotsOnGoal" : 11,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 9,
+            "rinkSide" : "left"
+          }
+        } ],
+        "shootoutInfo" : {
+          "away" : {
+            "scores" : 0,
+            "attempts" : 0
+          },
+          "home" : {
+            "scores" : 0,
+            "attempts" : 0
+          }
+        },
+        "teams" : {
+          "home" : {
+            "team" : {
+              "id" : 8,
+              "name" : "Montréal Canadiens",
+              "link" : "/api/v1/teams/8"
+            },
+            "goals" : 2,
+            "shotsOnGoal" : 22,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : false
+          },
+          "away" : {
+            "team" : {
+              "id" : 5,
+              "name" : "Pittsburgh Penguins",
+              "link" : "/api/v1/teams/5"
+            },
+            "goals" : 0,
+            "shotsOnGoal" : 22,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : false
+          }
+        },
+        "powerPlayStrength" : "Even",
+        "hasShootout" : false,
+        "intermissionInfo" : {
+          "intermissionTimeRemaining" : 0,
+          "intermissionTimeElapsed" : 0,
+          "inIntermission" : false
+        },
+        "powerPlayInfo" : {
+          "situationTimeRemaining" : 0,
+          "situationTimeElapsed" : 0,
+          "inSituation" : false
+        }
+      },
+      "venue" : {
+        "name" : "Scotiabank Arena",
+        "link" : "/api/v1/venues/null"
+      },
+      "broadcasts" : [ {
+        "id" : 241,
+        "name" : "NBCSN",
+        "type" : "national",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 337,
+        "name" : "NHL.TV",
+        "type" : "national",
+        "site" : "nhl",
+        "language" : "en"
+      }, {
+        "id" : 281,
+        "name" : "TVAS",
+        "type" : "national",
+        "site" : "nhlCA",
+        "language" : "fr"
+      }, {
+        "id" : 282,
+        "name" : "SN",
+        "type" : "national",
+        "site" : "nhlCA",
+        "language" : "en"
+      }, {
+        "id" : 316,
+        "name" : "ATTSN-PT",
+        "type" : "away",
+        "site" : "nhl",
+        "language" : "en"
+      } ],
+      "radioBroadcasts" : [ {
+        "name" : "TSN 690 - 98,5FM",
+        "type" : "home"
+      } ],
+      "content" : {
+        "link" : "/api/v1/game/2019030024/content",
+        "editorial" : { },
+        "media" : {
+          "epg" : [ {
+            "title" : "NHLTV",
+            "platform" : "web",
+            "items" : [ {
+              "guid" : "127f3b4a-7b9e-4fbd-9e21-b692f8826cb6",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011151",
+              "mediaFeedType" : "NATIONAL",
+              "callLetters" : "SN",
+              "eventId" : "221-2005540",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "9453ebb1-75bc-4a27-a9d9-e364ee43b168",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011161",
+              "mediaFeedType" : "AWAY",
+              "callLetters" : "ATT-PT",
+              "eventId" : "221-2005540",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "3cf9b9a2-57ac-4374-96b5-cb59ee10c4d9",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011191",
+              "mediaFeedType" : "FRENCH",
+              "callLetters" : "TVAS",
+              "eventId" : "221-2005540",
+              "language" : "fra",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "guid" : "3ee26730-6dde-4223-9583-3991c24c9f73",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "mediaPlaybackId" : "2000011211",
+              "mediaFeedType" : "COMPOSITE",
+              "callLetters" : "",
+              "eventId" : "221-2005540",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "Multi-Cam 1",
+              "gamePlus" : false
+            } ]
+          }, {
+            "title" : "Audio",
+            "items" : [ {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011171",
+              "mediaFeedType" : "HOME",
+              "callLetters" : "TSN690",
+              "eventId" : "221-2005540",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011181",
+              "mediaFeedType" : "AWAY",
+              "callLetters" : "WXDX",
+              "eventId" : "221-2005540",
+              "language" : "eng",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            }, {
+              "mediaState" : "MEDIA_DONE",
+              "mediaPlaybackId" : "2000011201",
+              "mediaFeedType" : "FRENCH",
+              "callLetters" : "CHMP",
+              "eventId" : "221-2005540",
+              "language" : "fra",
+              "freeGame" : false,
+              "feedName" : "",
+              "gamePlus" : false
+            } ]
+          }, {
+            "title" : "Extended Highlights",
+            "topicList" : "317751750",
+            "items" : [ {
+              "type" : "video",
+              "id" : "5396837",
+              "date" : "2020-08-07T16:00:00-0400",
+              "title" : "SCQ, Gm4: PIT @ MTL",
+              "blurb" : "SCQ, Gm4: Penguins @ Canadiens",
+              "description" : "Extended highlights of the Pittsburgh Penguins at the Montreal Canadiens",
+              "duration" : "08:59",
+              "authFlow" : false,
+              "mediaPlaybackId" : "5396837",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "keywords" : [ {
+                "type" : "shareable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "embeddable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "teamId",
+                "value" : "8",
+                "displayName" : "8"
+              }, {
+                "type" : "content",
+                "value" : "extendedHighlights",
+                "displayName" : "Condensed Game"
+              }, {
+                "type" : "teamId",
+                "value" : "5",
+                "displayName" : "5"
+              }, {
+                "type" : "language",
+                "value" : "en",
+                "displayName" : "English"
+              } ],
+              "image" : {
+                "title" : "",
+                "altText" : "",
+                "cuts" : {
+                  "1136x640" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1136,
+                    "height" : 640,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/1136x640/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/1136x640/cut.jpg"
+                  },
+                  "1024x576" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1024,
+                    "height" : 576,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/1024x576/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/1024x576/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/1024x576/cut.jpg"
+                  },
+                  "960x540" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 960,
+                    "height" : 540,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/960x540/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/960x540/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/960x540/cut.jpg"
+                  },
+                  "768x432" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 768,
+                    "height" : 432,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/768x432/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/768x432/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/768x432/cut.jpg"
+                  },
+                  "640x360" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 640,
+                    "height" : 360,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/640x360/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/640x360/cut.jpg"
+                  },
+                  "568x320" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 568,
+                    "height" : 320,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/568x320/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/568x320/cut.jpg"
+                  },
+                  "372x210" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 372,
+                    "height" : 210,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/372x210/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/372x210/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/372x210/cut.jpg"
+                  },
+                  "320x180" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 320,
+                    "height" : 180,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/320x180/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/960x540/cut.jpg"
+                  },
+                  "248x140" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 248,
+                    "height" : 140,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/248x140/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/248x140/cut.jpg"
+                  },
+                  "124x70" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 124,
+                    "height" : 70,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318316278/124x70/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318316278/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318316278/372x210/cut.jpg"
+                  }
+                }
+              },
+              "playbacks" : [ {
+                "name" : "FLASH_192K_320X180",
+                "width" : "320",
+                "height" : "180",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/7b70a72f-d656-4801-94f8-6d48eb87b483.mp4"
+              }, {
+                "name" : "FLASH_450K_384x216",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/40e2a8e3-416f-4640-91f8-a7def8aae12a.mp4"
+              }, {
+                "name" : "FLASH_1200K_640X360",
+                "width" : "640",
+                "height" : "360",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/97f1e4f1-35c0-4cc2-8024-6763c0a9306a.mp4"
+              }, {
+                "name" : "FLASH_1800K_896x504",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/0f723ce3-49c2-4e00-badb-77f1ab6f8bea.mp4"
+              }, {
+                "name" : "HTTP_CLOUD_MOBILE",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326818/MasterMobile.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326818/MasterTablet.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326818/MasterTablet60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326818/MasterWired.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326818/MasterWired60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_WEB",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326818/MasterWiredWeb.m3u8"
+              } ]
+            } ]
+          }, {
+            "title" : "Recap",
+            "topicList" : "317751750",
+            "items" : [ {
+              "type" : "video",
+              "id" : "5396839",
+              "date" : "2020-08-07T16:00:00-0400",
+              "title" : "Recap: PIT 0, MTL 2",
+              "blurb" : "Lehkonen, Price help Canadiens earn series win",
+              "description" : "Artturi Lehkonen broke a scoreless tie late in the 3rd, and Carey Price made 22 saves as the Canadiens topped the Penguins, 2-0, to advance",
+              "duration" : "05:03",
+              "authFlow" : false,
+              "mediaPlaybackId" : "5396839",
+              "mediaState" : "MEDIA_ARCHIVE",
+              "keywords" : [ {
+                "type" : "shareable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "embeddable",
+                "value" : "Y",
+                "displayName" : "Y"
+              }, {
+                "type" : "teamId",
+                "value" : "8",
+                "displayName" : "8"
+              }, {
+                "type" : "content",
+                "value" : "gameRecap",
+                "displayName" : "game recap"
+              }, {
+                "type" : "content",
+                "value" : "teamRecap",
+                "displayName" : "Team Recap"
+              }, {
+                "type" : "language",
+                "value" : "en",
+                "displayName" : "English"
+              } ],
+              "image" : {
+                "title" : "",
+                "altText" : "",
+                "cuts" : {
+                  "1136x640" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1136,
+                    "height" : 640,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/1136x640/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/1136x640/cut.jpg"
+                  },
+                  "1024x576" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 1024,
+                    "height" : 576,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/1024x576/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/1024x576/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/1024x576/cut.jpg"
+                  },
+                  "960x540" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 960,
+                    "height" : 540,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/960x540/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/960x540/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/960x540/cut.jpg"
+                  },
+                  "768x432" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 768,
+                    "height" : 432,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/768x432/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/768x432/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/768x432/cut.jpg"
+                  },
+                  "640x360" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 640,
+                    "height" : 360,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/640x360/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/640x360/cut.jpg"
+                  },
+                  "568x320" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 568,
+                    "height" : 320,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/568x320/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/1136x640/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/568x320/cut.jpg"
+                  },
+                  "372x210" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 372,
+                    "height" : 210,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/372x210/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/372x210/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/372x210/cut.jpg"
+                  },
+                  "320x180" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 320,
+                    "height" : 180,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/320x180/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/640x360/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/960x540/cut.jpg"
+                  },
+                  "248x140" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 248,
+                    "height" : 140,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/248x140/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/248x140/cut.jpg"
+                  },
+                  "124x70" : {
+                    "aspectRatio" : "16:9",
+                    "width" : 124,
+                    "height" : 70,
+                    "src" : "https://nhl.bamcontent.com/images/photos/318315784/124x70/cut.jpg",
+                    "at2x" : "https://nhl.bamcontent.com/images/photos/318315784/248x140/cut.jpg",
+                    "at3x" : "https://nhl.bamcontent.com/images/photos/318315784/372x210/cut.jpg"
+                  }
+                }
+              },
+              "playbacks" : [ {
+                "name" : "FLASH_192K_320X180",
+                "width" : "320",
+                "height" : "180",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/da2f5798-00d2-4dbb-9436-79ac3e948c51.mp4"
+              }, {
+                "name" : "FLASH_450K_384x216",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/33dd840e-0b7c-4983-933a-de886c3c37d3.mp4"
+              }, {
+                "name" : "FLASH_1200K_640X360",
+                "width" : "640",
+                "height" : "360",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/16d7b995-f893-416c-8f1a-a89f7b640224.mp4"
+              }, {
+                "name" : "FLASH_1800K_896x504",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish/28336b58-ba0a-48cd-bc25-bc692cccffac.mp4"
+              }, {
+                "name" : "HTTP_CLOUD_MOBILE",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326820/MasterMobile.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326820/MasterTablet.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_TABLET_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326820/MasterTablet60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED",
+                "width" : "null",
+                "height" : "null",
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326820/MasterWired.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_60",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326820/MasterWired60.m3u8"
+              }, {
+                "name" : "HTTP_CLOUD_WIRED_WEB",
+                "width" : null,
+                "height" : null,
+                "url" : "https://hlslive-wsczoominwestus.med.nhl.com/publish-hls/5326820/MasterWiredWeb.m3u8"
+              } ]
+            } ]
+          }, {
+            "title" : "Power Play",
+            "items" : [ ]
+          } ]
+        },
+        "highlights" : { }
+      },
+      "seriesSummary" : {
+        "gamePk" : 2019030024,
+        "gameNumber" : 4,
+        "gameLabel" : "Game 4",
+        "necessary" : true,
+        "gameCode" : 24,
+        "gameTime" : "2020-08-07T20:00:00Z",
+        "seriesStatus" : "Canadiens win 3-1",
+        "seriesStatusShort" : "MTL wins 3-1"
+      },
+      "metadata" : {
+        "isManuallyScored" : false,
+        "isSplitSquad" : false,
+        "description" : "Scotiabank Arena, Toronto"
+      }
     } ],
     "events" : [ ],
     "matches" : [ ]
   }, {
     "date" : "2020-08-08",
-    "totalItems" : 4,
+    "totalItems" : 3,
     "totalEvents" : 0,
-    "totalGames" : 4,
+    "totalGames" : 3,
     "totalMatches" : 0,
     "games" : [ {
       "gamePk" : 2019030015,
@@ -5977,217 +7196,6 @@
           } ]
         },
         "highlights" : { }
-      },
-      "metadata" : {
-        "isManuallyScored" : false,
-        "isSplitSquad" : false,
-        "description" : "Scotiabank Arena, Toronto"
-      }
-    }, {
-      "gamePk" : 2019030025,
-      "link" : "/api/v1/game/2019030025/feed/live",
-      "gameType" : "P",
-      "season" : "20192020",
-      "gameDate" : "2020-08-08T07:00:00Z",
-      "status" : {
-        "abstractGameState" : "Preview",
-        "codedGameState" : "8",
-        "detailedState" : "Scheduled (Time TBD)",
-        "statusCode" : "8",
-        "startTimeTBD" : false
-      },
-      "teams" : {
-        "away" : {
-          "leagueRecord" : {
-            "wins" : 2,
-            "losses" : 1,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 8,
-            "name" : "Montréal Canadiens",
-            "link" : "/api/v1/teams/8",
-            "venue" : {
-              "id" : 5028,
-              "name" : "Bell Centre",
-              "link" : "/api/v1/venues/5028",
-              "city" : "Montréal",
-              "timeZone" : {
-                "id" : "America/Montreal",
-                "offset" : -4,
-                "tz" : "EDT"
-              }
-            },
-            "abbreviation" : "MTL",
-            "teamName" : "Canadiens",
-            "locationName" : "Montréal",
-            "firstYearOfPlay" : "1917",
-            "division" : {
-              "id" : 17,
-              "name" : "Atlantic",
-              "nameShort" : "ATL",
-              "link" : "/api/v1/divisions/17",
-              "abbreviation" : "A"
-            },
-            "conference" : {
-              "id" : 6,
-              "name" : "Eastern",
-              "link" : "/api/v1/conferences/6"
-            },
-            "franchise" : {
-              "franchiseId" : 1,
-              "teamName" : "Canadiens",
-              "link" : "/api/v1/franchises/1"
-            },
-            "shortName" : "Montréal",
-            "officialSiteUrl" : "http://www.canadiens.com/",
-            "franchiseId" : 1,
-            "active" : true
-          }
-        },
-        "home" : {
-          "leagueRecord" : {
-            "wins" : 1,
-            "losses" : 2,
-            "ot" : 0,
-            "type" : "league"
-          },
-          "score" : 0,
-          "team" : {
-            "id" : 5,
-            "name" : "Pittsburgh Penguins",
-            "link" : "/api/v1/teams/5",
-            "venue" : {
-              "id" : 5034,
-              "name" : "PPG Paints Arena",
-              "link" : "/api/v1/venues/5034",
-              "city" : "Pittsburgh",
-              "timeZone" : {
-                "id" : "America/New_York",
-                "offset" : -4,
-                "tz" : "EDT"
-              }
-            },
-            "abbreviation" : "PIT",
-            "teamName" : "Penguins",
-            "locationName" : "Pittsburgh",
-            "firstYearOfPlay" : "1967",
-            "division" : {
-              "id" : 18,
-              "name" : "Metropolitan",
-              "nameShort" : "Metro",
-              "link" : "/api/v1/divisions/18",
-              "abbreviation" : "M"
-            },
-            "conference" : {
-              "id" : 6,
-              "name" : "Eastern",
-              "link" : "/api/v1/conferences/6"
-            },
-            "franchise" : {
-              "franchiseId" : 17,
-              "teamName" : "Penguins",
-              "link" : "/api/v1/franchises/17"
-            },
-            "shortName" : "Pittsburgh",
-            "officialSiteUrl" : "http://pittsburghpenguins.com/",
-            "franchiseId" : 17,
-            "active" : true
-          }
-        }
-      },
-      "linescore" : {
-        "currentPeriod" : 0,
-        "periods" : [ ],
-        "shootoutInfo" : {
-          "away" : {
-            "scores" : 0,
-            "attempts" : 0
-          },
-          "home" : {
-            "scores" : 0,
-            "attempts" : 0
-          }
-        },
-        "teams" : {
-          "home" : {
-            "team" : {
-              "id" : 5,
-              "name" : "Pittsburgh Penguins",
-              "link" : "/api/v1/teams/5"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
-          },
-          "away" : {
-            "team" : {
-              "id" : 8,
-              "name" : "Montréal Canadiens",
-              "link" : "/api/v1/teams/8"
-            },
-            "goals" : 0,
-            "shotsOnGoal" : 0,
-            "goaliePulled" : false,
-            "numSkaters" : 0,
-            "powerPlay" : false
-          }
-        },
-        "powerPlayStrength" : "Even",
-        "hasShootout" : false,
-        "intermissionInfo" : {
-          "intermissionTimeRemaining" : 0,
-          "intermissionTimeElapsed" : 0,
-          "inIntermission" : false
-        }
-      },
-      "venue" : {
-        "name" : "Scotiabank Arena",
-        "link" : "/api/v1/venues/null"
-      },
-      "radioBroadcasts" : [ {
-        "name" : "TSN 690 - 98,5FM",
-        "type" : "away"
-      } ],
-      "content" : {
-        "link" : "/api/v1/game/2019030025/content",
-        "editorial" : { },
-        "media" : {
-          "epg" : [ {
-            "title" : "NHLTV",
-            "platform" : "web",
-            "items" : [ ]
-          }, {
-            "title" : "Audio",
-            "items" : [ ]
-          }, {
-            "title" : "Extended Highlights",
-            "topicList" : "317751446",
-            "items" : [ ]
-          }, {
-            "title" : "Recap",
-            "topicList" : "317751446",
-            "items" : [ ]
-          }, {
-            "title" : "Power Play",
-            "items" : [ ]
-          } ]
-        },
-        "highlights" : { }
-      },
-      "seriesSummary" : {
-        "gamePk" : 2019030025,
-        "gameNumber" : 5,
-        "gameLabel" : "Game 5",
-        "necessary" : false,
-        "gameCode" : 25,
-        "gameTime" : "2020-08-08T04:00:00Z",
-        "seriesStatus" : "Canadiens lead 2-1",
-        "seriesStatusShort" : "MTL leads 2-1"
       },
       "metadata" : {
         "isManuallyScored" : false,

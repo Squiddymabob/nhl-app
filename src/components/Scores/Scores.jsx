@@ -17,7 +17,7 @@ class Scores extends React.Component {
     this.fetchGames();
     this.setState({ isLoaded: true });
     // Refresh score data
-    this.timer = setInterval(() => this.fetchGames(), 5000);
+    this.timer = setInterval(() => this.fetchGames(), 10000);
   }
 
   componentWillUnmount() {
@@ -46,32 +46,37 @@ class Scores extends React.Component {
       return <div>Loading...</div>;
     }
     return (
-      <div className="container">
+      <div className="container mt-4">
         <div className="row mt-2 mb-2">
           {/* For each date, show the games on that date */}
           {dates.map((date) => (
-            <div className="col-4 mt-2 mb-2">
+            <div className="col-4 mt-2 mb-2 score-card-container">
               <div className="card text-white bg-info font-weight-bold p-2">
                 {moment.tz(date.date, 'America/New_York').format('D MMM')}
               </div>
 
               {date.games.map((game) => (
                 // Show a score card component for each game on a date
-                <ScoreCard
-                  awayAbbr={game.teams.away.team.abbreviation}
-                  homeAbbr={game.teams.home.team.abbreviation}
-                  awayId={game.teams.away.team.id}
-                  homeId={game.teams.home.team.id}
-                  awayScore={game.teams.away.score}
-                  homeScore={game.teams.home.score}
-                  currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
-                  currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
-                  codedGameState={Number(game.status.codedGameState)}
-                  seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
-                  gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
-                  gameDate={game.gameDate}
-                  darkThemeEnabled={darkThemeEnabled}
-                />
+                <div className="mt-2 mb-2">
+                  <ScoreCard
+                    awayAbbr={game.teams.away.team.abbreviation}
+                    homeAbbr={game.teams.home.team.abbreviation}
+                    awayId={game.teams.away.team.id}
+                    homeId={game.teams.home.team.id}
+                    awayScore={game.teams.away.score}
+                    homeScore={game.teams.home.score}
+                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal || '1st'}
+                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining || '20:00'}
+                    codedGameState={Number(game.status.codedGameState)}
+                    seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
+                    gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}
+                    gameDate={game.gameDate}
+                    powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
+                    powerPlayAway={game.linescore.teams.away.powerPlay}
+                    powerPlayHome={game.linescore.teams.home.powerPlay}
+                    darkThemeEnabled={darkThemeEnabled}
+                  />
+                </div>
               ))}
             </div>
           ))}

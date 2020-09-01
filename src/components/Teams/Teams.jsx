@@ -27,7 +27,7 @@ class Teams extends React.Component {
       return <div>Loading...</div>;
     }
     return (
-      <div className="container">
+      <div className="container mt-4">
         <div className="row mt-2 mb-2">
           {teams.map((team) => (
             <div className="col-xs-12 col-md-3 p-2">

@@ -6,12 +6,21 @@ $primary: $gray-900;
 $secondary: $gray-200;
 $success: $green;
 $info: $cyan-600;
-$warning: $yellow;
+$warning: $yellow-500;
 $danger: $red;
 $light: $white;
 $dark: $black;
 $primary-button: $blue;
 $in-progress: $cyan-100;
+
+// Scores and game status
+$score-card-bg-light: $gray-100;
+$score-card-bg-dark: $gray-900;
+$in-progress: $green;
+$power-play: $red;
+$final: $gray-600;
+$scheduled: $gray-400;
+
 
 $theme-colors: (
   "primary":    $primary,
@@ -23,7 +32,8 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "primary-button": $primary-button,
-  "in-progress": $in-progress,
+  "score-card-bg-light": $score-card-bg-light,
+  "score-card-bg-dark": $score-card-bg-dark,
 );
 
 .navbar {
@@ -33,6 +43,32 @@ $theme-colors: (
 
 .losing-team {
   color: $gray-500;
+}
+
+.power-play {
+  font-weight: normal;
+  font-style: italic;
+  color: $power-play;
+}
+
+.state-scheduled {
+  border-right: 4px solid $scheduled;
+}
+
+.state-inprogress {
+  border-right: 4px solid $in-progress;
+}
+
+.state-final {
+  border-right: 4px solid $final;
+}
+
+.state-powerplay {
+  border-right: 4px solid $power-play;
+}
+
+.score-card-container {
+  width: 400px !important;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
