@@ -14,7 +14,8 @@ $primary-button: $blue;
 $in-progress: $cyan-100;
 
 // Scores and game status
-$score-card-bg: $gray-100;
+$score-card-bg-light: $gray-100;
+$score-card-bg-dark: $gray-900;
 $in-progress: $green;
 $power-play: $red;
 $final: $gray-600;
@@ -31,7 +32,8 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "primary-button": $primary-button,
-  "score-card-bg": $score-card-bg,
+  "score-card-bg-light": $score-card-bg-light,
+  "score-card-bg-dark": $score-card-bg-dark,
 );
 
 .navbar {

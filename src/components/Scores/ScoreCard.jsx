@@ -108,7 +108,9 @@ const ScoreCard = (props) => {
 
   // Scheduled
   return (
-    <div className="card text-black bg-score-card-bg p-2 text-center">
+    <div className={`card p-2 text-center ${darkThemeEnabled
+      ? 'bg-score-card-bg-dark text-white' : 'bg-score-card-bg-light text-black'}`}
+    >
       <div className="container">
 
         {/* Series Information */}
