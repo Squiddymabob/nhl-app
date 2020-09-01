@@ -63,8 +63,8 @@ class Teams extends React.Component {
                     homeId={game.teams.home.team.id}
                     awayScore={game.teams.away.score}
                     homeScore={game.teams.home.score}
-                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal}
-                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining}
+                    currentPeriodOrdinal={game.linescore.currentPeriodOrdinal || '1st'}
+                    currentPeriodTimeRemaining={game.linescore.currentPeriodTimeRemaining || '20:00'}
                     codedGameState={Number(game.status.codedGameState)}
                     seriesStatusShort={game.seriesSummary ? game.seriesSummary.seriesStatusShort : ''}
                     gameLabel={game.seriesSummary ? game.seriesSummary.gameLabel : ''}

@@ -22,8 +22,8 @@ const ScoreCard = (props) => {
   };
 
   ScoreCard.defaultProps = {
-    currentPeriodOrdinal: '',
-    currentPeriodTimeRemaining: '',
+    currentPeriodOrdinal: '1st',
+    currentPeriodTimeRemaining: '20:00',
     powerPlay: false,
     powerPlayAway: false,
     powerPlayHome: false,
