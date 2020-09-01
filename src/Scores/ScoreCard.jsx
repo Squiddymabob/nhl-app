@@ -47,6 +47,11 @@ const ScoreCard = (props) => {
     powerPlayHome,
   } = props;
 
+  /**
+   * Get the class based on the current game state
+   *
+   * @returns The class to apply based on the current game state
+   */
   function gameStateClass() {
     if (codedGameState === 1 || codedGameState === 8) {
       return 'state-scheduled';
@@ -59,6 +64,13 @@ const ScoreCard = (props) => {
     return '';
   }
 
+  /**
+   * Get the class to apply based on if scoreA is less than scoreB
+   *
+   * @param {Number} scoreA
+   * @param {Number} scoreB
+   * @returns If scoreA is less than scoreB then the class losing-team, else empty string
+   */
   function losingTeamClass(scoreA, scoreB) {
     if (gameStateClass() === 'state-final') {
       return scoreA < scoreB ? 'losing-team' : '';
@@ -66,11 +78,30 @@ const ScoreCard = (props) => {
     return '';
   }
 
+  /**
+   * Get the text colour class based on the current game state
+   *
+   * @returns The text colour class to apply based on current game state
+   */
   function gameTimeClass() {
     if (gameStateClass() === 'state-inprogress' || gameStateClass() === 'state-powerplay') {
       return powerPlay ? 'text-danger' : 'text-success';
     }
     return 'text-black';
+  }
+
+  /**
+   * Get the message to show based on the current game state
+   *
+   * @returns Final if the game is over, the scheduled time if the game is scheduled, or the period and time remaining
+   */
+  function showFinalGameMessage() {
+    if (gameStateClass() === 'state-final') {
+      return 'Final';
+    }
+    return gameStateClass() === 'state-scheduled'
+      ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET`
+      : `${currentPeriodOrdinal} - ${currentPeriodTimeRemaining}`;
   }
 
   // Scheduled
@@ -149,9 +180,7 @@ const ScoreCard = (props) => {
             <div
               className={`h6 ${gameTimeClass()}`}
             >
-              {gameStateClass() === 'state-scheduled'
-                ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET`
-                : `${currentPeriodOrdinal} - ${currentPeriodTimeRemaining}`}
+              {showFinalGameMessage()}
             </div>
           </div>
 
