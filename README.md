@@ -60,7 +60,7 @@ The app is now deployable.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
+## :balance_scale: License
 
 This project is licensed under the [MIT License](https://github.com/Squiddymabob/nhl-app/blob/master/LICENSE).
 
