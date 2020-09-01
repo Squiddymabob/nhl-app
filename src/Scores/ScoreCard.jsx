@@ -68,7 +68,7 @@ const ScoreCard = (props) => {
 
   function gameTimeClass() {
     if (gameStateClass() === 'state-inprogress' || gameStateClass() === 'state-powerplay') {
-      return powerPlay ? 'text-danger' : 'text-warning';
+      return powerPlay ? 'text-danger' : 'text-success';
     }
     return 'text-black';
   }
@@ -79,30 +79,29 @@ const ScoreCard = (props) => {
       <div className="container">
 
         {/* Series Information */}
-        <div className="row row-cols-2 align-items-center">
-          <div className="col col-6">
-            {seriesStatusShort}
-          </div>
+        <div className="row row-cols-2 align-items-center mb-2 text-muted">
           <div className="col col-6">
             {gameLabel}
           </div>
+          <div className="col col-6">
+            {seriesStatusShort}
+          </div>
         </div>
 
-        <div className="row row-cols-2 align-items-center">
+        <div className="row row-cols-2 align-items-center mb-2">
 
           <div className={`col col-6 ${gameStateClass()}`}>
-
             {/* Team information and scores */}
             <div className="row row-cols-3 align-items-center">
-              <div className="col col-4">
-                <div className="row">
+              <div className="col col-5">
+                <div className="row mb-2 pb-1">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
                 </div>
-                <div className="row">
+                <div className="row pt-1">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
                     className="card-img-top img-fluid"
@@ -110,36 +109,37 @@ const ScoreCard = (props) => {
                   />
                 </div>
               </div>
-              <div className="col col-4 h5">
-                <div className={`row ${losingTeamClass(awayScore, homeScore)}`}>
+              <div className="col col-5 h5">
+                <div className={`row ${losingTeamClass(awayScore, homeScore)} mb-1`}>
                   {awayAbbr}
+                  {' '}
+                  <span className="power-play">{powerPlayAway ? 'PP' : ''}</span>
                 </div>
-                <div className={`row ${losingTeamClass(homeScore, awayScore)}`}>
+                <div className={`row ${losingTeamClass(homeScore, awayScore)} pt-3`}>
                   {homeAbbr}
+                  <span className="power-play">{powerPlayAway ? 'PP' : ''}</span>
                 </div>
               </div>
-              <div className="col col-4 h5">
-                <div className={`row ${losingTeamClass(awayScore, homeScore)}`}>
+              <div className="col col-2 h5">
+                <div className={`row ${losingTeamClass(awayScore, homeScore)} mb-1`}>
                   {awayScore}
                 </div>
-                <div className={`row ${losingTeamClass(homeScore, awayScore)}`}>
+                <div className={`row ${losingTeamClass(homeScore, awayScore)} pt-3`}>
                   {homeScore}
                 </div>
               </div>
             </div>
-
           </div>
 
           <div className="col col-6">
-
             {/* Schedule and game progress information */}
             <div
               className={`h6 ${gameTimeClass()}`}
             >
-              {gameStateClass() === 'state-scheduled' ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET` : currentPeriodTimeRemaining}
+              {gameStateClass() === 'state-scheduled' ? `${moment.tz(gameDate, 'America/New_York').format('HH:mm')} ET` : `${currentPeriodOrdinal} - ${currentPeriodTimeRemaining}`}
             </div>
-
           </div>
+
         </div>
       </div>
     </div>

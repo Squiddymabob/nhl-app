@@ -51,7 +51,7 @@ $theme-colors: (
 }
 
 .power-play {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-style: italic;
   color: $danger;
 }
@@ -61,7 +61,7 @@ $theme-colors: (
 }
 
 .state-inprogress {
-  border-right: 4px solid $warning;
+  border-right: 4px solid $success;
 }
 
 .state-final {
