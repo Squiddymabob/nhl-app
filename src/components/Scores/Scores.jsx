@@ -1,9 +1,10 @@
 import React from 'react';
 import moment from 'moment-timezone';
-import { getGames } from '../api/api';
+import PropTypes from 'prop-types';
+import { getGames } from '../../api/api';
 import ScoreCard from './ScoreCard';
 
-class Teams extends React.Component {
+class Scores extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,7 +28,7 @@ class Teams extends React.Component {
   /**
    * Get the latest game data from 3 days ago until 3 days from now
    *
-   * @memberof Teams
+   * @memberof Scores
    */
   fetchGames() {
     const startDate = moment().subtract(3, 'days').format('YYYY-MM-DD');
@@ -40,6 +41,7 @@ class Teams extends React.Component {
 
   render() {
     const { isLoaded, dates } = this.state;
+    const { darkThemeEnabled } = this.props;
     if (!isLoaded) {
       return <div>Loading...</div>;
     }
@@ -72,6 +74,7 @@ class Teams extends React.Component {
                     powerPlay={game.linescore.powerPlayInfo ? game.linescore.powerPlayInfo.inSituation : ''}
                     powerPlayAway={game.linescore.teams.away.powerPlay}
                     powerPlayHome={game.linescore.teams.home.powerPlay}
+                    darkThemeEnabled={darkThemeEnabled}
                   />
                 </div>
               ))}
@@ -84,4 +87,8 @@ class Teams extends React.Component {
   }
 }
 
-export default Teams;
+Scores.propTypes = {
+  darkThemeEnabled: PropTypes.bool.isRequired,
+};
+
+export default Scores;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Teams.css';
-import { getCurrentTeams } from '../api/api';
+import PropTypes from 'prop-types';
+import { getCurrentTeams } from '../../api/api';
 
 class Teams extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class Teams extends React.Component {
 
   render() {
     const { isLoaded, teams } = this.state;
+    const { darkThemeEnabled } = this.props;
     if (!isLoaded) {
       return <div>Loading...</div>;
     }
@@ -29,9 +31,10 @@ class Teams extends React.Component {
         <div className="row mt-2 mb-2">
           {teams.map((team) => (
             <div className="col-xs-12 col-md-3 p-2">
-              <div className="card p-4 text-black bg-secondary">
+              <div className={`card p-4 ${darkThemeEnabled ? 'text-white bg-primary' : 'text-black bg-secondary'}`}>
                 <img
-                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${team.id}.svg`}
+                  src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                    ? 'dark' : 'light'}/${team.id}.svg`}
                   className="card-img-top img-fluid"
                   alt="..."
                 />
@@ -49,5 +52,9 @@ class Teams extends React.Component {
     );
   }
 }
+
+Teams.propTypes = {
+  darkThemeEnabled: PropTypes.bool.isRequired,
+};
 
 export default Teams;

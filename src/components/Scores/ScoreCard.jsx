@@ -19,6 +19,7 @@ const ScoreCard = (props) => {
     powerPlay: PropTypes.bool,
     powerPlayAway: PropTypes.bool,
     powerPlayHome: PropTypes.bool,
+    darkThemeEnabled: PropTypes.bool.isRequired,
   };
 
   ScoreCard.defaultProps = {
@@ -45,6 +46,7 @@ const ScoreCard = (props) => {
     powerPlay,
     powerPlayAway,
     powerPlayHome,
+    darkThemeEnabled,
   } = props;
 
   /**
@@ -129,14 +131,16 @@ const ScoreCard = (props) => {
               <div className="col col-4">
                 <div className="row">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
                 </div>
                 <div className="row">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
