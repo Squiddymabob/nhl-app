@@ -16,6 +16,7 @@ const ScoreCard = (props) => {
     seriesStatusShort: PropTypes.string.isRequired,
     gameLabel: PropTypes.string.isRequired,
     gameDate: PropTypes.string.isRequired,
+    darkThemeEnabled: PropTypes.bool.isRequired,
   };
 
   ScoreCard.defaultProps = {
@@ -36,6 +37,7 @@ const ScoreCard = (props) => {
     seriesStatusShort,
     gameLabel,
     gameDate,
+    darkThemeEnabled,
   } = props;
 
   function awayWins(away, home) {
@@ -45,7 +47,7 @@ const ScoreCard = (props) => {
   // Scheduled
   if (codedGameState === 1) {
     return (
-      <div className="card text-black bg-secondary p-2">
+      <div className={`card p-2 text-center ${darkThemeEnabled ? 'text-white bg-primary' : 'text-black bg-secondary'}`}>
         <div className="container">
 
           {/* Series Information */}
@@ -112,7 +114,7 @@ const ScoreCard = (props) => {
   // Scheduled - TBD
   if (codedGameState === 8) {
     return (
-      <div className="card text-black bg-secondary p-2 text-center">
+      <div className={`card p-2 text-center ${darkThemeEnabled ? 'text-white bg-primary' : 'text-black bg-secondary'}`}>
         <div className="container">
 
           {/* Series Information */}
@@ -133,7 +135,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center pb-2">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
@@ -147,7 +150,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
@@ -195,7 +199,8 @@ const ScoreCard = (props) => {
                 <div className="row row-cols-3 align-items-center pb-2">
                   <div className="col col-4">
                     <img
-                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
+                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                        ? 'dark' : 'light'}/${awayId}.svg`}
                       className="card-img-top img-fluid"
                       alt={awayAbbr}
                     />
@@ -212,7 +217,8 @@ const ScoreCard = (props) => {
                 <div className="row row-cols-3 align-items-center">
                   <div className="col col-4">
                     <img
-                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
+                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                        ? 'dark' : 'light'}/${homeId}.svg`}
                       className="card-img-top img-fluid"
                       alt={homeAbbr}
                     />
@@ -250,7 +256,7 @@ const ScoreCard = (props) => {
     }
     // Final
     return (
-      <div className="card text-black bg-secondary p-2 text-center">
+      <div className={`card p-2 text-center ${darkThemeEnabled ? 'text-white bg-primary' : 'text-black bg-secondary'}`}>
         <div className="container">
 
           {/* Series Information */}
@@ -271,7 +277,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center pb-2">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
@@ -292,7 +299,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />

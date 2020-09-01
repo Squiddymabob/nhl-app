@@ -5,22 +5,29 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Teams from '../Teams/Teams';
-import Header from '../Header/Header';
-import Home from '../Home/Home';
-import Scores from '../Scores/Scores';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import Teams from '../components/Teams/Teams';
+import Header from '../components/Header/Header';
+import Home from '../components/Home/Home';
+import Scores from '../components/Scores/Scores';
 
-function App() {
+function App(props) {
+  App.propTypes = {
+    darkThemeEnabled: PropTypes.bool.isRequired,
+  };
+
+  const { darkThemeEnabled } = props;
   return (
-    <div className="App">
+    <div className={`App ${darkThemeEnabled ? 'bg-dark' : 'bg-light'} main-content`}>
       <Router>
         <Header />
         <Switch>
           <Route path="/teams">
-            <Teams />
+            <Teams darkThemeEnabled={darkThemeEnabled} />
           </Route>
           <Route path="/scores">
-            <Scores />
+            <Scores darkThemeEnabled={darkThemeEnabled} />
           </Route>
           <Route path="/">
             <Home />
@@ -31,4 +38,6 @@ function App() {
   );
 }
 
-export default App;
+const mapStateToProps = (state) => ({ darkThemeEnabled: state.preferences.darkThemeEnabled });
+
+export default connect(mapStateToProps)(App);
