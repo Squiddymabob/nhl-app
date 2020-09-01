@@ -37,7 +37,7 @@ const ScoreCard = (props) => {
     seriesStatusShort,
     gameLabel,
     gameDate,
-    darkThemeEnabled
+    darkThemeEnabled,
   } = props;
 
   function awayWins(away, home) {
@@ -135,7 +135,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center pb-2">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${awayId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
@@ -149,7 +150,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${homeId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
@@ -197,7 +199,8 @@ const ScoreCard = (props) => {
                 <div className="row row-cols-3 align-items-center pb-2">
                   <div className="col col-4">
                     <img
-                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${awayId}.svg`}
+                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                        ? 'dark' : 'light'}/${awayId}.svg`}
                       className="card-img-top img-fluid"
                       alt={awayAbbr}
                     />
@@ -214,7 +217,8 @@ const ScoreCard = (props) => {
                 <div className="row row-cols-3 align-items-center">
                   <div className="col col-4">
                     <img
-                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${homeId}.svg`}
+                      src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                        ? 'dark' : 'light'}/${homeId}.svg`}
                       className="card-img-top img-fluid"
                       alt={homeAbbr}
                     />
@@ -273,7 +277,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center pb-2">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${awayId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
@@ -294,7 +299,8 @@ const ScoreCard = (props) => {
               <div className="row row-cols-3 align-items-center">
                 <div className="col col-4">
                   <img
-                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled ? 'dark' : 'light'}/${homeId}.svg`}
+                    src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-${darkThemeEnabled
+                      ? 'dark' : 'light'}/${homeId}.svg`}
                     className="card-img-top img-fluid"
                     alt={homeAbbr}
                   />
