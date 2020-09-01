@@ -1,5 +1,5 @@
 const axios = require('axios');
-const localScores = require('./responsesBackup/statsapi/scores.json');
+// const localScores = require('./responsesBackup/statsapi/scores.json');
 
 // Any headers required for the request
 const headers = {};
