@@ -3685,7 +3685,7 @@
             "shotsOnGoal" : 7,
             "goaliePulled" : false,
             "numSkaters" : 4,
-            "powerPlay" : false
+            "powerPlay" : true
           }
         },
         "powerPlayStrength" : "5-on-4",

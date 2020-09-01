@@ -92,16 +92,18 @@ const ScoreCard = (props) => {
 
           <div className={`col col-6 ${gameStateClass()}`}>
             {/* Team information and scores */}
-            <div className="row row-cols-3 align-items-center">
-              <div className="col col-5">
-                <div className="row mb-2 pb-1">
+            <div className="row row-cols-3">
+
+              {/* Team logos */}
+              <div className="col col-4">
+                <div className="row">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${awayId}.svg`}
                     className="card-img-top img-fluid"
                     alt={awayAbbr}
                   />
                 </div>
-                <div className="row pt-1">
+                <div className="row">
                   <img
                     src={`https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/${homeId}.svg`}
                     className="card-img-top img-fluid"
@@ -109,25 +111,36 @@ const ScoreCard = (props) => {
                   />
                 </div>
               </div>
-              <div className="col col-5 h5">
-                <div className={`row ${losingTeamClass(awayScore, homeScore)} mb-1`}>
+
+              {/* Team abbreviations */}
+              <div className="col col-3 mr-2 h5">
+                <div className={`row ${losingTeamClass(awayScore, homeScore)}`}>
                   {awayAbbr}
-                  {' '}
-                  <span className="power-play">{powerPlayAway ? 'PP' : ''}</span>
                 </div>
-                <div className={`row ${losingTeamClass(homeScore, awayScore)} pt-3`}>
+                <div className={`row ${losingTeamClass(homeScore, awayScore)}`}>
                   {homeAbbr}
-                  <span className="power-play">{powerPlayHome ? 'PP' : ''}</span>
                 </div>
               </div>
+
+              <div className="col col-2 mr-1 h5">
+                <div className="row power-play">
+                  {powerPlayAway ? ' PP' : ''}
+                </div>
+                <div className="row power-play">
+                  {powerPlayHome ? ' PP' : ''}
+                </div>
+              </div>
+
+              {/* Scores */}
               <div className="col col-2 h5">
-                <div className={`row ${losingTeamClass(awayScore, homeScore)} mb-1`}>
+                <div className={`row ${losingTeamClass(awayScore, homeScore)}`}>
                   {awayScore}
                 </div>
-                <div className={`row ${losingTeamClass(homeScore, awayScore)} pt-3`}>
+                <div className={`row ${losingTeamClass(homeScore, awayScore)}`}>
                   {homeScore}
                 </div>
               </div>
+
             </div>
           </div>
 
