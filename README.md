@@ -24,6 +24,7 @@ A React application that presents various information about the NHL via official
     - This project uses Bootstrap [v5.0.0-apha1](https://v5.getbootstrap.com/).
     - The alpha was chosen as to learn and explore it's new features in a project that did not require stability for real deployment.
 - React Router
+- React Redux
 - SASS
 - Axios
 
